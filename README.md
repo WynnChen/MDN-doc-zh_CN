@@ -8,9 +8,12 @@
 
 源文件需要自行建立，命名规则如下：按照欲翻译页面的 slug 命名，使用 .html 后缀。例如：
 
-- https://developer.mozilla.org/en-US/docs/Web/CSS 相应的源文件应当是 source/Web/css.html
-- https://developer.mozilla.org/en-US/docs/Web/Events/webglcontextrestored 相应的源文件应当是 source/Web/Events/webglcontextrestored.html
-- https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Writing_style_guide 相应的源文件应当是 source/MDN/Contribute/guidelines/Writing_style_guide.html
+-	页面：https://developer.mozilla.org/en-US/docs/Web/CSS
+	文件：source/Web/css.html
+-	页面：https://developer.mozilla.org/en-US/docs/Web/Events/webglcontextrestored
+	文件：source/Web/Events/webglcontextrestored.html
+-	页面：https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Writing_style_guide
+	文件 source/MDN/Contribute/guidelines/Writing_style_guide.html
 
 ### 源文件的内容
 
@@ -44,6 +47,6 @@
 
 翻译时请遵守《样式指南》的规则。
 
-《样式指南》见 style_guide.md
+《样式指南》见 style_guide.md。
 
 
