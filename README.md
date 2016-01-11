@@ -7,14 +7,13 @@
 ### 源文件的建立与命名
 
 源文件需要自行建立，命名规则如下：按照欲翻译页面的 slug 命名，使用 .html 后缀。例如：
- - https://developer.mozilla.org/en-US/docs/Web/CSS 相应的源文件应当是 source/Web/css.html
- - https://developer.mozilla.org/en-US/docs/Web/Events/webglcontextrestored 相应的源文件应当是 source/Web/Events/webglcontextrestored.html
- - https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Writing_style_guide 相应的源文件应当是 source/MDN/Contribute/guidelines/Writing_style_guide.html
+- https://developer.mozilla.org/en-US/docs/Web/CSS 相应的源文件应当是 source/Web/css.html
+- https://developer.mozilla.org/en-US/docs/Web/Events/webglcontextrestored 相应的源文件应当是 source/Web/Events/webglcontextrestored.html
+- https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Writing_style_guide 相应的源文件应当是 source/MDN/Contribute/guidelines/Writing_style_guide.html
 
 ### 源文件的内容
 
 源文件的内容按如下方式取得：
-
 1. 查看欲翻译页面的 en_US 语言版本
 2. 点击 edit 按钮进入编辑界面
 3. 点击所见即所得编辑器的 源码 按钮
@@ -25,15 +24,14 @@
 ### 翻译完成后的发布
 
 如果需要将翻译好的内容发布回 MDN：
-
- 1. 生成已译文件
- 2. 用纯文本编辑器打开 target 目录下相应的已译文件，复制全部内容
- 3. 在 MDN 相应页面，查看简体中文版本，点击 编辑 按钮
- 4. 右侧所见即所得编辑器中点击 源码 按钮
- 5. 清空原有内容，粘贴复制的已译内容
- 6. 预览，检查无误后提交
- 7. 记得改页面的中文标题
- 8. 恰当加 tag
+1. 生成已译文件
+2. 用纯文本编辑器打开 target 目录下相应的已译文件，复制全部内容
+3. 在 MDN 相应页面，查看简体中文版本，点击 编辑 按钮
+4. 右侧所见即所得编辑器中点击 源码 按钮
+5. 清空原有内容，粘贴复制的已译内容
+6. 预览，检查无误后提交
+7. 记得改页面的中文标题
+8. 恰当加 tag
 
 ### 术语表
 
