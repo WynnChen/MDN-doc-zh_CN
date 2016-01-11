@@ -1,4 +1,4 @@
-﻿slug	缩略名
+slug	缩略名
 style	样式
 note	注解
 obsolete	过时
