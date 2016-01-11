@@ -1,0 +1,13 @@
+﻿slug	缩略名
+style	样式
+note	注解
+obsolete	过时
+deprecated	废弃
+autocomplete	自动补全
+Archive	归档
+landing page	着陆页
+CSS	级联样式表
+stylesheet	样式表	stylesheet
+specificity	特异性
+box model	方框模型
+Margin collapsing	外边距合并

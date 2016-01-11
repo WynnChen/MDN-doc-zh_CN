@@ -1,0 +1,569 @@
+<p><span class="seoSummary">MDN 样式指南描述了文本的组织方式、拼写和格式等问题，以求能以一种有组织、标准化且易于阅读的方式呈现文档。这些内容只是指导原则而非强制规定。</span>我们关注内容甚于格式，因此并不是非要先学好样式指南才能开始做贡献。不过，稍后可能会有勤劳的志愿者修改你的作品，以求符合本指南，碰到这种情况时无需惊讶，也别沮丧。</p>
+
+<p>如果你正在寻找某种特定类型页面具体应当如何结构化，参见 <a href="/en-US/docs/MDN/Contribute/Content/Layout">页面布局指南</a>。</p>
+
+<p>本指南中语言方面的内容主要针对英语文档。其它语言可以拥有（且欢迎创建）自己的样式指南。它们应作为本地化团队页面的子页面发布。</p>
+
+<p>为 MDN 以外的站点所写的内容，其应用的样式标准可参考 <a href="http://www.mozilla.org/en-US/styleguide/" title="http://www.mozilla.org/en-US/styleguide/">一体化 Mozilla 样式指南</a>.</p>
+
+<h2 id="Basics">基本原则</h2>
+
+<p>要制定任何大规模的出版物样式指南，都最好从一些用于帮助文档保持一致性的最基本文本标准开始。后继章节将概述这些基本原则。</p>
+
+<h3 id="Page_titles">页面标题</h3>
+
+<p>在搜索结果中用到页面标题，在页面顶部展现页面层级结构的面包屑到行列中也用到页面标题。页面标题（显示于页面顶部和搜索结果中）可以与页面的“缩略名(slug)”不同。缩略名出现于URL中，即跟随在“<em>&lt;locale&gt;/docs/</em>”后面的那个部分。</p>
+
+<h4 id="Title_and_heading_capitalization">标题的大小写</h4>
+
+<p>页面标题与章节标题应当使用一般句子的大小写方式（只有句首单词和专有名词的首字母大写），而非新闻标题式的大小写方式：</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>："A new method for creating JavaScript rollovers"</li>
+ <li><span class="incorrect"><strong>错误</strong></span>："A New Method for Creating JavaScript Rollovers"</li>
+</ul>
+
+<p>有不少页面是在本样式规则确立之前编写的。只要你愿意，随时可以对它们进行必要的更新。我们正在逐步处理。</p>
+
+<h4 id="Choosing_titles_and_slugs">选择标题与缩略名(slug)</h4>
+
+<p>页面的缩略名应保持简短；创建新的层级时，该层级在缩略名中应当只有一两个单词。</p>
+
+<p>另一方面，页面标题，在合理范围内，长度随意，且应当是描述性的。</p>
+
+<h4 id="Creating_new_subtrees">创建新子树</h4>
+
+<p>如果需要针对某个话题或主题领域添加若干文章，典型的做法是建立一个着陆页(landing page)，然后分别为每篇文章添加子页面。 着陆页开头应当是一两段对该主题或技术的描述，接下来是带有各个页面描述的子页面列表。我们已经建好一些宏，通过它们可以自动将页面插入列表中。</p>
+
+<p>以 <a href="/en-US/docs/Web/JavaScript">JavaScript</a> 指南为例，它的结构如下：</p>
+
+<ul>
+ <li><a href="/en-US/docs/Web/JavaScript/Guide" title="JavaScript/Guide">JavaScript/Guide</a> - 主目录页</li>
+ <li><a href="/en-US/docs/Web/JavaScript/Guide/JavaScript_Overview" title="JavaScript/Guide/JavaScript_Overview">JavaScript/Guide/JavaScript Overview</a></li>
+ <li><a href="/en-US/docs/JavaScript/Guide/Functions" title="JavaScript/Guide/Functions">JavaScript/Guide/Functions</a></li>
+ <li><a href="/en-US/docs/JavaScript/Guide/Details_of_the_Object_Model" title="JavaScript/Guide/Details_of_the_Object_Model">JavaScript/Guide/Details of the Object Model</a></li>
+</ul>
+
+<p>避免将文章放在层级结构的顶层，这样会拖慢站点的速度，并且使搜索和站点导航的效果变差。</p>
+
+<h3 id="Sections_paragraphs_and_newlines">章节、段落与换行</h3>
+
+<p>按递减顺序使用各个标题级别：首先 {{HTMLElement("h2")}}，其次 {{HTMLElement("h3")}}，再次 {{HTMLElement("h4")}}，不要跳过级别。允许使用的最高级别是 H2，因为 H1 要留给页面标题。如果标题要超过三或四个级别，应当考虑将文章拆分成一系列更小的文章和相应的着陆页，通过 {{TemplateLink("Next")}}、{{TemplateLink("Previous")}} 和 {{TemplateLink("PreviousNext")}} 这几个宏将它们链接在一起。</p>
+
+<p>按回车键开启新段落。如果要另起一行又不想中间有空白，按住 Shift 键同时按回车。</p>
+
+<p>不要建立单一的子章节——你并不会把一个主题细分为一部分。要么有两个或更多子标题，要么就根本一个都没。 </p>
+
+<p>避免在标题后面紧跟另一个标题。这样看起来很糟糕，并且对于读者来说，在每个标题后都至少有段介绍子章节的简介会很有帮助。</p>
+
+<h3 id="Text_formatting_and_styles">文本格式与样式</h3>
+
+<p>用“格式样式”下拉菜单可以把预定义的样式应用到选定内容上。</p>
+
+<div class="note">“注解”样式用于表达重要的注解内容，就像本条这样。</div>
+
+<div class="warning">类似地，“警告”样式用于创建警告框，就像本条这样。</div>
+
+<p>除非有明确的指示，否则<strong>不要</strong>使用 HTML 的<code>style</code> 属性来手工指定内容样式。如果无法靠预定义类型搞定，请到 {{IRCLink("mdn")}} 寻求帮助。</p>
+
+<h3 id="Code_sample_style_and_formatting">示例代码的样式与格式</h3>
+
+<h4 id="Tabs_and_line_breaks">制表符与断行</h4>
+
+<p>在所有代码样本中，都按每个制表符两个空格的标准用空格缩进。代码缩进要清晰，左花括号("{")应当与开启这个块的语句在同一行。例如：</p>
+
+<pre class="brush: js">if (condition) {
+  /* handle the condition */
+} else {
+  /* handle the "else" case */
+} 
+</pre>
+
+<p>不允许长代码行水平延伸到需要水平滚动才能阅读的地步。取而代之的是，在自然中断点处断行。下面是一些例子：</p>
+
+<pre class="brush: js">if (class.CONDITION || class.OTHER_CONDITION || class.SOME_OTHER_CONDITION
+       || class.YET_ANOTHER_CONDITION ) {
+  /* something */
+}
+
+var toolkitProfileService = Components.classes["@mozilla.org/toolkit/profile-service;1"]
+                           .createInstance(Components.interfaces.nsIToolkitProfileService);
+</pre>
+
+<h4 id="Inline_code_formatting">内联代码格式</h4>
+
+<p>用“代码”按钮（标记是两个尖括号"&lt;&gt;"）来把内联代码样式应用到函数名、变量名、方法名上（这其实是用了{{HTMLElement("code")}} 元素）。例如，“<code class="js plain">frenchText()</code> 函数”</p>
+
+<p>方法名后面应当跟有一对括号：<code>doSomethingUseful()</code>。括号可以帮助将方法与其他代码术语区分开来。</p>
+
+<h4 id="Syntax_highlighting">语法高亮</h4>
+
+<p><img alt='“语法高亮”菜单的屏幕截图' src="https://mdn.mozillademos.org/files/7857/syntax-highlighting-menu.png" style="border-style: solid; border-width: 1px; float: right; height: 315px; margin: 2px 4px; width: 183px;">整行（或多行）代码应当用语法高亮来格式化，而非 {{HTMLElement("code")}} 元素。点击工具栏上的 "pre" 按钮来创建预格式化的内容框，随后在其中写下代码。 然后，保持文本输入光标停留在代码框中，点击"pre"按钮右边的语言列表按钮，选择恰当的语言，如右边的屏幕截图所示。以下例子展示了按 Javascript 进行格式化后的文本：</p>
+
+<div class="line number2 index1 alt1">
+<pre class="brush: js">for (var i = 0, j = 9; i &lt;= 9; i++, j--)
+  document.writeln("a[" + i + "][" + j + "]= " + a[i][j]);</pre>
+</div>
+
+<p>如果没有合适的转化可用，那么用 <code>pre</code> 标记同时不指定任何语言（语言列表中的“不高亮”）。</p>
+
+<pre>x = 42;</pre>
+
+<h4 id="Styling_HTML_element_references">HTML 元素风格参考</h4>
+
+<p>关于 HTML 元素，有一些具体规则需要遵守。这些规则为元素及其组件生成一致的描述。同时，也确保链接到正确的详细文档。</p>
+
+<dl>
+ <dt>元素名</dt>
+ <dd>用 {{TemplateLink("HTMLElement")}} 宏，这将建立通向此元素相应页面的链接。例如，写下 \{{HTMLElement("title")}} 将生成 "{{HTMLElement("title")}}"。If you don't want to create a link, <strong>enclose the name in angle brackets</strong> and use "Code (inline)" style (e.g., <code>&lt;title&gt;</code>).</dd>
+ <dt>属性名</dt>
+ <dd>用<strong>粗体</strong>.</dd>
+ <dt>属性定义</dt>
+ <dd>对定义的术语用 {{TemplateLink("htmlattrdef")}} 宏（例如，<span class="nowiki">\{{htmlattrdef("type")}}</span>），这样它能够链接到其他网页，接着对参考属性定义用 {{TemplateLink("htmlattrxref")}} 宏（例如，<span class="nowiki">\{{htmlattrxref("attr","element")}}</span>）。</dd>
+ <dt>属性值</dt>
+ <dd>用“代码（内联）”样式，同时，除非示例代码中的语法确实需要，字符串两边不要有引号。例如：当  <code><input></code> 元素的 <strong>type</strong> 属性设为 <code>email</code> 或 <code>tel</code> 时……</dd>
+ <dt>为属性打上标签</dt>
+ <dd>使用诸如 {{HTMLVersionInline(5)}} 这样的标签时需要仔细考量。例如，将其用在加粗的属性名旁边，但并不是在正文中每次出现加粗的属性名时都用。</dd>
+</dl>
+
+<h3 id="Latin_abbreviations">拉丁缩写</h3>
+
+<h4 id="In_notes_and_parentheses">在注解和括号中</h4>
+
+<ul>
+ <li>常见的拉丁缩写(etc., i.e., e.g.)可用于括号表达或注解中。在这些缩写中，要用句点（.）。
+  <ul>
+   <li><span class="correct"><strong>正确</strong></span>：Web browsers (e.g. Firefox) can be used ...</li>
+   <li><span class="incorrect"><strong>错误</strong></span>：Web browsers e.g. Firefox can be used ...</li>
+   <li><span class="incorrect"><strong>错误</strong></span>：Web browsers, e.g. Firefox, can be used ...</li>
+   <li><span class="incorrect"><strong>错误</strong></span>：Web browsers, (eg: Firefox) can be used ...</li>
+  </ul>
+ </li>
+</ul>
+
+<h4 id="In_running_text">在连续文本中</h4>
+
+<ul>
+ <li>在常规文本中 （即，注解与括号之外的文本），使用与这些缩写等价的英语表达。
+  <ul>
+   <li><span class="correct"><strong>正确</strong></span>：... web browsers, and so on.</li>
+   <li><span class="incorrect"><strong>错误</strong></span>：... web browsers, etc.</li>
+   <li><span class="correct"><strong>正确</strong></span>： Web browsers such as Firefox can be used ...</li>
+   <li><span class="incorrect"><strong>错误</strong></span>：Web browsers e.g. Firefox can be used ...</li>
+  </ul>
+ </li>
+</ul>
+
+<h4 id="Meanings_and_English_equivalents_of_Latin_abbreviations">拉丁文本的含义与等价的英语表达</h4>
+
+<table class="fullwidth-table">
+ <tbody>
+  <tr>
+   <th>缩写</th>
+   <th>拉丁文</th>
+   <th>英语</th>
+  </tr>
+  <tr>
+   <td>cf.</td>
+   <td><em>confer</em></td>
+   <td>compare 对比</td>
+  </tr>
+  <tr>
+   <td>e.g.</td>
+   <td><em>exempli gratia</em></td>
+   <td>for example 例如</td>
+  </tr>
+  <tr>
+   <td>et al.</td>
+   <td><em>et alii</em></td>
+   <td>and others  以及其他</td>
+  </tr>
+  <tr>
+   <td>etc.</td>
+   <td><em>et cetera</em></td>
+   <td>and so forth, and so on  等等 / 及其他</td>
+  </tr>
+  <tr>
+   <td>i.e.</td>
+   <td><em>id est</em></td>
+   <td>that is, in other words 换言之</td>
+  </tr>
+  <tr>
+   <td>N.B.</td>
+   <td><em>nota bene</em></td>
+   <td>note well 注意</td>
+  </tr>
+  <tr>
+   <td>P.S.</td>
+   <td><em>post scriptum</em></td>
+   <td>postscript 附言 / 再者</td>
+  </tr>
+ </tbody>
+</table>
+
+<div class="note">
+<p>任何时候都要考虑一下用拉丁缩写是不是真的有收益。部分拉丁缩写很少使用，很多读者不明白其意思。其他的那些也常常会被互相混淆。假如选择使用拉丁缩写，请确保<strong>你自己</strong>没有用错。例如，一个常见的错误是把"e.g."与"i.e."混淆。</p>
+</div>
+
+<h3 id="Acronyms_and_abbreviations">首字母缩略词与缩写</h3>
+
+<h4 id="Capitalization_and_periods">大写与句点</h4>
+
+<p>首字母缩略词与缩写都要全大写并删除其中的句点，包括诸如"US"和"UN"这样的组织名称。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：XUL</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：X.U.L.; Xul</li>
+</ul>
+
+<h4 id="Expansion">展开形式</h4>
+
+<p>页面上第一次提到某个术语时，用户可能并不熟悉首字母缩略词的展开形式。如果不确定，请将其展开，或者，更好的办法是，链接到描述此技术的文章或<a href="/en-US/docs/Glossary">词汇表</a>条目。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>："XUL (XML User Interface Language) is Mozilla's XML-based language..."</li>
+ <li><span class="incorrect"><strong>错误</strong></span>："XUL is Mozilla's XML-based language..."</li>
+</ul>
+
+<h4 id="Plurals_of_acronyms_and_abbreviations">首字母缩略词与缩写的复数形式</h4>
+
+<p>对于首字母缩略词与缩写的复数情况，在后面加<em>s</em>。不要用撇号(')。绝对不要。请别用。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：CD-ROMs</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：CD-ROM's</li>
+</ul>
+
+<h3 id="Capitalization">大小写</h3>
+
+<p>在正文中，使用标准的英语大小写规则，同时首字母大写"World Wide Web"和"Web"。</p>
+
+<p>键盘键位应当用句子形式的大小写规则，而非全大写。例如，"Enter"而非"ENTER"。</p>
+
+<h3 id="Contractions">缩略</h3>
+
+<p>我们的写作风格趋于休闲，因此只要你想，可以随意使用缩略（例如"don't", "can't", "shouldn't"）。</p>
+
+<h3 id="Pluralization">复数形式</h3>
+
+<p>使用英语风格的复数，而不是拉丁式的或希腊文影响的形式。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：syllabuses, octopuses</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：syllabi, octopi</li>
+</ul>
+
+<h3 id="Hyphenation">断字</h3>
+
+<p>如果复合词的前缀部分最后一个字母是一个元音，且与字根的第一个字母一样，则需要断字。</p>
+
+<ul>
+ <li><font color="green"><strong>正确</strong></font>：email, re-elect, co-op</li>
+ <li><font color="red"><strong>错误</strong></font>：e-mail, reelect, coop</li>
+</ul>
+
+<h3 id="Gender-neutral_language">中性语言</h3>
+
+<p>在写任何与性别无关的主题时，使用中性语言都是个好主意，能使文字尽可能具有包容性。因此，举个例子说，如果谈论的是具体某位男性的行为，用 he/his 是可以的，但如果主题是任何性别的人，he/his 就不太恰当了。<br><br>看下面这个例子：</p>
+
+<blockquote>
+<p>弹出对话框来询问用户是否允许网页使用他的(his)摄像头。</p>
+</blockquote>
+
+<blockquote>
+<p>弹出对话框来询问用户是否允许网页使用她的(her)摄像头。</p>
+</blockquote>
+
+<p>这两个版本都是限定性别的。要解决这个问题，使用中性代词：</p>
+
+<blockquote>
+<p>弹出对话框来询问用户是否允许网页使用其(their)摄像头。</p>
+</blockquote>
+
+<div class="note">
+<p>MDN 允许使用这种常见语法（使用上是有争议的）来解决英语缺乏中性用法的问题。将第三人复数用作中性代词（即，用 "they," them", "their" 和 "theirs"）是种可接受的实践方法，通常称之为"<a href="http://en.wikipedia.org/wiki/Singular_they">singular 'they.'</a>"</p>
+</div>
+
+<p>也可以同时使用两种性别：</p>
+
+<blockquote>
+<p>弹出对话框来询问用户是否允许网页使用他的/她的(his/her)摄像头。</p>
+</blockquote>
+
+<p>或者将用户也使用复数：</p>
+
+<blockquote>
+<p>弹出对话框来询问用户们(users)是否允许网页使用他们的(their)摄像头。</p>
+</blockquote>
+
+<p>最佳解决方案，显然，是重写一下，消除代词：</p>
+
+<blockquote>
+<p>弹出对话框来请求用户给予使用摄像头的权限。</p>
+</blockquote>
+
+<blockquote>
+<p>弹出请求用户给予使用摄像头的权限的对话框。</p>
+</blockquote>
+
+<p>处理这个问题，最后这种方式无疑更好一些，不仅在语法上更加正确，同时还省却了一些由不同语言间处理性别问题的差异所带来的复杂性。这种解决方式使得无论是对读者还是对本地化人员而言，翻译都更加轻松。</p>
+
+<h3 id="Numbers_and_numerals">数与数词</h3>
+
+<h4 id="Dates">日期</h4>
+
+<p>对于日期（不包括示例代码中的日期）使用"January 1, 1990"的格式。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：February 24, 2006</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：February 24th, 2006; 24 February, 2006; 24/02/2006</li>
+</ul>
+
+<p>也可以用 YYYY/MM/DD 的格式。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：2006/02/24</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：02/24/2006; 24/02/2006; 02/24/06</li>
+</ul>
+
+<h4 id="Decades">年代</h4>
+
+<p>对于年代，用"1990s"的格式。不要用撇号(')。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：1990s</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：1990's</li>
+</ul>
+
+<h4 id="Plurals_of_numerals">数词的复数形式</h4>
+
+<p>对于数词的复数情况，在后面加"s"。不要用撇号(')。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：486s</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：486's</li>
+</ul>
+
+<h4 id="Commas">逗号</h4>
+
+<p>在连续文本中，只有5位或者或者更多位的数字才加逗号分段。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：4000; 54,000</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：4,000; 54000</li>
+</ul>
+
+<h3 id="Punctuation">标点符号</h3>
+
+<h4 id="Serial_comma">系列逗号</h4>
+
+<p><strong>使用系列逗号</strong>。系列逗号（又称“牛津逗号”）是指在三个或更多个项目并列结构中，出现在连词前的逗号。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：I will travel on trains, planes, and automobiles.</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：I will travel on trains, planes and automobiles.</li>
+</ul>
+
+<div class="note">
+<p>与之相反，<a href="http://www.mozilla.org/en-US/styleguide/" title="http://www.mozilla.org/en-US/styleguide/">一体化 Mozilla 样式指南</a>明确指出不要使用系列逗号。MDN 是此规则的一个例外。</p>
+</div>
+
+<h3 id="Spelling">拼写</h3>
+
+<p>存在多种拼写法的单词，以<a href="http://dictionary.reference.com">Dictionary.com</a>上第一个条目的写法为准。不要使用变体拼写。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：localize, honor</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：localise, honour</li>
+</ul>
+
+<h3 id="Terminology">术语</h3>
+
+<h4 id="Obsolete_vs._deprecated">过时(obsolete) vs. 废弃(deprecated)</h4>
+
+<p>弄清术语 <strong>过时(obsolete)</strong> 与 <strong>废弃(deprecated)</strong> 之间的区别是非常重要的。</p>
+
+<dl>
+ <dt>过时(obsolete)：</dt>
+ <dd>在 MDN，术语<strong>过时</strong>表示某 API 或技术不仅不再推荐，同时浏览器中也不再对其进行实现。对于 Mozilla 专有技术，API 在 Mozilla 代码中不再有所实现；对于 Web 标准技术，API 或特性在当前常见通用浏览器中不再受支持。</dd>
+ <dt>废弃(deprecated)：</dt>
+ <dd>在 MDN，术语<strong>废弃</strong>表示某 API 或技术不再推荐，但仍然有所实现并可能仍可运作。理论上说，这些技术最终都会变为<em>过时</em>并移除，因此应当停止使用它们。对于 Mozilla 专有技术，API 在 Mozilla 代码中仍然有所支持；对于 Web 标准技术，API 或特性在最近一个版本的标准定义中有所删改。</dd>
+</dl>
+
+<h4 id="HTML_elements">HTML 元素</h4>
+
+<p>用“元素”来指代 HTML 与 XML 元素，而非“标签”。另外，基本上在所有情况下都应当在元素名外面加上"&lt;&gt;"，并且应当应用 {{HTMLElement("code")}} 样式。同样，至少每个章节中对特定元素的第一次引用应当使用 {{TemplateLink("HTMLElement")}} 宏，来建立通向此元素文档的链接（除非刚好是在编写此元素的参考文档页）。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：{{HTMLElement("span")}} 元素</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：span 标签</li>
+</ul>
+
+<h4 id="User_interface_actions">用户界面操作</h4>
+
+<p>在任务序列中，用祈使语气描述用户界面操作。. 用户界面元素通过其标签(label)与类型来识别。</p>
+
+<ul>
+ <li><span class="correct"><strong>正确</strong></span>：点击编辑按钮。</li>
+ <li><span class="incorrect"><strong>错误</strong></span>：点击编辑。</li>
+</ul>
+
+<h3 id="Voice">语态</h3>
+
+<p>首选主动语态，但用被动语态也可以，因为我们的内容有非正式的感觉。但是要尽力保持一致。</p>
+
+<h2 id="Wiki_markup_and_usage">wiki 标记与用法</h2>
+
+<h3 id="Links">链接</h3>
+
+<p>wiki 能成为强大的学习与教学工具，链接是很大一部分原因。下面是一些基本信息，在我们的编辑指南中的<a href="/en-US/docs/MDN/Contribute/Editor/Links">在 MDN 创建与编辑链接</a>处有完整的指南。</p>
+
+<h4 id="External_links">外部链接</h4>
+
+<p>用这个宏自动建立通向某个 Bugzilla bug 的链接：</p>
+
+<pre>\{{Bug(322603)}}
+</pre>
+
+<p>其结果是：</p>
+
+<p>{{Bug(322603)}}</p>
+
+<p>对于 WebKit bug，用这个宏：</p>
+
+<pre>\{{Webkitbug("322603")}}
+</pre>
+
+<p>其结果是：</p>
+
+<p>{{Webkitbug("322603")}}</p>
+
+<h4 id="URL_schemes">URL scheme（URL 方案）</h4>
+
+<p>由于安全方面的原因，应当只创建使用以下 scheme 的链接：</p>
+
+<ul>
+ <li><code>http://</code></li>
+ <li><code>https://</code></li>
+ <li><code>ftp://</code></li>
+ <li><code>mailto:</code></li>
+</ul>
+
+<p>其他 scheme 可能运作也可能不运作，但全都不受支持且有可能被编辑人员移除。</p>
+
+<div class="note">
+<p>尤其是，绝对不要用 <code>about:</code> 或 <code>chrome://</code> scheme，它们无法正常工作。同样，大部分现代浏览器也会阻止 <code>javascript:</code> 及 <code>jar:</code> scheme。</p>
+</div>
+
+<h3 id="Page_tags">页面标签(tag)</h3>
+
+<p>标签可以提供页面的有关元数据、表明页面的内容有具体需要改进之处。在 wiki 上的每个页面都应当有标签。关于打标签的细节信息，参见<a href="/en-US/docs/MDN/Contribute/Howto/Tag">如何正确为页面打标签</a>指南。</p>
+
+<p>在编辑模式中，标签界面出现在页面底部，大致上看起来是这样：</p>
+
+<p><img alt="在 MDN 上添加删除标签的用户交互的屏幕截图" src="https://mdn.mozillademos.org/files/7859/tag-interface.png" style="border-style: solid; border-width: 1px; height: 167px; width: 863px;"></p>
+
+<p>要添加标签，点击位于标签列表末尾的编辑框并输入想要添加的标签名称。随着输入，标签会自动补全。按回车即可提交新标签。如有需要，每篇文章可以拥有任意数量标签。例如，一篇关于在 AJAX 编程中JavaScript 的使用的文章可以同时用"JavaScript"和"AJAX"作为标签。</p>
+
+<p>要移除标签，只要点击标签上小小的"X"图标即可。</p>
+
+<h4 id="Tagging_pages_that_need_work">标记需要进一步工作的页面</h4>
+
+<p>除了用标签来跟踪有关文档质量和内容的信息，我们也用标签来将文章标记为需要特定类型的工作。</p>
+
+<h4 id="Tagging_obsolete_pages">标记过时页面</h4>
+
+<p>对于并非当前状态的页面，用以下标签：</p>
+
+<ul>
+ <li><em>Junk（垃圾）</em>：对垃圾页面使用此标签。页面是错误创建的，或内容实在太差而应当删除。具有此标签的页面会时不时被删除。</li>
+ <li><em>Obsolete（过时）</em>：对技术上已被取代、但仍在特定上下文中有用的内容使用此标签。例如，在 HTML5 中已过时但在 HTML4.01 中仍有效的 HTML 元素。还可以用 <span class="nowiki">{{TemplateLink("obsolete_header")}}</span> 宏来为主题放上一个突出的banner提示。</li>
+ <li><em>Archive（归档）</em>：对技术上已被取代且不再有用的内容使用此标签。如果有可能，为此主题添加一个注解，将读者导向更新的主题。例如，描述如何使用 Mozilla CVS 仓库的页面应当将读者导向当前关于使用 Mercurial repos 的主题。（如果没有相应的当前主题存在，用上 <em>NeedsUpdate</em> 标签，并且在Talk页面上添加一个说明。）具有 Archive 标签的页面最终将从 MDN 主内容区移动到<a href="/en-US/docs/Archive">归档</a>区。</li>
+</ul>
+
+<h3 id="SEO_summary">SEO 摘要</h3>
+
+<p>SEO 摘要提供页面的简短描述。对于抓取网站的机器人来说，这将做为文章的摘要，随后显示在这个页面相应的搜索结果中。同时，在 MDN 内部自动建立着陆页的宏也会用到它。</p>
+
+<p>默认情况下，页面的第一个段落将作为 SEO 摘要。然而，可以通过对段落应用<a href="/en-US/docs/Project:MDN/Contributing/Editor_guide/Editing#Formatting_styles">所见即所得编辑器中的“SEO 摘要”样式</a>来覆盖此行为。</p>
+
+<h3 id="Landing_pages">着陆页</h3>
+
+<p><strong>着陆页</strong>是指站点中位于主题区域根源位置的页面，诸如 <a href="/en-US/docs/CSS" title="CSS">CSS</a> 或 <a href="/en-US/docs/HTML" title="HTML">HTML</a> 的主页面。它们的标准格式由三个区域组成：</p>
+
+<ol>
+ <li>简短（通常是一个段落）的概述，说明技术是什么以及如何使用它。更多提示参见{{anch("Writing a landing page overview")}}。</li>
+ <li>带有恰当标题的两栏链接列表。相关原则参见 {{anch("Creating a page link list")}}。</li>
+ <li><strong>可选的</strong>“浏览器兼容性”区段，出现在页面底部。</li>
+</ol>
+
+<h4 id="Creating_a_page_link_list">建立页面链接列表</h4>
+
+<p>MDN 着陆页的链接列表区段由两栏组成。这是用以下 HTML 创建的：</p>
+
+<pre class="brush: html"><div class="row topicpage-table">
+  <div class="section">
+    ... 左栏内容 ...
+  </div>
+  <div class="section">
+    ... 右栏内容 ...
+  </div>
+</div></pre>
+
+<p>左栏是文章列表，顶部有一个 <code>&lt;h2&gt;</code> 标题，此标题说明了这是一个关于某主题的文章列表（例如“关于 foo 的文档与教程”）；这个标题应当用"Documentation" CSS 类。接下来是一个文章的 <code>&lt;dl&gt;</code> 列表，每篇文章的链接在 <code>&lt;dt&gt;</code> 块中，文章的一两句简短摘要则出现在相应的 <code>&lt;dd&gt;</code> 块。</p>
+
+<p>右栏应当包含以下区段中的一个或多个，按顺序分别是：</p>
+
+<dl>
+ <dt>从社区获得帮助</dt>
+ <dd>这里要提供关于此主题可用的 IRC 频道和邮件列表信息。标题应当用"Community"类</dd>
+ <dt>工具</dt>
+ <dd>能够帮助用户使用在 MDN 此区域中所描述技术的工具列表。标题应当用"Tools"类。</dd>
+ <dt>相关主题</dt>
+ <dd>通往其他相关技术的着陆页的链接列表。标题应当用"Related_Topics"类。</dd>
+</dl>
+
+<p><strong>&lt;&lt;&lt;一旦我们完成着陆页标准之后就会来写完这些&gt;&gt;&gt;</strong></p>
+
+<h2 id="Using_inserting_images">使用、插入图像</h2>
+
+<p>在一些时候，在文章中提供图像会很有帮助，尤其当文章非常技术性时。若要包含图像：</p>
+
+<ol>
+ <li>将想要的图像文件附加到文章（编辑模式下在文章底部）</li>
+ <li>在所见即所得编辑器中建立图像</li>
+ <li>所见即所得编辑器中，在附件下拉列表中选择最近创建的附件，即是需要的图像</li>
+ <li>按下确认。</li>
+</ol>
+
+<h2 id="Other_References">其他参考</h2>
+
+<h3 id="Preferred_style_guides">首选样式指南</h3>
+
+<p>如果对这里未包含的用法与样式有疑问，推荐参考<a href="http://www.economist.com/research/StyleGuide/">Economist style guide</a>，或者，如果还是没找到，<a href="http://www.amazon.com/gp/product/0226104036/">Chicago Manual of Style</a>。</p>
+
+<h3 id="Preferred_dictionary">首选字典</h3>
+
+<p>拼写问题请参考<a href="http://dictionary.reference.com">Dictionary.com</a>。此网站的拼写检查使用的是美式英语。请勿使用变体拼写法（例如，要用 <em>color</em> 而非 <em>colour</em>）。</p>
+
+<p>随着时间推移，我们会逐渐扩展此指南。所以如果你有任何此文档未包含的具体问题，请发给<a href="/en-US/docs/Project:Community" title="Project:en/Community"> MDC 邮件列表</a>或<a href="/User:Sheppy" title="User:Sheppy">项目负责人</a>，好让我们知道应当添加哪些内容。</p>
+
+<h3 id="MDN-specific">MDN 专用</h3>
+
+<ul>
+ <li>MDN <a href="/en-US/docs/MDN/Contribute/Structures/Macros/Commonly-used_macros" title="Project:en/Custom_Templates">常用宏</a>，带有解说。</li>
+</ul>
+
+<h3 id="Language_grammar_spelling">语言、语法、拼写</h3>
+
+<p>如果对改进写作与编辑能力有兴趣，以下资源对你可能有用。</p>
+
+<ul>
+ <li><a href="http://www.amazon.com/Writing-Well-30th-Anniversary-Nonfiction/dp/0060891548">On Writing Well</a>, by William Zinsser (Amazon link)</li>
+ <li><a href="http://www.amazon.com/Style-Basics-Clarity-Grace-4th/dp/0205830765/" title="http://www.amazon.com/Style-Lessons-Clarity-Grace-Edition/dp/0321898680">Style: The Basics of Clarity and Grace</a>, by Joseph Williams and Gregory Colomb (Amazon link)</li>
+ <li><a href="http://www.wsu.edu/~brians/errors/">Common Errors in English</a></li>
+ <li><a href="http://www-personal.umich.edu/~jlawler/aue.html">English Grammar FAQ</a> (alt.usage.english)</li>
+ <li><a href="http://www.angryflower.com/bobsqu.gif">Bob's quick guide to the apostrophe, you idiots</a> (funny)</li>
+ <li><a href="http://www.amazon.com/Merriam-Websters-Concise-Dictionary-English-Usage/dp/B004L2KNI2" title="http://www.amazon.com/Merriam-Websters-Concise-Dictionary-English-Usage/dp/B004L2KNI2">Merriam-Webster's Concise Dictionary of English Usage</a> (Amazon link): Scholarly but user-friendly, evidence-based advice; very good for non-native speakers, especially for preposition usage.</li>
+ <li><a href="http://english.stackexchange.com/">English Language and Usage StackExchange</a>: Question and answer site for English language usage.</li>
+</ul>

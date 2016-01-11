@@ -1,0 +1,5 @@
+.*
+!.gitignore
+*.bak
+Thumbs.db
+desktop.ini
