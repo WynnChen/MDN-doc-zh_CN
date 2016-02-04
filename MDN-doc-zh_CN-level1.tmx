@@ -1,0 +1,2697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.9_2" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(If no corresponding current topic exists, use the NeedsUpdate tag, and add an explanation on the Talk page.) Pages with the Archive tag are eventually moved from the main content of MDN to the Archive section.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T143636Z" creationid="Wynn" creationdate="20160110T142448Z">
+        <seg>（如果没有相应的当前主题存在，用上 NeedsUpdate 标签，并且在Talk页面上添加一个说明。）具有 Archive 标签的页面最终将从 MDN 主内容区移动到归档区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>... left column contents ...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145827Z" creationid="Wynn" creationdate="20160110T145805Z">
+        <seg>... 左栏内容 ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>... right column contents ...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145840Z" creationid="Wynn" creationdate="20160110T145840Z">
+        <seg>... 右栏内容 ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/en-US/docs/DOM/stylesheet</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T082217Z" creationid="Wynn" creationdate="20160204T082217Z">
+        <seg>/en-US/docs/DOM/stylesheet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/en-US/docs/HTML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083720Z" creationid="Wynn" creationdate="20160204T083720Z">
+        <seg>/en-US/docs/HTML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/en-US/docs/SVG</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083723Z" creationid="Wynn" creationdate="20160204T083723Z">
+        <seg>/en-US/docs/SVG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/en-US/docs/XHTML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083723Z" creationid="Wynn" creationdate="20160204T083723Z">
+        <seg>/en-US/docs/XHTML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/en-US/docs/XML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083722Z" creationid="Wynn" creationdate="20160204T083722Z">
+        <seg>/en-US/docs/XML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;&lt;&lt;finish this once we finalize the landing page standards&gt;&gt;&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T161500Z" creationid="Wynn" creationdate="20160110T161500Z">
+        <seg>&lt;&lt;&lt;一旦我们完成着陆页标准之后就会来写完这些&gt;&gt;&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commonly-used macros on MDN, with explanations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T153324Z" creationid="Wynn" creationdate="20160110T153324Z">
+        <seg>MDN 常用宏，带有解说。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>JavaScript/Guide - Main table-of-contents page</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T165051Z" creationid="Wynn" creationdate="20160109T165051Z">
+        <seg>JavaScript/Guide - 主目录页</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Archive: Use for content that is technically superseded and no longer useful.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T142217Z" creationid="Wynn" creationdate="20160110T142217Z">
+        <seg>Archive（归档）：对技术上已被取代且不再有用的内容使用此标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Junk: Use for spam, pages created by mistake, or content that is so bad that it should be deleted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141835Z" creationid="Wynn" creationdate="20160110T141639Z">
+        <seg>Junk（垃圾）：对垃圾页面使用此标签。页面是错误创建的，或内容实在太差而应当删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Obsolete: Use for content that is technically superseded, but still valid in context.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141904Z" creationid="Wynn" creationdate="20160110T141819Z">
+        <seg>Obsolete（过时）：对技术上已被取代、但仍在特定上下文中有用的内容使用此标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: email, re-elect, co-op</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130009Z" creationid="Wynn" creationdate="20160110T073659Z">
+        <seg>正确：email, re-elect, co-op</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: e-mail, reelect, coop</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130011Z" creationid="Wynn" creationdate="20160110T073704Z">
+        <seg>错误：e-mail, reelect, coop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cascading Style Sheets, most of the time abbreviated as CSS, is a stylesheet language used to describe the presentation of a document written in HTML or XML (including various XML languages like SVG or XHTML).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T160342Z" creationid="Wynn" creationdate="20160110T160342Z">
+        <seg>级联样式表(Cascading Style Sheets),，通常缩写为 CSS，是一种样式表语言，用于描述用HTML、XML（包括诸如 SVG 或 XHTML的各种 XML 语言）所编写文档的呈现。.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: "A new method for creating JavaScript rollovers"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T162422Z" creationid="Wynn" creationdate="20160109T162357Z">
+        <seg>正确："A new method for creating JavaScript rollovers"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: "XUL (XML User Interface Language) is Mozilla's XML-based language..."</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125947Z" creationid="Wynn" creationdate="20160110T065655Z">
+        <seg>正确："XUL (XML User Interface Language) is Mozilla's XML-based language..."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: ... web browsers, and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125935Z" creationid="Wynn" creationdate="20160109T184847Z">
+        <seg>正确：... web browsers, and so on.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: 1990s</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130029Z" creationid="Wynn" creationdate="20160110T102718Z">
+        <seg>正确：1990s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: 2006/02/24</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130022Z" creationid="Wynn" creationdate="20160110T102615Z">
+        <seg>正确：2006/02/24</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: 4000; 54,000</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130048Z" creationid="Wynn" creationdate="20160110T103831Z">
+        <seg>正确：4000; 54,000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: 486s</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130041Z" creationid="Wynn" creationdate="20160110T103653Z">
+        <seg>正确：486s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: CD-ROMs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125953Z" creationid="Wynn" creationdate="20160110T072739Z">
+        <seg>正确：CD-ROMs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: Click the Edit button.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130416Z" creationid="Wynn" creationdate="20160110T130348Z">
+        <seg>正确：点击编辑按钮。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: February 24, 2006</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130014Z" creationid="Wynn" creationdate="20160110T102539Z">
+        <seg>正确：February 24, 2006</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: I will travel on trains, planes, and automobiles.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130058Z" creationid="Wynn" creationdate="20160110T110157Z">
+        <seg>正确：I will travel on trains, planes, and automobiles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: Web browsers (e.g. Firefox) can be used ...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125919Z" creationid="Wynn" creationdate="20160109T184701Z">
+        <seg>正确：Web browsers (e.g. Firefox) can be used ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: Web browsers such as Firefox can be used ...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125708Z" creationid="Wynn" creationdate="20160109T184905Z">
+        <seg>正确： Web browsers such as Firefox can be used ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: XUL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125942Z" creationid="Wynn" creationdate="20160110T065202Z">
+        <seg>正确：XUL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: localize, honor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130110Z" creationid="Wynn" creationdate="20160110T111959Z">
+        <seg>正确：localize, honor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: syllabuses, octopuses</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130003Z" creationid="Wynn" creationdate="20160110T073309Z">
+        <seg>正确：syllabuses, octopuses</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Correct: the {{HTMLElement("span")}} element</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125559Z" creationid="Wynn" creationdate="20160110T125559Z">
+        <seg>正确：{{HTMLElement("span")}} 元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: "A New Method for Creating JavaScript Rollovers"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T162416Z" creationid="Wynn" creationdate="20160109T162416Z">
+        <seg>错误："A New Method for Creating JavaScript Rollovers"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: "XUL is Mozilla's XML-based language..."</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125945Z" creationid="Wynn" creationdate="20160110T072452Z">
+        <seg>错误："XUL is Mozilla's XML-based language..."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: ... web browsers, etc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125929Z" creationid="Wynn" creationdate="20160109T184851Z">
+        <seg>错误：... web browsers, etc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: 02/24/2006; 24/02/2006; 02/24/06</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130020Z" creationid="Wynn" creationdate="20160110T102619Z">
+        <seg>错误：02/24/2006; 24/02/2006; 02/24/06</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: 1990's</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130026Z" creationid="Wynn" creationdate="20160110T102720Z">
+        <seg>错误：1990's</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: 4,000; 54000</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130052Z" creationid="Wynn" creationdate="20160110T103844Z">
+        <seg>错误：4,000; 54000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: 486's</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130037Z" creationid="Wynn" creationdate="20160110T103655Z">
+        <seg>错误：486's</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: CD-ROM's</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125951Z" creationid="Wynn" creationdate="20160110T072747Z">
+        <seg>错误：CD-ROM's</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: Click Edit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130423Z" creationid="Wynn" creationdate="20160110T130356Z">
+        <seg>错误：点击编辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: February 24th, 2006; 24 February, 2006; 24/02/2006</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130017Z" creationid="Wynn" creationdate="20160110T102543Z">
+        <seg>错误：February 24th, 2006; 24 February, 2006; 24/02/2006</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: I will travel on trains, planes and automobiles.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130102Z" creationid="Wynn" creationdate="20160110T110202Z">
+        <seg>错误：I will travel on trains, planes and automobiles.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: Web browsers e.g. Firefox can be used ...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125908Z" creationid="Wynn" creationdate="20160109T184706Z">
+        <seg>错误：Web browsers e.g. Firefox can be used ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: Web browsers, (eg: Firefox) can be used ...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125916Z" creationid="Wynn" creationdate="20160109T184738Z">
+        <seg>错误：Web browsers, (eg: Firefox) can be used ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: Web browsers, e.g. Firefox, can be used ...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125913Z" creationid="Wynn" creationdate="20160109T184708Z">
+        <seg>错误：Web browsers, e.g. Firefox, can be used ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: X.U.L.; Xul</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125938Z" creationid="Wynn" creationdate="20160110T065208Z">
+        <seg>错误：X.U.L.; Xul</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: localise, honour</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130116Z" creationid="Wynn" creationdate="20160110T112004Z">
+        <seg>错误：localise, honour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: syllabi, octopi</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125956Z" creationid="Wynn" creationdate="20160110T073313Z">
+        <seg>错误：syllabi, octopi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorrect: the span tag</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125628Z" creationid="Wynn" creationdate="20160110T125628Z">
+        <seg>错误：span 标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CSS is one of the core languages of the open web and has a standardized W3C specification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T160943Z" creationid="Wynn" creationdate="20160110T160715Z">
+        <seg>CSS 是开放网络(open web)的核心语言之一，拥有标准化的 W3C 规范。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Landing pages are pages at the root of a topic area of the site, such as the main CSS or HTML pages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T144759Z" creationid="Wynn" creationdate="20160110T144759Z">
+        <seg>着陆页是指站点中位于主题区域根源位置的页面，诸如 CSS 或 HTML 的主页面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To present documentation in an organized, standardized and easy-to-read manner, the Mozilla Developer Network style guide describes how a text should be organized, spelled, formatted, and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T152739Z" creationid="Wynn" creationdate="20160109T152739Z">
+        <seg>MDN 样式指南描述了文本的组织方式、拼写和格式等问题，以求能以一种有组织、标准化且易于阅读的方式呈现文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the serial comma.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T105603Z" creationid="Wynn" creationdate="20160110T105603Z">
+        <seg>使用系列逗号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A collection of demos showing the latest CSS technologies in action: a boost for the creativity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T163456Z" creationid="Wynn" creationdate="20160110T163456Z">
+        <seg>此演示汇集以实际行动展示最新的 CSS 技术：为创新加油！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A step-by-step introduction to help complete beginners get started.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T163028Z" creationid="Wynn" creationdate="20160110T163028Z">
+        <seg>面向完全新手的入门教程，助其上手。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A brief (typically one paragraph) overview of what the technology is and how it's used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145145Z" creationid="Wynn" creationdate="20160110T144940Z">
+        <seg>简短（通常是一个段落）的概述，说明技术是什么以及如何使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A confirmation dialog appears, asking the user if he allows the Web page to make use of his Web cam.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T091833Z" creationid="Wynn" creationdate="20160110T074952Z">
+        <seg>弹出对话框来询问用户是否允许网页使用他的(his)摄像头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A confirmation dialog appears, asking the user if he or she allows the web page to make use of his/her Web cam.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T091855Z" creationid="Wynn" creationdate="20160110T091828Z">
+        <seg>弹出对话框来询问用户是否允许网页使用他的/她的(his/her)摄像头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A confirmation dialog appears, asking the user if she allows the Web page to make use of her Web cam.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T091836Z" creationid="Wynn" creationdate="20160110T075004Z">
+        <seg>弹出对话框来询问用户是否允许网页使用她的(her)摄像头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A confirmation dialog appears, asking the user if they allow the Web page to make use of their Web cam.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T091847Z" creationid="Wynn" creationdate="20160110T075251Z">
+        <seg>弹出对话框来询问用户是否允许网页使用其(their)摄像头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A confirmation dialog appears, asking the users if they allow the Web page to make use of their Web cams.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T091957Z" creationid="Wynn" creationdate="20160110T091957Z">
+        <seg>弹出对话框来询问用户们(users)是否允许网页使用他们的(their)摄像头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A confirmation dialog appears, requesting the user's permission for Web cam access.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T092126Z" creationid="Wynn" creationdate="20160110T092126Z">
+        <seg>弹出对话框来请求用户给予使用摄像头的权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A confirmation dialog box appears, which asks the user for permission to use the Web cam.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T092203Z" creationid="Wynn" creationdate="20160110T092203Z">
+        <seg>弹出请求用户给予使用摄像头的权限的对话框。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A list of links to landing pages for other, related, technologies of relevance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152052Z" creationid="Wynn" creationdate="20160110T152052Z">
+        <seg>通往其他相关技术的着陆页的链接列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A list of tools the user can look at to help with the use of the technology described in this section of MDN.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151911Z" creationid="Wynn" creationdate="20160110T151911Z">
+        <seg>能够帮助用户使用在 MDN 此区域中所描述技术的工具列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A two-column list of links with appropriate headings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145820Z" creationid="Wynn" creationdate="20160110T145142Z">
+        <seg>带有恰当标题的两栏链接列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Abbrev</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041202Z" creationid="Wynn" creationdate="20160110T041202Z">
+        <seg>缩写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Acronyms and abbreviations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T064943Z" creationid="Wynn" creationdate="20160110T064943Z">
+        <seg>首字母缩略词与缩写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also, at least the first time you reference a given element in a section should use the {{TemplateLink("HTMLElement")}} macro, to create a link to the documentation for the element (unless you're writing within that element's reference document page).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125547Z" creationid="Wynn" creationdate="20160110T125547Z">
+        <seg>同样，至少每个章节中对特定元素的第一次引用应当使用 {{TemplateLink("HTMLElement")}} 宏，来建立通向此元素文档的链接（除非刚好是在编写此元素的参考文档页）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternately, you can use the YYYY/MM/DD format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T102611Z" creationid="Wynn" creationdate="20160110T102611Z">
+        <seg>也可以用 YYYY/MM/DD 的格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Always consider whether it's truly beneficial to use a Latin abbreviation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041734Z" creationid="Wynn" creationdate="20160110T041734Z">
+        <seg>任何时候都要考虑一下用拉丁缩写是不是真的有收益。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An exhaustive reference for seasoned Web developers describing every property and concept of CSS.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T162515Z" creationid="Wynn" creationdate="20160110T162515Z">
+        <seg>面向资深 Web 开发者的全面参考，描述了 CSS 的各个属性与该念。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An optional "Browser compatibility" section at the bottom of the page.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151258Z" creationid="Wynn" creationdate="20160110T145600Z">
+        <seg>可选的“浏览器兼容性”区段，出现在页面底部。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>And be sure that you use them correctly, if you choose to do so.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T063235Z" creationid="Wynn" creationdate="20160110T063235Z">
+        <seg>假如选择使用拉丁缩写，请确保你自己没有用错。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Aside from looking horrible, it's helpful to readers if every heading has at least a brief intro after it to introduce the subsections beneath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T172259Z" creationid="Wynn" creationdate="20160109T172259Z">
+        <seg>这样看起来很糟糕，并且对于读者来说，在每个标题后都至少有段介绍子章节的简介会很有帮助。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attach the desired image file to the article (at the bottom of every article in edit mode)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152344Z" creationid="Wynn" creationdate="20160110T152344Z">
+        <seg>将想要的图像文件附加到文章（编辑模式下在文章底部）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attribute definitions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T182655Z" creationid="Wynn" creationdate="20160109T182655Z">
+        <seg>属性定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attribute names</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T181957Z" creationid="Wynn" creationdate="20160109T181957Z">
+        <seg>属性名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attribute values</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T182700Z" creationid="Wynn" creationdate="20160109T182700Z">
+        <seg>属性值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basics</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T154314Z" creationid="Wynn" creationdate="20160109T154314Z">
+        <seg>基本原则</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Below that is a &lt;dl&gt; list of articles with each article's link in a &lt;dt&gt; block and a brief one-or-two sentence summary of the article in the corresponding &lt;dd&gt; block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T161159Z" creationid="Wynn" creationdate="20160110T161159Z">
+        <seg>接下来是一个文章的 &lt;dl&gt; 列表，每篇文章的链接在 &lt;dt&gt; 块中，文章的一两句简短摘要则出现在相应的 &lt;dd&gt; 块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Below you'll find some basic information, but you can find a complete guide to creating and editing links on MDN in our editor guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T134102Z" creationid="Wynn" creationdate="20160110T130916Z">
+        <seg>下面是一些基本信息，在我们的编辑指南中的在 MDN 创建与编辑链接处有完整的指南。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Both versions are gender-specific.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T075114Z" creationid="Wynn" creationdate="20160110T075114Z">
+        <seg>这两个版本都是限定性别的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Box model</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T164206Z" creationid="Wynn" creationdate="20160110T164206Z">
+        <seg>方框模型(box model)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, the first paragraph of the page is used as the SEO summary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T144059Z" creationid="Wynn" creationdate="20160110T144059Z">
+        <seg>默认情况下，页面的第一个段落将作为 SEO 摘要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CSS Reference</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T162208Z" creationid="Wynn" creationdate="20160110T162208Z">
+        <seg>CSS 参考</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CSS Tutorial</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T162213Z" creationid="Wynn" creationdate="20160110T162213Z">
+        <seg>CSS 教程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CSS describes how the structured element must be rendered on screen, on paper, in speech, or on other media.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T160526Z" creationid="Wynn" creationdate="20160110T160526Z">
+        <seg>CSS 描述了在屏幕、纸面、语音或其它媒体上，结构化元素要如何渲染。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CSS key concepts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T163554Z" creationid="Wynn" creationdate="20160110T163554Z">
+        <seg>CSS 关键概念</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CSS3 Demos</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T162245Z" creationid="Wynn" creationdate="20160110T162245Z">
+        <seg>CSS3 演示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Capitalization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072759Z" creationid="Wynn" creationdate="20160110T072759Z">
+        <seg>大小写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Capitalization and periods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T065010Z" creationid="Wynn" creationdate="20160110T065010Z">
+        <seg>大写与句点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choosing titles and slugs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T163517Z" creationid="Wynn" creationdate="20160109T163449Z">
+        <seg>选择标题与缩略名(slug)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Click the "pre" button in the toolbar to create the preformatted content box in which you'll then write your code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T180122Z" creationid="Wynn" creationdate="20160109T180114Z">
+        <seg>点击工具栏上的 "pre" 按钮来创建预格式化的内容框，随后在其中写下代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Code sample style and formatting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T173601Z" creationid="Wynn" creationdate="20160109T173601Z">
+        <seg>示例代码的样式与格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commas</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T103710Z" creationid="Wynn" creationdate="20160110T103710Z">
+        <seg>逗号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Common Latin abbreviations (etc., i.e., e.g.) may be used in parenthetical expressions and notes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T184531Z" creationid="Wynn" creationdate="20160109T184429Z">
+        <seg>常见的拉丁缩写(etc., i.e., e.g.)可用于括号表达或注解中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contractions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T073036Z" creationid="Wynn" creationdate="20160110T073036Z">
+        <seg>缩略</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create an image in the WYSIWYG editor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152400Z" creationid="Wynn" creationdate="20160110T152400Z">
+        <seg>在所见即所得编辑器中建立图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating a page link list</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145640Z" creationid="Wynn" creationdate="20160110T145640Z">
+        <seg>建立页面链接列表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating new subtrees</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T163952Z" creationid="Wynn" creationdate="20160109T163952Z">
+        <seg>创建新子树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dates</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T102448Z" creationid="Wynn" creationdate="20160110T102448Z">
+        <seg>日期</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Decades</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T102658Z" creationid="Wynn" creationdate="20160110T102658Z">
+        <seg>年代</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deprecated:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T112650Z" creationid="Wynn" creationdate="20160110T112335Z">
+        <seg>废弃(deprecated)：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Developed in levels, CSS1 is now obsolete, CSS2.1 is a recommendation, and CSS3, now split into smaller modules, is progressing on the standardization track.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T162152Z" creationid="Wynn" creationdate="20160110T162152Z">
+        <seg>CSS的发展分为多个级别，CSS1 现已过时，CSS2.1 是推荐标准，CSS3现在划分为多个小模块，正在标准化的进程中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Do not be upset or surprised, however, if an industrious volunteer later edits your work to conform to this guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T152929Z" creationid="Wynn" creationdate="20160109T152929Z">
+        <seg>不过，稍后可能会有勤劳的志愿者修改你的作品，以求符合本指南，碰到这种情况时无需惊讶，也别沮丧。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Do not use variant spellings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T111955Z" creationid="Wynn" creationdate="20160110T111955Z">
+        <seg>不要使用变体拼写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Documentation and tutorials</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T163503Z" creationid="Wynn" creationdate="20160110T163503Z">
+        <seg>文档与教程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don't create single subsections -- you don't subdivide a topic into one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T171050Z" creationid="Wynn" creationdate="20160109T171050Z">
+        <seg>不要建立单一的子章节——你并不会把一个主题细分为一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don't have bumping heads, which are headings followed immediately by headings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T172212Z" creationid="Wynn" creationdate="20160109T171252Z">
+        <seg>避免在标题后面紧跟另一个标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don't use an apostrophe.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072648Z" creationid="Wynn" creationdate="20160110T072648Z">
+        <seg>不要用撇号(')。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>E.g.: When the type attribute of an  element is set to email or tel ...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T183403Z" creationid="Wynn" creationdate="20160109T183403Z">
+        <seg>例如：当   元素的 type 属性设为 email 或 tel 时……</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each article may have as many tags as needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T140928Z" creationid="Wynn" creationdate="20160110T140928Z">
+        <seg>如有需要，每篇文章可以拥有任意数量标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Element names</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T181952Z" creationid="Wynn" creationdate="20160109T181952Z">
+        <seg>元素名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041207Z" creationid="Wynn" creationdate="20160110T041207Z">
+        <seg>英语</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entire lines (or multiple lines) of code should be formatted using syntax highlighting rather than the {{HTMLElement("code")}} element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T175719Z" creationid="Wynn" creationdate="20160109T175552Z">
+        <seg>整行（或多行）代码应当用语法高亮来格式化，而非 {{HTMLElement("code")}} 元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ever.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072656Z" creationid="Wynn" creationdate="20160110T072656Z">
+        <seg>绝对不要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Every page in the wiki should have tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T135310Z" creationid="Wynn" creationdate="20160110T135057Z">
+        <seg>在 wiki 上的每个页面都应当有标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Expansion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T065300Z" creationid="Wynn" creationdate="20160110T065300Z">
+        <seg>展开形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>External links</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130943Z" creationid="Wynn" creationdate="20160110T130943Z">
+        <seg>外部链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Feel free to update them as needed if you like.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T162644Z" creationid="Wynn" creationdate="20160109T162644Z">
+        <seg>只要你愿意，随时可以对它们进行必要的更新。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For Mozilla-specific technologies, the API is no longer implemented in Mozilla code; for Web standard technology, the API or feature is no longer supported by current, commonly-used browsers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T122036Z" creationid="Wynn" creationdate="20160110T122036Z">
+        <seg>对于 Mozilla 专有技术，API 在 Mozilla 代码中不再有所实现；对于 Web 标准技术，API 或特性在当前常见通用浏览器中不再受支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For Mozilla-specific technologies, the API is still supported in Mozilla code; for Web standard technology, the API or feature has been removed or replaced in a recent version of the defining standard.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T122306Z" creationid="Wynn" creationdate="20160110T122306Z">
+        <seg>对于 Mozilla 专有技术，API 在 Mozilla 代码中仍然有所支持；对于 Web 标准技术，API 或特性在最近一个版本的标准定义中有所删改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For WebKit bugs, you can use this macro:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T131808Z" creationid="Wynn" creationdate="20160110T131808Z">
+        <seg>对于 WebKit bug，用这个宏：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For dates (not including dates in code samples) use the format "January 1, 1990".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T102534Z" creationid="Wynn" creationdate="20160110T102534Z">
+        <seg>对于日期（不包括示例代码中的日期）使用"January 1, 1990"的格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For decades, use the format "1990s".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T102712Z" creationid="Wynn" creationdate="20160110T102712Z">
+        <seg>对于年代，用"1990s"的格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example an HTML element that is obsolete in HTML5 is still valid in HTML 4.01.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141953Z" creationid="Wynn" creationdate="20160110T141953Z">
+        <seg>例如，在 HTML5 中已过时但在 HTML4.01 中仍有效的 HTML 元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, "Enter" not "ENTER."</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072949Z" creationid="Wynn" creationdate="20160110T072949Z">
+        <seg>例如，"Enter"而非"ENTER"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, "the frenchText() function".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T175320Z" creationid="Wynn" creationdate="20160109T175311Z">
+        <seg>例如，“frenchText() 函数”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, a page that describes how to use the Mozilla CVS repository should refer readers to a current topic on using Mercurial repos.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T142510Z" creationid="Wynn" creationdate="20160110T142416Z">
+        <seg>例如，描述如何使用 Mozilla CVS 仓库的页面应当将读者导向当前关于使用 Mercurial repos 的主题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, an article about using JavaScript in AJAX programming might have both "JavaScript" and "AJAX" as tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141045Z" creationid="Wynn" creationdate="20160110T141045Z">
+        <seg>例如，一篇关于在 AJAX 编程中JavaScript 的使用的文章可以同时用"JavaScript"和"AJAX"作为标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, be careful not to confuse "e.g." with "i.e.", which is a common error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072509Z" creationid="Wynn" creationdate="20160110T063338Z">
+        <seg>例如，一个常见的错误是把"e.g."与"i.e."混淆。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, consider the JavaScript guide, which is structured as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T165025Z" creationid="Wynn" creationdate="20160109T165025Z">
+        <seg>以 JavaScript 指南为例，它的结构如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, use them next to the bold attribute name but not for every occurrence in your body text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T184040Z" creationid="Wynn" creationdate="20160109T184040Z">
+        <seg>例如，将其用在加粗的属性名旁边，但并不是在正文中每次出现加粗的属性名时都用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, writing \{{HTMLElement("title")}} produces "{{HTMLElement("title")}}".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T182316Z" creationid="Wynn" creationdate="20160109T182316Z">
+        <seg>例如，写下 \{{HTMLElement("title")}} 将生成 "{{HTMLElement("title")}}"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T174136Z" creationid="Wynn" creationdate="20160109T174136Z">
+        <seg>例如：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For plurals of acronyms or abbreviations, add s.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072611Z" creationid="Wynn" creationdate="20160110T072611Z">
+        <seg>对于首字母缩略词与缩写的复数情况，在后面加s。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For plurals of numerals add "s".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T103023Z" creationid="Wynn" creationdate="20160110T103023Z">
+        <seg>对于数词的复数情况，在后面加"s"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For questions of spelling, please refer to Dictionary.com.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152801Z" creationid="Wynn" creationdate="20160110T152801Z">
+        <seg>拼写问题请参考Dictionary.com。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For security reasons, you should only create links that use the following schemes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T134354Z" creationid="Wynn" creationdate="20160110T134215Z">
+        <seg>由于安全方面的原因，应当只创建使用以下 scheme 的链接：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For style standards that apply to content written for sites other than MDN, refer to the One Mozilla style guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T154304Z" creationid="Wynn" creationdate="20160109T154304Z">
+        <seg>为 MDN 以外的站点所写的内容，其应用的样式标准可参考 一体化 Mozilla 样式指南.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For words with variant spellings, always use the first entry at Dictionary.com.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T111929Z" creationid="Wynn" creationdate="20160110T111929Z">
+        <seg>存在多种拼写法的单词，以Dictionary.com上第一个条目的写法为准。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gender-neutral language</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T073939Z" creationid="Wynn" creationdate="20160110T073725Z">
+        <seg>中性语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Getting help from the community</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151342Z" creationid="Wynn" creationdate="20160110T151342Z">
+        <seg>从社区获得帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>H2 is the highest level allowed because H1 is reserved for the page title.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T170059Z" creationid="Wynn" creationdate="20160109T170059Z">
+        <seg>允许使用的最高级别是 H2，因为 H1 要留给页面标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTML elements</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T122311Z" creationid="Wynn" creationdate="20160110T122311Z">
+        <seg>HTML 元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, you can override this behavior by marking a section with the "SEO summary" style in the WYSIWYG editor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T144421Z" creationid="Wynn" creationdate="20160110T144421Z">
+        <seg>然而，可以通过对段落应用所见即所得编辑器中的“SEO 摘要”样式来覆盖此行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hyphenate compounds when the last letter of the prefix is a vowel and is the same as the first letter of the root.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T073655Z" creationid="Wynn" creationdate="20160110T073655Z">
+        <seg>如果复合词的前缀部分最后一个字母是一个元音，且与字根的第一个字母一样，则需要断字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hyphenation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T073332Z" creationid="Wynn" creationdate="20160110T073332Z">
+        <seg>断字</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Identify the user interface element by its label and type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T134702Z" creationid="Wynn" creationdate="20160110T130320Z">
+        <seg>用户界面元素通过其标签(label)与类型来识别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no appropriate transformation is available, use the pre tag without specifying a language ("No Highlight" in the language menu).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T180653Z" creationid="Wynn" creationdate="20160109T180653Z">
+        <seg>如果没有合适的转化可用，那么用 pre 标记同时不指定任何语言（语言列表中的“不高亮”）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If possible, add a note to the topic referring readers to a more current topic.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T142306Z" creationid="Wynn" creationdate="20160110T142306Z">
+        <seg>如果有可能，为此主题添加一个注解，将读者导向更新的主题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you can't do it using a predefined class, drop into {{IRCLink("mdn")}} and ask for help.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T173536Z" creationid="Wynn" creationdate="20160109T173536Z">
+        <seg>如果无法靠预定义类型搞定，请到 {{IRCLink("mdn")}} 寻求帮助。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have questions about usage and style not covered here, we recommend referring to the Economist style guide or, failing that, the Chicago Manual of Style.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T153107Z" creationid="Wynn" creationdate="20160110T152728Z">
+        <seg>如果对这里未包含的用法与样式有疑问，推荐参考Economist style guide，或者，如果还是没找到，Chicago Manual of Style。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need more than three or four levels of headers you should consider breaking up the article into several smaller articles with a landing page, linking them together using the {{TemplateLink("Next")}}, {{TemplateLink("Previous")}}, and {{TemplateLink("PreviousNext")}} macros.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T170411Z" creationid="Wynn" creationdate="20160109T170411Z">
+        <seg>如果标题要超过三或四个级别，应当考虑将文章拆分成一系列更小的文章和相应的着陆页，通过 {{TemplateLink("Next")}}、{{TemplateLink("Previous")}} 和 {{TemplateLink("PreviousNext")}} 这几个宏将它们链接在一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you're interested in improving your writing and editing skills, you may find the following resources to be helpful.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T153412Z" creationid="Wynn" creationdate="20160110T153412Z">
+        <seg>如果对改进写作与编辑能力有兴趣，以下资源对你可能有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you're looking for specifics of how a given type of page should be structured, see the MDN page layout guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T153004Z" creationid="Wynn" creationdate="20160109T153004Z">
+        <seg>如果你正在寻找某种特定类型页面具体应当如何结构化，参见 页面布局指南。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition to using tags to track information about the documentation's quality and content, we also use them to mark articles as needing specific types of work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141339Z" creationid="Wynn" creationdate="20160110T141339Z">
+        <seg>除了用标签来跟踪有关文档质量和内容的信息，我们也用标签来将文章标记为需要特定类型的工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition, they should almost always be wrapped in "&lt;&gt;", and should be in the {{HTMLElement("code")}} style.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T125130Z" creationid="Wynn" creationdate="20160110T125130Z">
+        <seg>另外，基本上在所有情况下都应当在元素名外面加上"&lt;&gt;"，并且应当应用 {{HTMLElement("code")}} 样式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In notes and parentheses</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T184332Z" creationid="Wynn" creationdate="20160109T184240Z">
+        <seg>在注解和括号中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, be sure not to use the about: or chrome:// schemes, as they will not work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T134510Z" creationid="Wynn" creationdate="20160110T134510Z">
+        <seg>尤其是，绝对不要用 about: 或 chrome:// scheme，它们无法正常工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In regular text (i.e. text outside of notes or parentheses), use the English equivalent of the abbreviation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T184841Z" creationid="Wynn" creationdate="20160109T184841Z">
+        <seg>在常规文本中 （即，注解与括号之外的文本），使用与这些缩写等价的英语表达。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In running text</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T184754Z" creationid="Wynn" creationdate="20160109T184754Z">
+        <seg>在连续文本中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In running text, use commas only in five-digit and larger numbers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T103826Z" creationid="Wynn" creationdate="20160110T103826Z">
+        <seg>在连续文本中，只有5位或者或者更多位的数字才加逗号分段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In task sequences, describe user interface actions using the imperative mood.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130245Z" creationid="Wynn" creationdate="20160110T130245Z">
+        <seg>在任务序列中，用祈使语气描述用户界面操作。.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the WYSIWYG editor, in the drop-down list of attachments, select the newly created attachment that is your image</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152540Z" creationid="Wynn" creationdate="20160110T152519Z">
+        <seg>所见即所得编辑器中，在附件下拉列表中选择最近创建的附件，即是需要的图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Indent the code cleanly, with open-brace ("{") characters on the same line as the statement that opens the block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T173953Z" creationid="Wynn" creationdate="20160109T173953Z">
+        <seg>代码缩进要清晰，左花括号("{")应当与开启这个块的语句在同一行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inline code formatting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T174756Z" creationid="Wynn" creationdate="20160109T174756Z">
+        <seg>内联代码格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, break at natural breaking points.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T174613Z" creationid="Wynn" creationdate="20160109T174613Z">
+        <seg>取而代之的是，在自然中断点处断行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is a good idea to use gender-neutral language in any writing where gender is irrelevant to the subject matter, to make the text as inclusive as possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T074505Z" creationid="Wynn" creationdate="20160110T073934Z">
+        <seg>在写任何与性别无关的主题时，使用中性语言都是个好主意，能使文字尽可能具有包容性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is also used by macros that automate the construction of landing pages inside MDN itself.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T144032Z" creationid="Wynn" creationdate="20160110T144032Z">
+        <seg>同时，在 MDN 内部自动建立着陆页的宏也会用到它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It presents all the needed fundamentals.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T163100Z" creationid="Wynn" creationdate="20160110T163100Z">
+        <seg>提供了所有必要的基础。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It will be reported as a summary of the article to robots crawling the site, and will then appear in search results for the page.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T143932Z" creationid="Wynn" creationdate="20160110T143932Z">
+        <seg>对于抓取网站的机器人来说，这将做为文章的摘要，随后显示在这个页面相应的搜索结果中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's either two subheadings or more or none at all.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T171258Z" creationid="Wynn" creationdate="20160109T171240Z">
+        <seg>要么有两个或更多子标题，要么就根本一个都没。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's important to be clear about the difference between the terms obsolete and deprecated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T112647Z" creationid="Wynn" creationdate="20160110T112230Z">
+        <seg>弄清术语 过时(obsolete) 与 废弃(deprecated) 之间的区别是非常重要的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's sometimes helpful to provide an image in an article you create or modify, especially if the article is very technical.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152234Z" creationid="Wynn" creationdate="20160110T152234Z">
+        <seg>在一些时候，在文章中提供图像会很有帮助，尤其当文章非常技术性时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keyboard keys should use sentence-style capitalization, not all-caps capitalization.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072928Z" creationid="Wynn" creationdate="20160110T072928Z">
+        <seg>键盘键位应当用句子形式的大小写规则，而非全大写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Labeling attributes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T183804Z" creationid="Wynn" creationdate="20160109T183741Z">
+        <seg>为属性打上标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Landing pages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T144456Z" creationid="Wynn" creationdate="20160110T144456Z">
+        <seg>着陆页</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Language, grammar, spelling</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T153333Z" creationid="Wynn" creationdate="20160110T153333Z">
+        <seg>语言、语法、拼写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Latin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041204Z" creationid="Wynn" creationdate="20160110T041204Z">
+        <seg>拉丁文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Latin abbreviations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T184432Z" creationid="Wynn" creationdate="20160109T184133Z">
+        <seg>拉丁缩写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's take the following example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T074812Z" creationid="Wynn" creationdate="20160110T074812Z">
+        <seg>看下面这个例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Links</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130653Z" creationid="Wynn" creationdate="20160110T130653Z">
+        <seg>链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Links are a large part of what makes a wiki a powerful learning and teaching tool.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T135128Z" creationid="Wynn" creationdate="20160110T130735Z">
+        <seg>wiki 能成为强大的学习与教学工具，链接是很大一部分原因。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Long lines shouldn't be allowed to stretch off horizontally to the extent that they require horizontal scrolling to read.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T174559Z" creationid="Wynn" creationdate="20160109T174559Z">
+        <seg>不允许长代码行水平延伸到需要水平滚动才能阅读的地步。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MDN allows the use of this very common syntax (which is controversial among usage authorities), to make up for the lack of a neutral gender in English.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T080648Z" creationid="Wynn" creationdate="20160110T080648Z">
+        <seg>MDN 允许使用这种常见语法（使用上是有争议的）来解决英语缺乏中性用法的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MDN is an exception to this rule.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T110448Z" creationid="Wynn" creationdate="20160110T110448Z">
+        <seg>MDN 是此规则的一个例外。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MDN-specific</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T153255Z" creationid="Wynn" creationdate="20160110T153255Z">
+        <seg>MDN 专用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Margin collapsing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T164225Z" creationid="Wynn" creationdate="20160110T164225Z">
+        <seg>外边距合并(margin collapsing)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Meanings and English equivalents of Latin abbreviations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T184935Z" creationid="Wynn" creationdate="20160109T184935Z">
+        <seg>拉丁文本的含义与等价的英语表达</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Method names should be followed by a pair of parentheses: doSomethingUseful().</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T175354Z" creationid="Wynn" creationdate="20160109T175354Z">
+        <seg>方法名后面应当跟有一对括号：doSomethingUseful()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Numbers and numerals</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T094031Z" creationid="Wynn" creationdate="20160110T094031Z">
+        <seg>数与数词</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Obsolete vs. deprecated</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T112641Z" creationid="Wynn" creationdate="20160110T112139Z">
+        <seg>过时(obsolete) vs. 废弃(deprecated)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Obsolete:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T112329Z" creationid="Wynn" creationdate="20160110T112329Z">
+        <seg>过时(obsolete)：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On MDN, the term deprecated marks an API or technology that is no longer recommended, but is still implemented and may still work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T112801Z" creationid="Wynn" creationdate="20160110T112518Z">
+        <seg>在 MDN，术语废弃表示某 API 或技术不再推荐，但仍然有所实现并可能仍可运作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On MDN, the term obsolete marks an API or technology that is not only no longer recommended, but also no longer implemented in the browser.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T112449Z" creationid="Wynn" creationdate="20160110T112449Z">
+        <seg>在 MDN，术语过时表示某 API 或技术不仅不再推荐，同时浏览器中也不再对其进行实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On the first mention of a term on a page, expand acronyms likely to be unfamiliar to users.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T065453Z" creationid="Wynn" creationdate="20160110T065453Z">
+        <seg>页面上第一次提到某个术语时，用户可能并不熟悉首字母缩略词的展开形式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other languages may have (and are welcome to create) style guides.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T153120Z" creationid="Wynn" creationdate="20160109T153120Z">
+        <seg>其它语言可以拥有（且欢迎创建）自己的样式指南。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other references</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152603Z" creationid="Wynn" creationdate="20160110T152603Z">
+        <seg>其他参考</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Others may or may not work, but are not supported and will probably be removed by editorial staff.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T134401Z" creationid="Wynn" creationdate="20160110T134329Z">
+        <seg>其他 scheme 可能运作也可能不运作，但全都不受支持且有可能被编辑人员移除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Our writing style tends to be casual, so you should feel free to use contractions (e.g. "don't", "can't", "shouldn't") if you prefer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T073156Z" creationid="Wynn" creationdate="20160110T073156Z">
+        <seg>我们的写作风格趋于休闲，因此只要你想，可以随意使用缩略（例如"don't", "can't", "shouldn't"）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Page slugs should be kept short; when creating a new level of hierarchy, the new level's component in the slug should just be a word or two.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T163704Z" creationid="Wynn" creationdate="20160109T163512Z">
+        <seg>页面的缩略名应保持简短；创建新的层级时，该层级在缩略名中应当只有一两个单词。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Page tags</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T134817Z" creationid="Wynn" creationdate="20160110T134646Z">
+        <seg>页面标签(tag)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Page titles</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T154335Z" creationid="Wynn" creationdate="20160109T154335Z">
+        <seg>页面标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Page titles and section headings should use sentence-style capitalization (only capitalize the first word and proper nouns) rather than headline-style capitalization:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T162338Z" creationid="Wynn" creationdate="20160109T154556Z">
+        <seg>页面标题与章节标题应当使用一般句子的大小写方式（只有句首单词和专有名词的首字母大写），而非新闻标题式的大小写方式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Page titles are used in search results and also used to structure the page hierarchy in the breadcrumb list at the top of the page.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T155912Z" creationid="Wynn" creationdate="20160109T155912Z">
+        <seg>在搜索结果中用到页面标题，在页面顶部展现页面层级结构的面包屑到行列中也用到页面标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Page titles, on the other hand, may be as long as you like, within reason, and they should be descriptive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T163938Z" creationid="Wynn" creationdate="20160109T163938Z">
+        <seg>另一方面，页面标题，在合理范围内，长度随意，且应当是描述性的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pages with this tag are deleted from time to time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141705Z" creationid="Wynn" creationdate="20160110T141705Z">
+        <seg>具有此标签的页面会时不时被删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Please do not use variant spellings (e.g., use color rather than colour).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152857Z" creationid="Wynn" creationdate="20160110T152857Z">
+        <seg>请勿使用变体拼写法（例如，要用 color 而非 colour）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Please.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072731Z" creationid="Wynn" creationdate="20160110T072731Z">
+        <seg>请别用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pluralization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T073203Z" creationid="Wynn" creationdate="20160110T073203Z">
+        <seg>复数形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plurals of acronyms and abbreviations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072543Z" creationid="Wynn" creationdate="20160110T072543Z">
+        <seg>首字母缩略词与缩写的复数形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plurals of numerals</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T102956Z" creationid="Wynn" creationdate="20160110T102938Z">
+        <seg>数词的复数形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Preferred dictionary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152735Z" creationid="Wynn" creationdate="20160110T152735Z">
+        <seg>首选字典</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Preferred style guides</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152614Z" creationid="Wynn" creationdate="20160110T152614Z">
+        <seg>首选样式指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Press OK.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152531Z" creationid="Wynn" creationdate="20160110T152531Z">
+        <seg>按下确认。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Press enter (or return) to submit the new tag.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T140848Z" creationid="Wynn" creationdate="20160110T140848Z">
+        <seg>按回车即可提交新标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Punctuation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T103851Z" creationid="Wynn" creationdate="20160110T103851Z">
+        <seg>标点符号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Related topics</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151357Z" creationid="Wynn" creationdate="20160110T151357Z">
+        <seg>相关主题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SEO summary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T143753Z" creationid="Wynn" creationdate="20160110T143753Z">
+        <seg>SEO 摘要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Screenshot of the "syntax highlighting" menu.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T175505Z" creationid="Wynn" creationdate="20160109T175505Z">
+        <seg>“语法高亮”菜单的屏幕截图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Screenshot of the UX for adding and removing tags on MDN</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T135934Z" creationid="Wynn" creationdate="20160110T135934Z">
+        <seg>在 MDN 上添加删除标签的用户交互的屏幕截图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sections, paragraphs, and newlines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T165638Z" creationid="Wynn" creationdate="20160109T165638Z">
+        <seg>章节、段落与换行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See {{anch("Creating a page link list")}} for guidelines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145457Z" creationid="Wynn" creationdate="20160110T145256Z">
+        <seg>相关原则参见 {{anch("Creating a page link list")}}。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See {{anch("Writing a landing page overview")}} for tips.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145420Z" creationid="Wynn" creationdate="20160110T145122Z">
+        <seg>更多提示参见{{anch("Writing a landing page overview")}}。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Serial comma</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T105155Z" creationid="Wynn" creationdate="20160110T105155Z">
+        <seg>系列逗号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly, the "Warning" style creates warning boxes like this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T173134Z" creationid="Wynn" creationdate="20160109T173134Z">
+        <seg>类似地，“警告”样式用于创建警告框，就像本条这样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly, the javascript: scheme is blocked by most modern browsers, as is jar:.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T134625Z" creationid="Wynn" creationdate="20160110T134625Z">
+        <seg>同样，大部分现代浏览器也会阻止 javascript: 及 jar: scheme。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So for example, if you are talking about the actions of a specific man, usage of he/his would be fine, but if the subject is a person of either gender, he/his isn't appropriate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T074754Z" creationid="Wynn" creationdate="20160110T074754Z">
+        <seg>因此，举个例子说，如果谈论的是具体某位男性的行为，用 he/his 是可以的，但如果主题是任何性别的人，he/his 就不太恰当了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some examples follow:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T174622Z" creationid="Wynn" creationdate="20160109T174622Z">
+        <seg>下面是一些例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some of these are used so rarely that many readers won't understand the meaning, and others are often confused with one another.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T063146Z" creationid="Wynn" creationdate="20160110T041740Z">
+        <seg>部分拉丁缩写很少使用，很多读者不明白其意思。其他的那些也常常会被互相混淆。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specificity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T164011Z" creationid="Wynn" creationdate="20160110T164011Z">
+        <seg>特异性(specificity)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Spelling</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T111138Z" creationid="Wynn" creationdate="20160110T111138Z">
+        <seg>拼写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Styling HTML element references</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T180757Z" creationid="Wynn" creationdate="20160109T180710Z">
+        <seg>HTML 元素风格参考</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax highlighting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T174933Z" creationid="Wynn" creationdate="20160109T174933Z">
+        <seg>语法高亮</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tabs and line breaks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T173639Z" creationid="Wynn" creationdate="20160109T173639Z">
+        <seg>制表符与断行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tagging obsolete pages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141457Z" creationid="Wynn" creationdate="20160110T141351Z">
+        <seg>标记过时页面</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tagging pages that need work</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141507Z" creationid="Wynn" creationdate="20160110T141241Z">
+        <seg>标记需要进一步工作的页面</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags provide meta information about a page and/or indicate that a page has specific improvements needed to its content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T135045Z" creationid="Wynn" creationdate="20160110T135045Z">
+        <seg>标签可以提供页面的有关元数据、表明页面的内容有具体需要改进之处。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags will autocomplete as you type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T140816Z" creationid="Wynn" creationdate="20160110T140816Z">
+        <seg>随着输入，标签会自动补全。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Terminology</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T112124Z" creationid="Wynn" creationdate="20160110T112124Z">
+        <seg>术语</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Text formatting and styles</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T172307Z" creationid="Wynn" creationdate="20160109T172307Z">
+        <seg>文本格式与样式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The "Note" style is used to call out important notes, like this one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T184256Z" creationid="Wynn" creationdate="20160109T173102Z">
+        <seg>“注解”样式用于表达重要的注解内容，就像本条这样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Enter (or Return) key on your keyboard starts a new paragraph.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T170506Z" creationid="Wynn" creationdate="20160109T170506Z">
+        <seg>按回车键开启新段落。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The HyperText Mark-up Language</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T155904Z" creationid="Wynn" creationdate="20160110T155904Z">
+        <seg>超文本标记语言(HyperText Mark-up Language)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The SEO summary provides a short description of a page.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T143824Z" creationid="Wynn" creationdate="20160110T143818Z">
+        <seg>SEO 摘要提供页面的简短描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The best place to start in any extensive publishing style guide is with some very basic text standards to help keep documentation consistent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T155214Z" creationid="Wynn" creationdate="20160109T155214Z">
+        <seg>要制定任何大规模的出版物样式指南，都最好从一些用于帮助文档保持一致性的最基本文本标准开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The best solution, of course, is to rewrite and eliminate the pronouns:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T092037Z" creationid="Wynn" creationdate="20160110T092037Z">
+        <seg>最佳解决方案，显然，是重写一下，消除代词：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following example shows text with JavaScript formatting:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T180440Z" creationid="Wynn" creationdate="20160109T180440Z">
+        <seg>以下例子展示了按 Javascript 进行格式化后的文本：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following sections outline some of these basics to help you.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T155433Z" creationid="Wynn" creationdate="20160109T155433Z">
+        <seg>后继章节将概述这些基本原则。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The heading should use the class "Community".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151928Z" creationid="Wynn" creationdate="20160110T151646Z">
+        <seg>标题应当用"Community"类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The heading should use the class "Related_Topics".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152100Z" creationid="Wynn" creationdate="20160110T152100Z">
+        <seg>标题应当用"Related_Topics"类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The heading should use the class "Tools".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151926Z" creationid="Wynn" creationdate="20160110T151926Z">
+        <seg>标题应当用"Tools"类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The landing page should open with a paragraph or two describing the topic or technology, then provide a list of the subpages with descriptions of each page.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T164751Z" creationid="Wynn" creationdate="20160109T164751Z">
+        <seg>着陆页开头应当是一两段对该主题或技术的描述，接下来是带有各个页面描述的子页面列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The language aspects of this guide apply primarily to English-language documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T153116Z" creationid="Wynn" creationdate="20160109T153116Z">
+        <seg>本指南中语言方面的内容主要针对英语文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The last way of dealing with the problem is arguably better, as it is not only grammatically more correct but removes some of the complexity associated with dealing with genders across different languages that may have wildly varying gender rules.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T093904Z" creationid="Wynn" creationdate="20160110T093110Z">
+        <seg>处理这个问题，最后这种方式无疑更好一些，不仅在语法上更加正确，同时还省却了一些由不同语言间处理性别问题的差异所带来的复杂性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The left column should be a list of articles, with an  header at the top of the left column explaining that it's a list of articles about the topic (for example "Documentation and tutorials about foo"); this header should use the CSS class "Documentation".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T161040Z" creationid="Wynn" creationdate="20160110T161040Z">
+        <seg>左栏是文章列表，顶部有一个  标题，此标题说明了这是一个关于某主题的文章列表（例如“关于 foo 的文档与教程”）；这个标题应当用"Documentation" CSS 类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The link list section of an MDN landing page consists of two columns.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151300Z" creationid="Wynn" creationdate="20160110T145709Z">
+        <seg>MDN 着陆页的链接列表区段由两栏组成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The page title (which is displayed at the top of the page and in the search results) can be different from the page "slug," which is the portion of the page's URL following "&lt;locale&gt;/docs/".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T162151Z" creationid="Wynn" creationdate="20160109T162151Z">
+        <seg>页面标题（显示于页面顶部和搜索结果中）可以与页面的“缩略名(slug)”不同。缩略名出现于URL中，即跟随在“&lt;locale&gt;/docs/”后面的那个部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The parentheses help differentiate methods from other code terms.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T175437Z" creationid="Wynn" creationdate="20160109T175437Z">
+        <seg>括号可以帮助将方法与其他代码术语区分开来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The right column should contain one or more of the following sections, in order:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151326Z" creationid="Wynn" creationdate="20160110T151249Z">
+        <seg>右栏应当包含以下区段中的一个或多个，按顺序分别是：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The serial (also known as "Oxford") comma is the comma that appears before the conjunction in a series of three or more items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T111823Z" creationid="Wynn" creationdate="20160110T110153Z">
+        <seg>系列逗号（又称“牛津逗号”）是指在三个或更多个项目并列结构中，出现在连词前的逗号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The spelling checker for this site uses American English.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152820Z" creationid="Wynn" creationdate="20160110T152820Z">
+        <seg>此网站的拼写检查使用的是美式英语。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The stacking context</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T082529Z" creationid="Wynn" creationdate="20160204T082216Z">
+        <seg>堆叠的上下文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The tagging interface lives at the bottom of a page while you're in edit mode, and looks something like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T135556Z" creationid="Wynn" creationdate="20160110T135556Z">
+        <seg>在编辑模式中，标签界面出现在页面底部，大致上看起来是这样：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The use of the third-person plural as a gender neutral pronoun (that is, using "they," them", "their," and "theirs") is an accepted practice, commonly known as "singular 'they.'"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T080835Z" creationid="Wynn" creationdate="20160110T080835Z">
+        <seg>将第三人复数用作中性代词（即，用 "they," them", "their" 和 "theirs"）是种可接受的实践方法，通常称之为"singular 'they.'"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then, with the text entry cursor inside the code box, select the appropriate language from the language list button to the right of the "pre" button, as seen in the screenshot to the right.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T180317Z" creationid="Wynn" creationdate="20160109T180119Z">
+        <seg>然后，保持文本输入光标停留在代码框中，点击"pre"按钮右边的语言列表按钮，选择恰当的语言，如右边的屏幕截图所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are specific rules to follow when writing about HTML elements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T181713Z" creationid="Wynn" creationdate="20160109T180754Z">
+        <seg>关于 HTML 元素，有一些具体规则需要遵守。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are created using the following HTML:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145758Z" creationid="Wynn" creationdate="20160110T145758Z">
+        <seg>这是用以下 HTML 创建的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are guidelines rather than strict rules. We are more interested in content than formatting, so don't feel obligated to learn the style guide before contributing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T152913Z" creationid="Wynn" creationdate="20160109T152749Z">
+        <seg>这些内容只是指导原则而非强制规定。我们关注内容甚于格式，因此并不是非要先学好样式指南才能开始做贡献。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These rules produce consistent descriptions of elements and their components.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T181858Z" creationid="Wynn" creationdate="20160109T181858Z">
+        <seg>这些规则为元素及其组件生成一致的描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These should be published as subpages of the localization team's page.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T153124Z" creationid="Wynn" creationdate="20160109T153124Z">
+        <seg>它们应作为本地化团队页面的子页面发布。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These technologies will in theory eventually become obsolete and be removed, so you should stop using them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T122149Z" creationid="Wynn" creationdate="20160110T122149Z">
+        <seg>理论上说，这些技术最终都会变为过时并移除，因此应当停止使用它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They also ensure correct linking to detailed documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T181944Z" creationid="Wynn" creationdate="20160109T181944Z">
+        <seg>同时，也确保链接到正确的详细文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They have a standard format that consists of three areas:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T144835Z" creationid="Wynn" creationdate="20160110T144835Z">
+        <seg>它们的标准格式由三个区域组成：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is in contrast to the One Mozilla style guide, which specifies that the serial comma is not to be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T110414Z" creationid="Wynn" creationdate="20160110T110414Z">
+        <seg>与之相反，一体化 Mozilla 样式指南明确指出不要使用系列逗号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This results in:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T131754Z" creationid="Wynn" creationdate="20160110T131754Z">
+        <seg>其结果是：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This should provide information on IRC channels and mailing lists available on the topic.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151513Z" creationid="Wynn" creationdate="20160110T151513Z">
+        <seg>这里要提供关于此主题可用的 IRC 频道和邮件列表信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This solution can make translation easier for both readers and localizers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T093228Z" creationid="Wynn" creationdate="20160110T093228Z">
+        <seg>这种解决方式使得无论是对读者还是对本地化人员而言，翻译都更加轻松。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Title and heading capitalization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T154604Z" creationid="Wynn" creationdate="20160109T154537Z">
+        <seg>标题的大小写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To add a tag, click in the edit box at the end of the tag list and type the tag name you wish to add.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T140746Z" creationid="Wynn" creationdate="20160110T140746Z">
+        <seg>要添加标签，点击位于标签列表末尾的编辑框并输入想要添加的标签名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To automatically create a link to a Bugzilla bug, use this macro:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T131745Z" creationid="Wynn" creationdate="20160110T131745Z">
+        <seg>用这个宏自动建立通向某个 Bugzilla bug 的链接：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To fix this, use gender-neutral pronouns:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T075132Z" creationid="Wynn" creationdate="20160110T075132Z">
+        <seg>要解决这个问题，使用中性代词：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To include an image:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152251Z" creationid="Wynn" creationdate="20160110T152243Z">
+        <seg>若要包含图像：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To insert a newline without a space, hold down the Shift key while pressing Enter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T170738Z" creationid="Wynn" creationdate="20160109T170738Z">
+        <seg>如果要另起一行又不想中间有空白，按住 Shift 键同时按回车。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To remove a tag, just click the little "X" icon in the tag.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141116Z" creationid="Wynn" creationdate="20160110T141116Z">
+        <seg>要移除标签，只要点击标签上小小的"X"图标即可。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tools</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151346Z" creationid="Wynn" creationdate="20160110T151346Z">
+        <seg>工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Try to avoid putting your article at the top of the hierarchy, which slows the site down and makes search and site navigation less effective.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T165629Z" creationid="Wynn" creationdate="20160109T165629Z">
+        <seg>避免将文章放在层级结构的顶层，这样会拖慢站点的速度，并且使搜索和站点导航的效果变差。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Try to be consistent, though.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130621Z" creationid="Wynn" creationdate="20160110T130621Z">
+        <seg>但是要尽力保持一致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>URL schemes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T134345Z" creationid="Wynn" creationdate="20160110T131931Z">
+        <seg>URL scheme（URL 方案）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unless specifically instructed to do so, do not use the HTML style attribute to manually style content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T173416Z" creationid="Wynn" creationdate="20160109T173416Z">
+        <seg>除非有明确的指示，否则不要使用 HTML 的style 属性来手工指定内容样式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use "Code (inline)" style, and do not use quotation marks around strings, unless needed by the syntax of a code sample.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T183258Z" creationid="Wynn" creationdate="20160109T183130Z">
+        <seg>用“代码（内联）”样式，同时，除非示例代码中的语法确实需要，字符串两边不要有引号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use "elements" to refer to HTML and XML elements, rather than "tags".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T122358Z" creationid="Wynn" creationdate="20160110T122358Z">
+        <seg>用“元素”来指代 HTML 与 XML 元素，而非“标签”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use bold face.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T182645Z" creationid="Wynn" creationdate="20160109T182645Z">
+        <seg>用粗体.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use English-style plurals, not the Latin- or Greek-influenced forms.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T073304Z" creationid="Wynn" creationdate="20160110T073304Z">
+        <seg>使用英语风格的复数，而不是拉丁式的或希腊文影响的形式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use full capitals and delete periods in all acronyms and abbreviations, including organizations such as "US" and "UN".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T065158Z" creationid="Wynn" creationdate="20160110T065108Z">
+        <seg>首字母缩略词与缩写都要全大写并删除其中的句点，包括诸如"US"和"UN"这样的组织名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use heading levels in decreasing order: {{HTMLElement("h2")}} then {{HTMLElement("h3")}} then {{HTMLElement("h4")}}, without skipping levels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T170000Z" creationid="Wynn" creationdate="20160109T170000Z">
+        <seg>按递减顺序使用各个标题级别：首先 {{HTMLElement("h2")}}，其次 {{HTMLElement("h3")}}，再次 {{HTMLElement("h4")}}，不要跳过级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use labels like {{HTMLVersionInline(5)}} thoughtfully.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T184058Z" creationid="Wynn" creationdate="20160109T183841Z">
+        <seg>使用诸如 {{HTMLVersionInline(5)}} 这样的标签时需要仔细考量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use periods in these abbreviations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T065131Z" creationid="Wynn" creationdate="20160109T184652Z">
+        <seg>在这些缩写中，要用句点（.）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use standard English capitalization rules in body text, and capitalize "World Wide Web" and "Web".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072855Z" creationid="Wynn" creationdate="20160110T072855Z">
+        <seg>在正文中，使用标准的英语大小写规则，同时首字母大写"World Wide Web"和"Web"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the "Code" button (labeled with two angle brackets "&lt;&gt;") to apply inline code-style formatting to function names, variable names, and method names (this uses the {{HTMLElement("code")}} element).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T175651Z" creationid="Wynn" creationdate="20160109T175254Z">
+        <seg>用“代码”按钮（标记是两个尖括号"&lt;&gt;"）来把内联代码样式应用到函数名、变量名、方法名上（这其实是用了{{HTMLElement("code")}} 元素）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the "Formatting Styles" drop-down list to apply predefined styles to selected content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T172426Z" creationid="Wynn" creationdate="20160109T172426Z">
+        <seg>用“格式样式”下拉菜单可以把预定义的样式应用到选定内容上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the following tags for pages that are not current:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141449Z" creationid="Wynn" creationdate="20160110T141449Z">
+        <seg>对于并非当前状态的页面，用以下标签：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the {{TemplateLink("HTMLElement")}} macro, which creates a link to the page for that element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T182101Z" creationid="Wynn" creationdate="20160109T182101Z">
+        <seg>用 {{TemplateLink("HTMLElement")}} 宏，这将建立通向此元素相应页面的链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the {{TemplateLink("htmlattrdef")}} macro (e.g., \{{htmlattrdef("type")}}) for the definition term, so that it can be linked to from other pages, then use the {{TemplateLink("htmlattrxref")}} macro (e.g., \{{htmlattrxref("attr","element")}}) to reference attribute definitions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T183121Z" creationid="Wynn" creationdate="20160109T183121Z">
+        <seg>对定义的术语用 {{TemplateLink("htmlattrdef")}} 宏（例如，\{{htmlattrdef("type")}}），这样它能够链接到其他网页，接着对参考属性定义用 {{TemplateLink("htmlattrxref")}} 宏（例如，\{{htmlattrxref("attr","element")}}）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use two spaces per tab in all code examples.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T173823Z" creationid="Wynn" creationdate="20160109T173823Z">
+        <seg>在所有代码样本中，都按每个制表符两个空格的标准用空格缩进。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>User interface actions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130139Z" creationid="Wynn" creationdate="20160110T130139Z">
+        <seg>用户界面操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using, inserting images</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152120Z" creationid="Wynn" creationdate="20160110T152120Z">
+        <seg>使用、插入图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Voice</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130443Z" creationid="Wynn" creationdate="20160110T130443Z">
+        <seg>语态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We have many older pages that were written before this style rule was established.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T162537Z" creationid="Wynn" creationdate="20160109T162537Z">
+        <seg>有不少页面是在本样式规则确立之前编写的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We will be expanding the guide over time, so if you have specific questions that aren't covered in this document, please send them to the MDC mailing list or project lead so we know what should be added.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T153244Z" creationid="Wynn" creationdate="20160110T152949Z">
+        <seg>随着时间推移，我们会逐渐扩展此指南。所以如果你有任何此文档未包含的具体问题，请发给 MDC 邮件列表或项目负责人，好让我们知道应当添加哪些内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We're gradually getting to them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T163114Z" creationid="Wynn" creationdate="20160109T163114Z">
+        <seg>我们正在逐步处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When in doubt, expand it, or, better, link it to the article or glossary entry describing the technology.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T065638Z" creationid="Wynn" creationdate="20160110T065638Z">
+        <seg>如果不确定，请将其展开，或者，更好的办法是，链接到描述此技术的文章或词汇表条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you need to add some articles about a topic or subject area, you will typically do so by creating a landing page, then adding subpages for each of the individual articles.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T164533Z" creationid="Wynn" creationdate="20160109T164533Z">
+        <seg>如果需要针对某个话题或主题领域添加若干文章，典型的做法是建立一个着陆页(landing page)，然后分别为每篇文章添加子页面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While the active voice is preferred, the passive voice is also acceptable, given the informal feel of our content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130544Z" creationid="Wynn" creationdate="20160110T130544Z">
+        <seg>首选主动语态，但用被动语态也可以，因为我们的内容有非正式的感觉。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wiki markup and usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T135149Z" creationid="Wynn" creationdate="20160110T130649Z">
+        <seg>wiki 标记与用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also use the {{TemplateLink("obsolete_header")}} macro to put a prominent banner on the topic.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T142123Z" creationid="Wynn" creationdate="20160110T142123Z">
+        <seg>还可以用 {{TemplateLink("obsolete_header")}} 宏来为主题放上一个突出的banner提示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can automate the insertion of pages into the list using some macros we've created.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T165003Z" creationid="Wynn" creationdate="20160109T165003Z">
+        <seg>我们已经建好一些宏，通过它们可以自动将页面插入列表中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can find details on tagging in our How to properly tag pages guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T135407Z" creationid="Wynn" creationdate="20160110T135407Z">
+        <seg>关于打标签的细节信息，参见如何正确为页面打标签指南。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use both genders:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T091756Z" creationid="Wynn" creationdate="20160110T091756Z">
+        <seg>也可以同时使用两种性别：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and others</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041317Z" creationid="Wynn" creationdate="20160110T041317Z">
+        <seg>and others  以及其他</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and so forth, and so on</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041350Z" creationid="Wynn" creationdate="20160110T041350Z">
+        <seg>and so forth, and so on  等等 / 及其他</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compare</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041250Z" creationid="Wynn" creationdate="20160110T041250Z">
+        <seg>compare 对比</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>en-US/docs/SVG</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083723Z" creationid="Wynn" creationdate="20160204T083723Z">
+        <seg>en-US/docs/SVG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>en-US/docs/XHTML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083724Z" creationid="Wynn" creationdate="20160204T083724Z">
+        <seg>en-US/docs/XHTML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>en-US/docs/XML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083723Z" creationid="Wynn" creationdate="20160204T083723Z">
+        <seg>en-US/docs/XML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>for example</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041254Z" creationid="Wynn" creationdate="20160110T041254Z">
+        <seg>for example 例如</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>inheritance</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T164019Z" creationid="Wynn" creationdate="20160110T164019Z">
+        <seg>继承(inheritance)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>making the users plural:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T091930Z" creationid="Wynn" creationdate="20160110T091930Z">
+        <seg>或者将用户也使用复数：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>note well</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041452Z" creationid="Wynn" creationdate="20160110T041452Z">
+        <seg>note well 注意</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>postscript</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041546Z" creationid="Wynn" creationdate="20160110T041546Z">
+        <seg>postscript 附言 / 再者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>that is, in other words</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041425Z" creationid="Wynn" creationdate="20160110T041403Z">
+        <seg>that is, in other words 换言之</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
