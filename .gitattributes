@@ -1,5 +1,7 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* binary
+
+*.html text=auto
 
 omegat/* binary
 *.tmx binary
