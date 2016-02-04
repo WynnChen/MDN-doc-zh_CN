@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.9_4" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.9_2" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -34,6 +34,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145840Z" creationid="Wynn" creationdate="20160110T145840Z">
         <seg>... 右栏内容 ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/en-US/docs/DOM/stylesheet</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T082217Z" creationid="Wynn" creationdate="20160204T082217Z">
+        <seg>/en-US/docs/DOM/stylesheet</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/en-US/docs/HTML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083720Z" creationid="Wynn" creationdate="20160204T083720Z">
+        <seg>/en-US/docs/HTML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/en-US/docs/SVG</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083723Z" creationid="Wynn" creationdate="20160204T083723Z">
+        <seg>/en-US/docs/SVG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/en-US/docs/XHTML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083723Z" creationid="Wynn" creationdate="20160204T083723Z">
+        <seg>/en-US/docs/XHTML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/en-US/docs/XML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083722Z" creationid="Wynn" creationdate="20160204T083722Z">
+        <seg>/en-US/docs/XML</seg>
       </tuv>
     </tu>
     <tu>
@@ -414,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;To present documentation in an organized, standardized and easy-to-read manner, the Mozilla Developer Network style guide describes how a text should be organized, spelled, formatted, and so on. These are guidelines rather than strict rules.&lt;/s0&gt; We are more interested in content than formatting, so don't feel obligated to learn the style guide before contributing. Do not be upset or surprised, however, if an industrious volunteer later edits your work to conform to this guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T082752Z" creationid="Wynn" creationdate="20160204T082752Z">
+        <seg>&lt;s0&gt;To present documentation in an organized, standardized and easy-to-read manner, the Mozilla Developer Network style guide describes how a text should be organized, spelled, formatted, and so on. These are guidelines rather than strict rules.&lt;/s0&gt; We are more interested in content than formatting, so don't feel obligated to learn the style guide before contributing. Do not be upset or surprised, however, if an industrious volunteer later edits your work to conform to this guide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Use the serial comma&lt;/s0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T105603Z" creationid="Wynn" creationdate="20160110T105603Z">
@@ -641,7 +689,7 @@
         <seg>Below that is a</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151004Z" creationid="Wynn" creationdate="20160110T150845Z">
-        <seg>在它之下是文章的 </seg>
+        <seg>在它之下是文章的</seg>
       </tuv>
     </tu>
     <tu>
@@ -753,7 +801,7 @@
         <seg>Click the "pre" button in the toolbar to create the preformatted content box in which you'll then write your code.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T180122Z" creationid="Wynn" creationdate="20160109T180114Z">
-        <seg>点击工具栏上的 "pre" 按钮来创建预格式化的内容框，随后在其中写下代码。 </seg>
+        <seg>点击工具栏上的 "pre" 按钮来创建预格式化的内容框，随后在其中写下代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2073,7 +2121,7 @@
         <seg>The left column should be a list of articles, with an</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145945Z" creationid="Wynn" creationdate="20160110T145934Z">
-        <seg>左栏应当是文章列表，顶部是 </seg>
+        <seg>左栏应当是文章列表，顶部是</seg>
       </tuv>
     </tu>
     <tu>
@@ -2138,6 +2186,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152820Z" creationid="Wynn" creationdate="20160110T152820Z">
         <seg>此网站的拼写检查使用的是美式英语。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The stacking context</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T082529Z" creationid="Wynn" creationdate="20160204T082216Z">
+        <seg>堆叠的上下文</seg>
       </tuv>
     </tu>
     <tu>
@@ -2537,7 +2593,7 @@
         <seg>When you need to add some articles about a topic or subject area, you will typically do so by creating a landing page, then adding subpages for each of the individual articles.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T164533Z" creationid="Wynn" creationdate="20160109T164533Z">
-        <seg>如果需要针对某个话题或主题领域添加若干文章，典型的做法是建立一个着陆页(landing page)，然后分别为每篇文章添加子页面。 </seg>
+        <seg>如果需要针对某个话题或主题领域添加若干文章，典型的做法是建立一个着陆页(landing page)，然后分别为每篇文章添加子页面。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2609,7 +2665,7 @@
         <seg>block and a brief one-or-two sentence summary of the article in the corresponding</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151155Z" creationid="Wynn" creationdate="20160110T151155Z">
-        <seg> 块中，文章的一两句简短摘要则出现在相应的 </seg>
+        <seg>块中，文章的一两句简短摘要则出现在相应的</seg>
       </tuv>
     </tu>
     <tu>
@@ -2617,7 +2673,7 @@
         <seg>block.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151200Z" creationid="Wynn" creationdate="20160110T151200Z">
-        <seg> 块中。</seg>
+        <seg>块中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2626,6 +2682,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041250Z" creationid="Wynn" creationdate="20160110T041250Z">
         <seg>compare 对比</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>en-US/docs/SVG</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083723Z" creationid="Wynn" creationdate="20160204T083723Z">
+        <seg>en-US/docs/SVG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>en-US/docs/XHTML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083724Z" creationid="Wynn" creationdate="20160204T083724Z">
+        <seg>en-US/docs/XHTML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>en-US/docs/XML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083723Z" creationid="Wynn" creationdate="20160204T083723Z">
+        <seg>en-US/docs/XML</seg>
       </tuv>
     </tu>
     <tu>
@@ -2641,7 +2721,7 @@
         <seg>header at the top of the left column explaining that it's a list of articles about the topic (for example "Documentation and tutorials about foo"); this header should use the CSS class "Documentation".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151944Z" creationid="Wynn" creationdate="20160110T145940Z">
-        <seg> 标题，此标题说明了这是一个关于某主题的文章列表（例如“关于 foo 的文档与教程”）；这个标题应当用"Documentation" CSS 类。</seg>
+        <seg>标题，此标题说明了这是一个关于某主题的文章列表（例如“关于 foo 的文档与教程”）；这个标题应当用"Documentation" CSS 类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2657,7 +2737,7 @@
         <seg>list of articles with each article's link in a</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151023Z" creationid="Wynn" creationdate="20160110T150851Z">
-        <seg>列表，每篇文章的链接在 </seg>
+        <seg>列表，每篇文章的链接在</seg>
       </tuv>
     </tu>
     <tu>
