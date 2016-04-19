@@ -14,4 +14,4 @@ Margin collapsing	外边距合并
 Flexible Box 	弹性框
  multi-column layout	多栏布局
 Specification	规范
-Comment	注解	用于Specifications表格镖头时
+Comment	注解	用于Specifications表格的表头时
