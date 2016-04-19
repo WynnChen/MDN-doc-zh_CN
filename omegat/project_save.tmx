@@ -718,6 +718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Axes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111249Z" creationid="Wynn" creationdate="20160419T111249Z">
+        <seg>轴(Axis)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basic support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T045030Z" creationid="Wynn" creationdate="20160419T045030Z">
@@ -1050,6 +1058,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T140928Z" creationid="Wynn" creationdate="20160110T140928Z">
         <seg>如有需要，每篇文章可以拥有任意数量标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each child of a flex container becomes a flex item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111411Z" creationid="Wynn" creationdate="20160419T111151Z">
+        <seg>弹性容器的每个子元素都成为弹性项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2226,6 +2242,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T112124Z" creationid="Wynn" creationdate="20160110T112124Z">
         <seg>术语</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Text directly contained in a flex container is wrapped in an anonymous flex item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111420Z" creationid="Wynn" creationdate="20160419T111409Z">
+        <seg>弹性容器直接包含的文本将包覆成匿名弹性项目。</seg>
       </tuv>
     </tu>
     <tu>
