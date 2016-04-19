@@ -2336,8 +2336,8 @@
       <tuv lang="EN-US">
         <seg>The &lt;s0&gt;main start&lt;/s0&gt;/&lt;s1&gt;main end &lt;/s1&gt;and &lt;s2&gt;cross start&lt;/s2&gt;/&lt;s3&gt;cross end&lt;/s3&gt; sides of the flex container describe the origin and terminus of the flow of flex items.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T112337Z" creationid="Wynn" creationdate="20160419T112337Z">
-        <seg>The &lt;s0&gt;main start&lt;/s0&gt;/&lt;s1&gt;main end &lt;/s1&gt;and &lt;s2&gt;cross start&lt;/s2&gt;/&lt;s3&gt;cross end&lt;/s3&gt; sides of the flex container describe the origin and terminus of the flow of flex items.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T113241Z" creationid="Wynn" creationdate="20160419T112337Z">
+        <seg>弹性容器的各个边（&lt;s0&gt;主轴起点(main start)&lt;/s0&gt;/&lt;s1&gt;主轴终点(main end)&lt;/s1&gt;和&lt;s2&gt;侧轴起点(cross start)&lt;/s2&gt;/&lt;s3&gt;侧轴终点(cross end)&lt;/s3&gt;）描述了弹性条目流的起点与终点。</seg>
       </tuv>
     </tu>
     <tu>
