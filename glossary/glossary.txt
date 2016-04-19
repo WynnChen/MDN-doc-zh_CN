@@ -16,3 +16,4 @@ Flexible Box 	弹性框
 Specification	规范
 Comment	注解	用于Specifications表格的表头时
 Basic support	基础支持	浏览器兼容性表格中。
+Last Call Working Draft	最终征求意见稿	w3c标准的状态信息之一
