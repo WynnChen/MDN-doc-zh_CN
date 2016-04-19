@@ -1,6 +1,6 @@
 slug	缩略名
 style	样式
-note	注解
+note	注意	用于note样式框内部的 Note: xxxxx 时。
 obsolete	过时
 deprecated	废弃
 autocomplete	自动补全
