@@ -1966,6 +1966,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Step-by-step tutorial about how to build layouts using this feature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T043552Z" creationid="Wynn" creationdate="20160419T043552Z">
+        <seg>循序渐进的教程，讲解如何用此特性来建立布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Styling HTML element references</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T180757Z" creationid="Wynn" creationdate="20160109T180710Z">
@@ -2426,6 +2434,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130621Z" creationid="Wynn" creationdate="20160110T130621Z">
         <seg>但是要尽力保持一致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tutorial explaining how to use flexbox in the specific context of Web applications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T043657Z" creationid="Wynn" creationdate="20160419T043657Z">
+        <seg>讲解在Tutorial explaining how to use flexbox in the specific context of Web applications.</seg>
       </tuv>
     </tu>
     <tu>
