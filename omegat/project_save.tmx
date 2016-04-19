@@ -734,6 +734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Browser compatibility</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T044449Z" creationid="Wynn" creationdate="20160419T044419Z">
+        <seg>浏览器兼容性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, the first paragraph of the page is used as the SEO summary.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T144059Z" creationid="Wynn" creationdate="20160110T144059Z">
@@ -834,6 +842,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T103710Z" creationid="Wynn" creationdate="20160110T103710Z">
         <seg>逗号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Comment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T044418Z" creationid="Wynn" creationdate="20160419T044418Z">
+        <seg>注解</seg>
       </tuv>
     </tu>
     <tu>
@@ -1026,6 +1042,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130943Z" creationid="Wynn" creationdate="20160110T130943Z">
         <seg>外部链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Feature</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T044504Z" creationid="Wynn" creationdate="20160419T044504Z">
+        <seg>特性</seg>
       </tuv>
     </tu>
     <tu>
@@ -1418,6 +1442,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T173953Z" creationid="Wynn" creationdate="20160109T173953Z">
         <seg>代码缩进要清晰，左花括号("{")应当与开启这个块的语句在同一行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Initial definition.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T044436Z" creationid="Wynn" creationdate="20160419T044436Z">
+        <seg>初始定义。</seg>
       </tuv>
     </tu>
     <tu>
