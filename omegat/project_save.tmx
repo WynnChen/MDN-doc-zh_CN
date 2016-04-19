@@ -998,6 +998,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dimensions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T115233Z" creationid="Wynn" creationdate="20160419T115233Z">
+        <seg>尺寸(Dimension)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Directions</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T112404Z" creationid="Wynn" creationdate="20160419T112322Z">
