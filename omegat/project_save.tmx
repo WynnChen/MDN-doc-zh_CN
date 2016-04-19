@@ -2422,6 +2422,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This independence intentionally affects only the visual rendering, leaving speech order and navigation based on the source order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T055453Z" creationid="Wynn" creationdate="20160419T055453Z">
+        <seg>这种无关性是特意限制于视觉呈现上的，语音顺序以及基于源代码顺序的导航均不受影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is in contrast to the &lt;a0&gt;One Mozilla style guide&lt;/a0&gt;, which specifies that the serial comma is not to be used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T110414Z" creationid="Wynn" creationdate="20160110T110414Z">
