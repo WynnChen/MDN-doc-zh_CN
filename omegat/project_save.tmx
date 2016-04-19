@@ -910,6 +910,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Consider the following diagram when reviewing the vocabulary items below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T105609Z" creationid="Wynn" creationdate="20160419T105609Z">
+        <seg>在学习下面的词汇项目是请对照下图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Contractions</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T073036Z" creationid="Wynn" creationdate="20160110T073036Z">
