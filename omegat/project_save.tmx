@@ -1102,6 +1102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flexbox layout is most appropriate for the components of an application, and small-scale layouts, while the (emerging) Grid layout is intended for larger scale layouts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T093729Z" creationid="Wynn" creationdate="20160419T093729Z">
+        <seg>弹性框布局主要适用于应用程序的组件及小规模的布局，而（新兴的）网格布局则针对大规模的布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flexible boxes concept</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T080521Z" creationid="Wynn" creationdate="20160419T080521Z">
