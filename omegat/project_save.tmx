@@ -430,6 +430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;CSS Flexible Box Layout&lt;/s0&gt; is a module of CSS that defines a multi-column layout, allowing to express how content should flow between columns, and how gaps and rules are handled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T041509Z" creationid="Wynn" creationdate="20160419T041509Z">
+        <seg>&lt;s0&gt;CSS 弹性框布局&lt;/s0&gt; 是定义多栏布局的 CSS 模块，可以表述内容应当如何在各栏之间流动，以及栏间距与规则应当如何处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;CSS&lt;/s0&gt; is one of the core languages of the &lt;e1&gt;open web&lt;/e1&gt; and has a standardized &lt;a2&gt;W3C specification&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T160943Z" creationid="Wynn" creationdate="20160110T160715Z">
