@@ -2304,8 +2304,8 @@
       <tuv lang="EN-US">
         <seg>The &lt;a0&gt;&lt;c1&gt;align-self&lt;/c1&gt;&lt;/a0&gt; property defines how a single flex item is aligned on the cross axis, and overrides the default established by &lt;c2&gt;align-items.&lt;/c2&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T112308Z" creationid="Wynn" creationdate="20160419T112308Z">
-        <seg>The &lt;a0&gt;&lt;c1&gt;align-self&lt;/c1&gt;&lt;/a0&gt; property defines how a single flex item is aligned on the cross axis, and overrides the default established by &lt;c2&gt;align-items.&lt;/c2&gt;</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T112616Z" creationid="Wynn" creationdate="20160419T112308Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;align-self&lt;/c1&gt;&lt;/a0&gt; 属性定义了单个弹性项目在侧轴上应当如何对齐，这个定义覆盖由 &lt;c2&gt;align-items&lt;/c2&gt; 所确立的默认值。</seg>
       </tuv>
     </tu>
     <tu>
