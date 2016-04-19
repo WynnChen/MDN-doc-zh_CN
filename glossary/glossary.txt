@@ -11,3 +11,4 @@ stylesheet	样式表	stylesheet
 specificity	特异性
 box model	方框模型
 Margin collapsing	外边距合并
+Flexible Box	柔性框
