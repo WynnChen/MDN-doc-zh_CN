@@ -686,6 +686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basic support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T045030Z" creationid="Wynn" creationdate="20160419T045030Z">
+        <seg>基础支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basics</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T154314Z" creationid="Wynn" creationdate="20160109T154314Z">
