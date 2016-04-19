@@ -19,3 +19,5 @@ Basic support	基础支持	浏览器兼容性表格中。
 Last Call Working Draft	最终征求意见稿	w3c标准的状态信息之一
 Flexbox	弹性框
 block layout	块级布局
+Flex container	弹性容器
+Flex item	弹性项目
