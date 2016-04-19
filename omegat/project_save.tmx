@@ -1862,6 +1862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Positioning child elements is thus much easier, and complex layouts can be achieved more simply and with cleaner code, as the display order of the elements is independent of their order in the source code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T054304Z" creationid="Wynn" creationdate="20160419T054304Z">
+        <seg>由于元素的显示顺序与它们在源代码中的顺序无关，定位子元素变得更容易，并且能够用更简单清晰的代码来完成复杂的布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Preferred dictionary</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152735Z" creationid="Wynn" creationdate="20160110T152735Z">
