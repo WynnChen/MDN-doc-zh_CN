@@ -1102,6 +1102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every flexible box layout follows two axes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111444Z" creationid="Wynn" creationdate="20160419T111444Z">
+        <seg>每个弹性框布局包含两个轴。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every page in the wiki should have tags.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T135310Z" creationid="Wynn" creationdate="20160110T135057Z">
@@ -2274,6 +2282,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T184256Z" creationid="Wynn" creationdate="20160109T173102Z">
         <seg>“注解”样式用于表达重要的注解内容，就像本条这样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;s0&gt;main axis&lt;/s0&gt; is the axis along which the flex items follow each other.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111625Z" creationid="Wynn" creationdate="20160419T111625Z">
+        <seg>弹性项目沿其依次排列的那根轴称为&lt;s0&gt;主轴(main axis)&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;s1&gt;cross axis&lt;/s1&gt; is the axis perpendicular to the &lt;s2&gt;main axis&lt;/s2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111722Z" creationid="Wynn" creationdate="20160419T111722Z">
+        <seg>垂直于&lt;s2&gt;主轴&lt;/s2&gt;的那根轴称为&lt;s1&gt;侧轴(cross axis)&lt;/s1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
