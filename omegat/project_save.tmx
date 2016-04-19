@@ -1726,6 +1726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Lines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T114513Z" creationid="Wynn" creationdate="20160419T114513Z">
+        <seg>行(Line)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Links</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130653Z" creationid="Wynn" creationdate="20160110T130653Z">
@@ -2296,8 +2304,8 @@
       <tuv lang="EN-US">
         <seg>The &lt;a0&gt;&lt;c1&gt;align-items&lt;/c1&gt;&lt;/a0&gt; property defines the default for how flex items are laid out along the cross axis on the current line.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T112252Z" creationid="Wynn" creationdate="20160419T112118Z">
-        <seg>&lt;a0&gt;&lt;c1&gt;align-items&lt;/c1&gt;&lt;/a0&gt; 属性定义了在当前行上弹性项目沿侧轴默认如何安排。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T114503Z" creationid="Wynn" creationdate="20160419T112118Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;align-items&lt;/c1&gt;&lt;/a0&gt; 属性定义了在当前行上弹性项目沿侧轴默认如何排布。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2310,10 +2318,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;a0&gt;&lt;c1&gt;flex-flow&lt;/c1&gt;&lt;/a0&gt; property shorthands the &lt;a2&gt;&lt;c3&gt;flex-direction&lt;/c3&gt;&lt;/a2&gt; and &lt;a4&gt;&lt;c5&gt;flex-wrap&lt;/c5&gt;&lt;/a4&gt; properties to lay out the flex items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T114436Z" creationid="Wynn" creationdate="20160419T114436Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;flex-flow&lt;/c1&gt;&lt;/a0&gt; 属性是 &lt;a2&gt;&lt;c3&gt;flex-direction&lt;/c3&gt;&lt;/a2&gt; 和 &lt;a4&gt;&lt;c5&gt;flex-wrap&lt;/c5&gt;&lt;/a4&gt; 属性的简写，决定弹性项目如何排布。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;a0&gt;&lt;c1&gt;justify-content&lt;/c1&gt;&lt;/a0&gt; property defines how flex items are laid out along the main axis on the current line.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T112140Z" creationid="Wynn" creationdate="20160419T112038Z">
-        <seg>&lt;a0&gt;&lt;c1&gt;justify-content&lt;/c1&gt;&lt;/a0&gt; 属性定义了在当前行上弹性项目沿主轴如何安排。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T114440Z" creationid="Wynn" creationdate="20160419T112038Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;justify-content&lt;/c1&gt;&lt;/a0&gt; 属性定义了在当前行上弹性项目沿主轴如何排布。</seg>
       </tuv>
     </tu>
     <tu>
