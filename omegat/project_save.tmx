@@ -1950,10 +1950,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specification</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T044215Z" creationid="Wynn" creationdate="20160419T044215Z">
+        <seg>规范</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Specifications</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T043731Z" creationid="Wynn" creationdate="20160419T043731Z">
-        <seg>Specifications</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T044207Z" creationid="Wynn" creationdate="20160419T043731Z">
+        <seg>规范</seg>
       </tuv>
     </tu>
     <tu>
@@ -1970,6 +1978,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T111138Z" creationid="Wynn" creationdate="20160110T111138Z">
         <seg>拼写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Status</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T044228Z" creationid="Wynn" creationdate="20160419T044228Z">
+        <seg>状态</seg>
       </tuv>
     </tu>
     <tu>
