@@ -1950,6 +1950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specifications</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T043731Z" creationid="Wynn" creationdate="20160419T043731Z">
+        <seg>Specifications</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Specificity</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T164011Z" creationid="Wynn" creationdate="20160110T164011Z">
@@ -1968,8 +1976,8 @@
       <tuv lang="EN-US">
         <seg>Step-by-step tutorial about how to build layouts using this feature.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T043552Z" creationid="Wynn" creationdate="20160419T043552Z">
-        <seg>循序渐进的教程，讲解如何用此特性来建立布局。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T043713Z" creationid="Wynn" creationdate="20160419T043552Z">
+        <seg>循序渐进的讲解如何用此特性来建立布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2440,8 +2448,8 @@
       <tuv lang="EN-US">
         <seg>Tutorial explaining how to use flexbox in the specific context of Web applications.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T043657Z" creationid="Wynn" creationdate="20160419T043657Z">
-        <seg>讲解在Tutorial explaining how to use flexbox in the specific context of Web applications.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T043803Z" creationid="Wynn" creationdate="20160419T043657Z">
+        <seg>讲解在 Web 应用的特定环境下如何应用弹性框。</seg>
       </tuv>
     </tu>
     <tu>
