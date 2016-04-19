@@ -742,6 +742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CSS Properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T041553Z" creationid="Wynn" creationdate="20160419T041553Z">
+        <seg>CSS 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CSS Reference</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T162208Z" creationid="Wynn" creationdate="20160110T162208Z">
@@ -1210,6 +1218,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151342Z" creationid="Wynn" creationdate="20160110T151342Z">
         <seg>从社区获得帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Guides</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T041810Z" creationid="Wynn" creationdate="20160419T041810Z">
+        <seg>指南</seg>
       </tuv>
     </tu>
     <tu>
@@ -1818,6 +1834,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T103851Z" creationid="Wynn" creationdate="20160110T103851Z">
         <seg>标点符号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reference</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T041533Z" creationid="Wynn" creationdate="20160419T041533Z">
+        <seg>参考</seg>
       </tuv>
     </tu>
     <tu>
