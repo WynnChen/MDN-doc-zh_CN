@@ -15,3 +15,4 @@ Flexible Box 	弹性框
  multi-column layout	多栏布局
 Specification	规范
 Comment	注解	用于Specifications表格的表头时
+Basic support	基础支持	浏览器兼容性表格中。
