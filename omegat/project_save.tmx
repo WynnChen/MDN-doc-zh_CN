@@ -2856,8 +2856,8 @@
       <tuv lang="EN-US">
         <seg>While a discussion of flexible boxes is liberated from terms like horizontal/inline axis and vertical/block axis, it requires a new terminology to properly describe the model.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T094335Z" creationid="Wynn" creationdate="20160419T094335Z">
-        <seg>While a discussion of flexible boxes is liberated from terms like horizontal/inline axis and vertical/block axis, it requires a new terminology to properly describe the model.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T094719Z" creationid="Wynn" creationdate="20160419T094335Z">
+        <seg>既然关于弹性框的讨论已经从诸如水平/行内轴和垂直/块级轴  这些术语中解放出来，那么While a discussion of flexible boxes is liberated from terms like horizontal/inline axis and vertical/block axis, it requires a new terminology to properly describe the model.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2872,8 +2872,8 @@
       <tuv lang="EN-US">
         <seg>While the block layout works well for pages, it lacks sufficient definition to support application components that have to change orientation, resize, stretch, or shrink as the user agent changes, flips from vertical to horizontal, and so forth.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T093354Z" creationid="Wynn" creationdate="20160419T093354Z">
-        <seg>虽然块布局用于页面行之有效，但其仍缺乏足够的定义来支持那些必须随用户代理(user agent)不同或设备方向从水平转为垂直等各种变化而变换方向、调整大小、拉伸、收缩的应用程序组件。 </seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T094727Z" creationid="Wynn" creationdate="20160419T093354Z">
+        <seg>虽然块级布局用于页面行之有效，但其仍缺乏足够的定义来支持那些必须随用户代理(user agent)不同或设备方向从水平转为垂直等各种变化而变换方向、调整大小、拉伸、收缩的应用程序组件。 </seg>
       </tuv>
     </tu>
     <tu>
