@@ -2286,6 +2286,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;a0&gt;&lt;c1&gt;justify-content&lt;/c1&gt;&lt;/a0&gt; property defines how flex items are laid out along the main axis on the current line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T112038Z" creationid="Wynn" creationdate="20160419T112038Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;justify-content&lt;/c1&gt;&lt;/a0&gt; 属性定义弹性项目在当前行上沿主轴如何安排。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;&lt;a1&gt;flex-direction&lt;/a1&gt;&lt;/c0&gt; property establishes the main axis.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111830Z" creationid="Wynn" creationdate="20160419T111830Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;flex-direction&lt;/a1&gt;&lt;/c0&gt; 属性确立主轴。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;s0&gt;main axis&lt;/s0&gt; is the axis along which the flex items follow each other.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111625Z" creationid="Wynn" creationdate="20160419T111625Z">
