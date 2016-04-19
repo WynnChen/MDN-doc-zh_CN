@@ -2830,6 +2830,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While the block layout works well for pages, it lacks sufficient definition to support application components that have to change orientation, resize, stretch, or shrink as the user agent changes, flips from vertical to horizontal, and so forth.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T093354Z" creationid="Wynn" creationdate="20160419T093354Z">
+        <seg>虽然块布局用于页面行之有效，但其仍缺乏足够的定义来支持那些必须随用户代理(user agent)不同或设备方向从水平转为垂直等各种变化而变换方向、调整大小、拉伸、收缩的应用程序组件。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Wiki markup and usage</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T135149Z" creationid="Wynn" creationdate="20160110T130649Z">
