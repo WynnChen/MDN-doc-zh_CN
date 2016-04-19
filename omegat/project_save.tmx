@@ -2574,6 +2574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using CSS flexible boxes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T041956Z" creationid="Wynn" creationdate="20160419T041956Z">
+        <seg>使用 CSS 弹性框</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using, inserting images</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152120Z" creationid="Wynn" creationdate="20160110T152120Z">
