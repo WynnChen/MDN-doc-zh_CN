@@ -574,6 +574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A flex container expands items to fill available free space, or shrinks them to prevent overflow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T081429Z" creationid="Wynn" creationdate="20160419T081429Z">
+        <seg>弹性容器扩展其内项目来填充可用空间，或将其收缩来避免溢出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A list of links to landing pages for other, related, technologies of relevance.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152052Z" creationid="Wynn" creationdate="20160110T152052Z">
