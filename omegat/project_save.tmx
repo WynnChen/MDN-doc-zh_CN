@@ -830,6 +830,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Child elements in a flexbox can be laid out in any direction and can have flexible dimensions to adapt to the display space.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T053856Z" creationid="Wynn" creationdate="20160419T053856Z">
+        <seg>弹性框中的子元素可以在各个方向上进行布局，并且能以弹性尺寸来适应显示空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Choosing titles and slugs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T163517Z" creationid="Wynn" creationdate="20160109T163449Z">
