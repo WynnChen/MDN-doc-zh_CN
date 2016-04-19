@@ -2582,6 +2582,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using flexbox to lay out Web applications</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T043213Z" creationid="Wynn" creationdate="20160419T043213Z">
+        <seg>用弹性框进行 Web 应用布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using, inserting images</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152120Z" creationid="Wynn" creationdate="20160110T152120Z">
