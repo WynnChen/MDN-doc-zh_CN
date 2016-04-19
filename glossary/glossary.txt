@@ -12,3 +12,4 @@ specificity	特异性
 box model	方框模型
 Margin collapsing	外边距合并
 Flexible Box 	弹性框
+ multi-column layout	多栏布局
