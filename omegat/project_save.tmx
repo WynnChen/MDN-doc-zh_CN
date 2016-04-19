@@ -2856,8 +2856,8 @@
       <tuv lang="EN-US">
         <seg>While a discussion of flexible boxes is liberated from terms like horizontal/inline axis and vertical/block axis, it requires a new terminology to properly describe the model.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T094719Z" creationid="Wynn" creationdate="20160419T094335Z">
-        <seg>既然关于弹性框的讨论已经从诸如水平/行内轴和垂直/块级轴  这些术语中解放出来，那么While a discussion of flexible boxes is liberated from terms like horizontal/inline axis and vertical/block axis, it requires a new terminology to properly describe the model.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T105444Z" creationid="Wynn" creationdate="20160419T094335Z">
+        <seg>关于弹性框的讨论已经从诸如水平/行内轴和垂直/块级轴这些术语中解放出来，与此同时，需要有一套新的术语来正确描述此模型。</seg>
       </tuv>
     </tu>
     <tu>
