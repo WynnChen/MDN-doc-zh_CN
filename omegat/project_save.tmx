@@ -1174,6 +1174,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flex items can be laid out on either a single line or on several lines according to the &lt;a0&gt;&lt;c1&gt;flex-wrap&lt;/c1&gt;&lt;/a0&gt; property, which controls the direction of the cross axis and the direction in which new lines are stacked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T115225Z" creationid="Wynn" creationdate="20160419T115225Z">
+        <seg>根据 &lt;a0&gt;&lt;c1&gt;flex-wrap&lt;/c1&gt;&lt;/a0&gt; 属性，弹性项目可以排布在单个行或者多个行中。此属性控制侧轴的方向和新行排列的方向。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flexbox layout is most appropriate for the components of an application, and small-scale layouts, while the (emerging) Grid layout is intended for larger scale layouts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T093729Z" creationid="Wynn" creationdate="20160419T093729Z">
