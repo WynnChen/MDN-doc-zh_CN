@@ -582,6 +582,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A flex container is defined using the &lt;c0&gt;flex&lt;/c0&gt; or &lt;c1&gt;inline-flex&lt;/c1&gt; values of the {{Cssxref("display")}} property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111045Z" creationid="Wynn" creationdate="20160419T110917Z">
+        <seg>通过设置 {{Cssxref("display")}} 属性的值为 &lt;c0&gt;flex&lt;/c0&gt; 或 &lt;c1&gt;inline-flex&lt;/c1&gt; 来定义弹性容器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A list of links to landing pages for other, related, technologies of relevance.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152052Z" creationid="Wynn" creationdate="20160110T152052Z">
@@ -1126,6 +1134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flex item</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111114Z" creationid="Wynn" creationdate="20160419T111114Z">
+        <seg>弹性项目(Flex item)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flexbox layout is most appropriate for the components of an application, and small-scale layouts, while the (emerging) Grid layout is intended for larger scale layouts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T093729Z" creationid="Wynn" creationdate="20160419T093729Z">
@@ -1578,6 +1594,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T163100Z" creationid="Wynn" creationdate="20160110T163100Z">
         <seg>提供了所有必要的基础。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It shows a flex container that has a &lt;c0&gt;flex-direction&lt;/c0&gt; of &lt;c1&gt;row&lt;/c1&gt;, meaning that the flex items follow each other horizontally across the main axis according to the established writing mode, the direction in which the element's text flows, in this case left-to-right.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T110842Z" creationid="Wynn" creationdate="20160419T110842Z">
+        <seg>图中是一个 &lt;c0&gt;flex-direction&lt;/c0&gt; 属性为 &lt;c1&gt;row&lt;/c1&gt;的弹性容器，意味着其内的弹性项目将根据既定书写模式沿主轴水平排列，其方向为元素的文本流方向，在这个例子里，为从左到右。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2386,6 +2410,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T162151Z" creationid="Wynn" creationdate="20160109T162151Z">
         <seg>页面标题（显示于页面顶部和搜索结果中）可以与页面的“缩略名(slug)”不同。缩略名出现于URL中，即跟随在“&lt;e0&gt;&lt;locale&gt;/docs/&lt;/e0&gt;”后面的那个部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The parent element in which flex items are contained.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T110921Z" creationid="Wynn" creationdate="20160419T110915Z">
+        <seg>包着这弹性项目的父元素。</seg>
       </tuv>
     </tu>
     <tu>
