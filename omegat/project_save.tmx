@@ -1094,6 +1094,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flexible boxes concept</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T080521Z" creationid="Wynn" creationdate="20160419T080521Z">
+        <seg>弹性框概念</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For Mozilla-specific technologies, the API is no longer implemented in Mozilla code; for Web standard technology, the API or feature is no longer supported by current, commonly-used browsers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T122036Z" creationid="Wynn" creationdate="20160110T122036Z">
@@ -2210,6 +2218,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T092037Z" creationid="Wynn" creationdate="20160110T092037Z">
         <seg>最佳解决方案，显然，是重写一下，消除代词：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The defining aspect of the flex layout is the ability to alter its items' width and/or height to best fill the available space on any display device.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T081123Z" creationid="Wynn" creationdate="20160419T081123Z">
+        <seg>弹性布局在定义方面是指调整其内项目宽高从而在任何显示设备上实现对可用显示空间最佳填充的能力。</seg>
       </tuv>
     </tu>
     <tu>
