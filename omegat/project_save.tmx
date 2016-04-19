@@ -1110,6 +1110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flex container</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T094405Z" creationid="Wynn" creationdate="20160419T094405Z">
+        <seg>弹性容器(Flex container)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flexbox layout is most appropriate for the components of an application, and small-scale layouts, while the (emerging) Grid layout is intended for larger scale layouts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T093729Z" creationid="Wynn" creationdate="20160419T093729Z">
@@ -1122,6 +1130,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T080521Z" creationid="Wynn" creationdate="20160419T080521Z">
         <seg>弹性框概念</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flexible boxes vocabulary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T094331Z" creationid="Wynn" creationdate="20160419T094331Z">
+        <seg>弹性框相关词汇表</seg>
       </tuv>
     </tu>
     <tu>
@@ -2834,6 +2850,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T164533Z" creationid="Wynn" creationdate="20160109T164533Z">
         <seg>如果需要针对某个话题或主题领域添加若干文章，典型的做法是建立一个着陆页(landing page)，然后分别为每篇文章添加子页面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While a discussion of flexible boxes is liberated from terms like horizontal/inline axis and vertical/block axis, it requires a new terminology to properly describe the model.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T094335Z" creationid="Wynn" creationdate="20160419T094335Z">
+        <seg>While a discussion of flexible boxes is liberated from terms like horizontal/inline axis and vertical/block axis, it requires a new terminology to properly describe the model.</seg>
       </tuv>
     </tu>
     <tu>
