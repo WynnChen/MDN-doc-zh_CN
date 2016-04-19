@@ -454,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;The CSS3 &lt;s1&gt;Flexible Box&lt;/s1&gt;, or &lt;s2&gt;flexbox&lt;/s2&gt;, is a &lt;a3&gt;layout mode&lt;/a3&gt; providing for the arrangement of elements on a page such that the elements behave predictably when the page layout must accommodate different screen sizes and different display devices.&lt;/s0&gt; For many applications, the flexible box model provides an improvement over the block model in that it does not use floats, nor do the flex container's margins collapse with the margins of its contents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T053448Z" creationid="Wynn" creationdate="20160419T053448Z">
+        <seg>&lt;s0&gt;CSS3 弹性框(&lt;s1&gt;Flexible Box&lt;/s1&gt; 或 &lt;s2&gt;flexbox&lt;/s2&gt;)，是一种当页面需要适应不同的屏幕大小以及设备类型时确保元素拥有恰当排布行为的&lt;a3&gt;布局方式&lt;/a3&gt;。&lt;/s0&gt;对很多应用而言，由于不使用浮动，且弹性容器的外边距也不会与其内容的外边距合并，弹性框模型比起方框模型要好一些。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;To present documentation in an organized, standardized and easy-to-read manner, the Mozilla Developer Network style guide describes how a text should be organized, spelled, formatted, and so on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T152739Z" creationid="Wynn" creationdate="20160109T152739Z">
@@ -1634,6 +1642,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T153255Z" creationid="Wynn" creationdate="20160110T153255Z">
         <seg>MDN 专用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many designers will find the flexbox model easier to use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T053540Z" creationid="Wynn" creationdate="20160419T053540Z">
+        <seg>许多设计师会发现弹性框模型易于使用。</seg>
       </tuv>
     </tu>
     <tu>
