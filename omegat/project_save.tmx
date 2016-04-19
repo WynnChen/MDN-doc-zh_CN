@@ -750,6 +750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Both are part of a wider effort of the CSS Working Group to provide for greater interoperability of web applications with different user agents, different writing modes, and other demands on flexibility.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T094219Z" creationid="Wynn" creationdate="20160419T094219Z">
+        <seg>这二者都是 CSS 工作组为在不同用户代理、不同书写模式和其他灵活性要求下的网页应用程序有更好的互操作性而做出的更广泛的努力的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Both versions are gender-specific.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T075114Z" creationid="Wynn" creationdate="20160110T075114Z">
