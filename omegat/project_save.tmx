@@ -2772,6 +2772,14 @@
         <seg>that is, in other words 换言之</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{CSSRef}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T035331Z" creationid="Wynn" creationdate="20160419T035331Z">
+        <seg>{{CSSRef}}</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
