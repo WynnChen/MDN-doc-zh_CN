@@ -454,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; Though &lt;a1&gt;CSS Flexible Boxes Layout specification&lt;/a1&gt; is at the Last Call Working Draft stage (see also the &lt;a2&gt;Latest Editor draft&lt;/a2&gt;), not all browsers have implemented all features of Flexbox.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T075648Z" creationid="Wynn" creationdate="20160419T075648Z">
+        <seg>&lt;s0&gt;注意：&lt;/s0&gt; 虽然 &lt;a1&gt;CSS 弹性框布局规范&lt;/a1&gt; 已经处于最终征求意见稿 (Last Call Working Draft)阶段（参见&lt;a2&gt;最新编辑草案&lt;/a2&gt;)，但并非所有浏览器都实现了弹性框的所有特性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;The CSS3 &lt;s1&gt;Flexible Box&lt;/s1&gt;, or &lt;s2&gt;flexbox&lt;/s2&gt;, is a &lt;a3&gt;layout mode&lt;/a3&gt; providing for the arrangement of elements on a page such that the elements behave predictably when the page layout must accommodate different screen sizes and different display devices.&lt;/s0&gt; For many applications, the flexible box model provides an improvement over the block model in that it does not use floats, nor do the flex container's margins collapse with the margins of its contents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T053448Z" creationid="Wynn" creationdate="20160419T053448Z">
@@ -2138,6 +2146,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T172307Z" creationid="Wynn" creationdate="20160109T172307Z">
         <seg>文本格式与样式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That said, there is now good support across the board for flexbox.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T075800Z" creationid="Wynn" creationdate="20160419T075800Z">
+        <seg>这意味着，That said, there is now good support across the board for flexbox.</seg>
       </tuv>
     </tu>
     <tu>
