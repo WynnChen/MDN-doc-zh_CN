@@ -2950,6 +2950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This basic example shows how to apply "flexibility" to an element and how sibling elements behave in a flexible state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T083631Z" creationid="Wynn" creationdate="20160420T083631Z">
+        <seg>这个基本的示例展示了如何对元素应用弹性布局，以及在弹性布局状态下相邻元素的行为方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can sometimes be problematic, however, if they overflow past the top edge of the page, or the left edge (in LTR languages like English; the problem occurs on the right edge in RTL languages like Arabic), as you can't scroll to that area, even if there is content there!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T073903Z" creationid="Wynn" creationdate="20160420T073903Z">
@@ -3602,6 +3610,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T081203Z" creationid="Wynn" creationdate="20160420T081203Z">
         <seg>{{cssxref("vertical-align")}} 对弹性项目的对齐无效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>​</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T083713Z" creationid="Wynn" creationdate="20160420T083713Z">
+        <seg>​</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
