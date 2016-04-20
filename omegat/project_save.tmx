@@ -1398,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For now, if this is a concern, you can instead use margins to achieve centering, as they'll respond in a "safe" way and stop centering if they overflow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T074353Z" creationid="Wynn" creationdate="20160420T074353Z">
+        <seg>目前，如果操心这点，可以改用外边距来达成居中效果，因为外边距会用比较“安全”的方式来响应变化，出现溢出时将停止居中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For plurals of acronyms or abbreviations, add &lt;e0&gt;s&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072611Z" creationid="Wynn" creationdate="20160110T072611Z">
