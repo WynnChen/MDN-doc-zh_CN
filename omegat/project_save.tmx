@@ -1702,6 +1702,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead of the &lt;c1&gt;justify-&lt;/c1&gt; properties, put auto margins on the outside edges of the first and last flex items in the flex container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T074848Z" creationid="Wynn" creationdate="20160420T074805Z">
+        <seg>对弹性容器中第一个和最后一个弹性项目的外侧边缘应用自动外边距来替代 &lt;c1&gt;justify-&lt;/c1&gt; 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead of using the &lt;c0&gt;align-&lt;/c0&gt; properties, just put auto margins on the flex items you wish to center.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T074809Z" creationid="Wynn" creationdate="20160420T074659Z">
+        <seg>对需要居中的弹性项目应用自动外边距来替代 &lt;c0&gt;align-&lt;/c0&gt; 属性的使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead, break at natural breaking points.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T174613Z" creationid="Wynn" creationdate="20160109T174613Z">
