@@ -102,6 +102,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;article&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084933Z" creationid="Wynn" creationdate="20160420T084933Z">
+        <seg>&lt;a0&gt;article&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a2&gt;aside&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084938Z" creationid="Wynn" creationdate="20160420T084938Z">
+        <seg>&lt;a2&gt;aside&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;column-*&lt;/c0&gt; properties of the &lt;a1&gt;multiple column module&lt;/a1&gt; have no effect on a flex item.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080959Z" creationid="Wynn" creationdate="20160420T080801Z">
@@ -146,6 +162,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130011Z" creationid="Wynn" creationdate="20160110T073704Z">
         <seg>&lt;f0&gt;&lt;s1&gt;错误&lt;/s1&gt;&lt;/f0&gt;：e-mail, reelect, coop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;n1&gt;nav&lt;/n1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084934Z" creationid="Wynn" creationdate="20160420T084934Z">
+        <seg>&lt;n1&gt;nav&lt;/n1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1270,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flexbox Playground</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T085158Z" creationid="Wynn" creationdate="20160420T085158Z">
+        <seg>Flexbox Playground</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flexbox layout is most appropriate for the components of an application, and small-scale layouts, while the (emerging) Grid layout is intended for larger scale layouts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T093729Z" creationid="Wynn" creationdate="20160419T093729Z">
@@ -1282,6 +1314,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084810Z" creationid="Wynn" creationdate="20160420T084810Z">
         <seg>弹性框让这变得很简单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flexbox nuovo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084939Z" creationid="Wynn" creationdate="20160420T084939Z">
+        <seg>Flexbox nuovo</seg>
       </tuv>
     </tu>
     <tu>
@@ -2166,6 +2206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Playground</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T085039Z" creationid="Wynn" creationdate="20160420T085039Z">
+        <seg>试验场</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Please do not use variant spellings (e.g., use &lt;e1&gt;color&lt;/e1&gt; rather than &lt;e2&gt;colour&lt;/e2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152857Z" creationid="Wynn" creationdate="20160110T152857Z">
@@ -2926,6 +2974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are a few flexbox playgrounds available online for experimenting:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T085154Z" creationid="Wynn" creationdate="20160420T085154Z">
+        <seg>有几个在线弹性框试验场可以进行各种实验：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are specific rules to follow when writing about HTML elements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T181713Z" creationid="Wynn" creationdate="20160109T180754Z">
@@ -3542,6 +3598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>due</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084941Z" creationid="Wynn" creationdate="20160420T084941Z">
+        <seg>due</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>en-US/docs/SVG</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083723Z" creationid="Wynn" creationdate="20160204T083723Z">
@@ -3578,6 +3642,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041254Z" creationid="Wynn" creationdate="20160110T041254Z">
         <seg>for example 例如</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>header</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084933Z" creationid="Wynn" creationdate="20160420T084933Z">
+        <seg>header</seg>
       </tuv>
     </tu>
     <tu>
@@ -3642,6 +3714,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041425Z" creationid="Wynn" creationdate="20160110T041403Z">
         <seg>that is, in other words 换言之</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tre</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T085036Z" creationid="Wynn" creationdate="20160420T085036Z">
+        <seg>tre</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uno</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084940Z" creationid="Wynn" creationdate="20160420T084940Z">
+        <seg>uno</seg>
       </tuv>
     </tu>
     <tu>
