@@ -750,6 +750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basic flex example</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T081300Z" creationid="Wynn" creationdate="20160420T081300Z">
+        <seg>基本的弹性布局示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basic support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T045030Z" creationid="Wynn" creationdate="20160419T045030Z">
@@ -1186,6 +1194,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T135310Z" creationid="Wynn" creationdate="20160110T135057Z">
         <seg>在 wiki 上的每个页面都应当有标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Examples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T081220Z" creationid="Wynn" creationdate="20160420T081220Z">
+        <seg>示例</seg>
       </tuv>
     </tu>
     <tu>
@@ -3578,6 +3594,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T081016Z" creationid="Wynn" creationdate="20160420T081016Z">
         <seg>{{cssxref("float")}} 与 {{cssxref("clear")}} 对弹性项目无效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("vertical-align")}} has no effect on the alignment of flex items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T081203Z" creationid="Wynn" creationdate="20160420T081203Z">
+        <seg>{{cssxref("vertical-align")}} 对弹性项目的对齐无效。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
