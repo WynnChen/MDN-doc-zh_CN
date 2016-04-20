@@ -1590,6 +1590,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a future release, the alignment properties will be extended to have a "safe" option as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T074007Z" creationid="Wynn" creationdate="20160420T074007Z">
+        <seg>在未来的发布版本里，对齐属性将会有所扩展，使其包含有“安全”选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In addition to using tags to track information about the documentation's quality and content, we also use them to mark articles as needing specific types of work.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T141339Z" creationid="Wynn" creationdate="20160110T141339Z">
