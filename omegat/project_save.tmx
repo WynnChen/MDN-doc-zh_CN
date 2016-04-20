@@ -862,6 +862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Android 4.4 has been updated to support the final version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091949Z" creationid="Wynn" creationdate="20160420T091949Z">
+        <seg>Android 4.4 已更新为支持最终版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Aside from looking horrible, it's helpful to readers if every heading has at least a brief intro after it to introduce the subsections beneath.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T172259Z" creationid="Wynn" creationdate="20160109T172259Z">
@@ -2624,8 +2632,8 @@
       <tuv lang="EN-US">
         <seg>Safari 6.1 (and Safari on iOS 7) has been updated to support the final version.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091207Z" creationid="Wynn" creationdate="20160420T091207Z">
-        <seg>Safari 6.1（以及 iOS 7 上的 Safari）已更新为支持最终版本规范。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091920Z" creationid="Wynn" creationdate="20160420T091207Z">
+        <seg>Safari 6.1（以及 iOS 7 上的 Safari）已更新为支持最终版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3856,8 +3864,8 @@
       <tuv lang="EN-US">
         <seg>[1] Safari up to version 6.0 (iOS.1) supported an old incompatible draft version of the specification.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091641Z" creationid="Wynn" creationdate="20160420T091122Z">
-        <seg>[1] Safari 在版本 6.0 (iOS.1)以前支持一个与现有版本不兼容的旧版规范。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091916Z" creationid="Wynn" creationdate="20160420T091122Z">
+        <seg>[1] Safari 在版本 6.0 (iOS.1)以前支持的是规范的一个与现有版本不兼容的旧版草案。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3872,8 +3880,16 @@
       <tuv lang="EN-US">
         <seg>[3] Internet Explorer 10 supports an old incompatible draft version of the specification; Internet Explorer 11 &lt;a0&gt;has been updated&lt;/a0&gt; to support the final version.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091636Z" creationid="Wynn" creationdate="20160420T091636Z">
-        <seg>[3] Internet Explorer 10 支持supports an old incompatible draft version of the specification; Internet Explorer 11 &lt;a0&gt;has been updated&lt;/a0&gt; to support the final version.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091927Z" creationid="Wynn" creationdate="20160420T091636Z">
+        <seg>[3] Internet Explorer 10 支持的是规范的一个与现有版本不兼容的旧版草案；Internet Explorer 11 &lt;a0&gt; 已更新为 &lt;/a0&gt; 支持最终版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[4] Android browser up to 4.3 supported an old incompatible draft version of the specification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091935Z" creationid="Wynn" creationdate="20160420T091841Z">
+        <seg>[4] Android 浏览器直到 4.3 为止支持的是规范的一个与现有版本不兼容的旧版草案。</seg>
       </tuv>
     </tu>
     <tu>
