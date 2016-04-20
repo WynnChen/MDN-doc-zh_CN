@@ -3104,8 +3104,8 @@
       <tuv lang="EN-US">
         <seg>The flex items' agnostic equivalents of height and width are &lt;s0&gt;main size&lt;/s0&gt; and &lt;s1&gt;cross size,&lt;/s1&gt; which respectively follow the main axis and cross axis of the flex container.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T140821Z" creationid="Wynn" creationdate="20160419T140821Z">
-        <seg>根据弹性容器的主轴与侧轴，弹性项目的宽和高相应称为&lt;s0&gt;主尺寸(main size)&lt;/s0&gt; 与 &lt;s1&gt;侧尺寸(cross size)&lt;/s1&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T095911Z" creationid="Wynn" creationdate="20160419T140821Z">
+        <seg>根据弹性容器的主轴与侧轴，弹性项目的宽和高相应称为&lt;s0&gt;主轴尺寸(main size)&lt;/s0&gt; 与 &lt;s1&gt;侧轴尺寸(cross size)&lt;/s1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
