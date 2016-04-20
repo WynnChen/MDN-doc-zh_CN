@@ -1238,6 +1238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flexbox's alignment properties do "true" centering, unlike other centering methods in CSS.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043651Z" creationid="Wynn" creationdate="20160420T043651Z">
+        <seg>弹性框 Flexbox's alignment properties do "true" centering, unlike other centering methods in CSS.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flexible boxes concept</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T080521Z" creationid="Wynn" creationdate="20160419T080521Z">
@@ -1378,6 +1386,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T174136Z" creationid="Wynn" creationdate="20160109T174136Z">
         <seg>例如：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For flex items, the &lt;c2&gt;auto&lt;/c2&gt; attribute value calculates the minimum width/height of the item to be no less than the width/height of its content, guaranteeing that the item is rendered large enough to hold the content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043602Z" creationid="Wynn" creationdate="20160420T043602Z">
+        <seg>对于弹性项目，属性值 &lt;c2&gt;auto&lt;/c2&gt; 使项目的最小宽/高在计算中不会小于其内容的实际宽/高，这样可以保证项目渲染得足够大以容纳其内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2160,8 +2176,8 @@
       <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Aligning with 'auto' margins&lt;/a1&gt; in the W3C Flexible Box Layout Model specification for more details.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043024Z" creationid="Wynn" creationdate="20160420T043024Z">
-        <seg>更多细节请查看 W3C 弹性框布局模型规范中的 &lt;a1&gt;Aligning with 'auto' margins&lt;/a1&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043615Z" creationid="Wynn" creationdate="20160420T043024Z">
+        <seg>更多细节请参考 W3C 弹性框布局模型规范中的 &lt;a1&gt;Aligning with 'auto' margins&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2186,6 +2202,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T145420Z" creationid="Wynn" creationdate="20160110T145122Z">
         <seg>更多提示参见{{anch("Writing a landing page overview")}}。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See {{cssxref("min-width")}} and {{cssxref("min-height")}} for more details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043631Z" creationid="Wynn" creationdate="20160420T043611Z">
+        <seg>更多细节请参考 {{cssxref("min-width")}} 与 {{cssxref("min-height")}}。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2826,6 +2850,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T110414Z" creationid="Wynn" creationdate="20160110T110414Z">
         <seg>与之相反，&lt;a0&gt;一体化 Mozilla 样式指南&lt;/a0&gt;明确指出不要使用系列逗号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that the flex items will stay centered, even if they overflow the flex container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043654Z" creationid="Wynn" creationdate="20160420T043654Z">
+        <seg>This means that the flex items will stay centered, even if they overflow the flex container.</seg>
       </tuv>
     </tu>
     <tu>
