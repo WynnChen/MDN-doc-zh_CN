@@ -1710,6 +1710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more information, see {{bug(783470)}}.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T092714Z" creationid="Wynn" creationdate="20160420T092714Z">
+        <seg>更多信息，参考 {{bug(783470)}}.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For now, if this is a concern, you can instead use margins to achieve centering, as they'll respond in a "safe" way and stop centering if they overflow.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T074353Z" creationid="Wynn" creationdate="20160420T074353Z">
@@ -2678,6 +2686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See also</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T092749Z" creationid="Wynn" creationdate="20160420T092749Z">
+        <seg>参见</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See the &lt;a3&gt;compatibility table&lt;/a3&gt; on each property for up-to-date compatibility status.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T080444Z" creationid="Wynn" creationdate="20160419T080444Z">
@@ -3266,6 +3282,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T082529Z" creationid="Wynn" creationdate="20160204T082216Z">
         <seg>堆叠的上下文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The suggested workaround is to use &lt;c3&gt;visibility:hidden&lt;/c3&gt; for flex items that should behave as if they were designated &lt;c4&gt;visibility:collapse&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T092706Z" creationid="Wynn" creationdate="20160420T092706Z">
+        <seg>建议的处理方式是在弹性项目上使用 &lt;c3&gt;visibility:hidden&lt;/c3&gt;，这样其行为应当与指派了 &lt;c4&gt;visibility:collapse&lt;/c4&gt; 一致。</seg>
       </tuv>
     </tu>
     <tu>
