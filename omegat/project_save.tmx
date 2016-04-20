@@ -2366,6 +2366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;&lt;a1&gt;min-height&lt;/a1&gt;&lt;/c0&gt; and &lt;c2&gt;&lt;a3&gt;min-width&lt;/a3&gt;&lt;/c2&gt; properties initial value is 0.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T024110Z" creationid="Wynn" creationdate="20160420T024110Z">
+        <seg>&lt;c0&gt;&lt;a1&gt;min-height&lt;/a1&gt;&lt;/c0&gt; 与 &lt;c2&gt;&lt;a3&gt;min-width&lt;/a3&gt;&lt;/c2&gt; 属性初始值为 0。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;s0&gt;main axis&lt;/s0&gt; is the axis along which the flex items follow each other.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T111625Z" creationid="Wynn" creationdate="20160419T111625Z">
