@@ -3088,8 +3088,8 @@
       <tuv lang="EN-US">
         <seg>Using &lt;c0&gt;auto&lt;/c0&gt; margins absorbs extra space in the vertical or horizontal direction and can be used for alignment or to separate adjacent flex items.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T042525Z" creationid="Wynn" creationdate="20160420T042525Z">
-        <seg>使用 &lt;c0&gt;auto&lt;/c0&gt; 外边距可以margins absorbs extra space in the vertical or horizontal direction and can be used for alignment or to separate adjacent flex items.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T042802Z" creationid="Wynn" creationdate="20160420T042525Z">
+        <seg>使用 &lt;c0&gt;auto&lt;/c0&gt; 外边距可以吸收掉水平或垂直方向上的额外空间，这可以用于对齐或分隔相邻的弹性项目。</seg>
       </tuv>
     </tu>
     <tu>
