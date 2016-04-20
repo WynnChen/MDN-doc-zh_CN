@@ -1006,6 +1006,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Both horizontal and vertical alignment of the children can be easily manipulated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104320Z" creationid="Wynn" creationdate="20160420T104320Z">
+        <seg>子元素的水平对齐和垂直对齐都能很方便的进行操控。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Both versions are gender-specific.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T075114Z" creationid="Wynn" creationdate="20160110T075114Z">
@@ -2066,6 +2074,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T152540Z" creationid="Wynn" creationdate="20160110T152519Z">
         <seg>所见即所得编辑器中，在附件下拉列表中选择最近创建的附件，即是需要的图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the flex layout model, the children of a flex container can be laid out in any direction, and can “flex” their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104136Z" creationid="Wynn" creationdate="20160420T104136Z">
+        <seg>在弹性布局模型中，弹性容器的子元素可以在任何方向上排布，也可以“弹性伸缩”其尺寸，既可以增加尺寸以填满未使用的空间，也可以收缩尺寸以避免父元素溢出。</seg>
       </tuv>
     </tu>
     <tu>
