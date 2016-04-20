@@ -1502,6 +1502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, if you're trying to replace &lt;c2&gt;justify-content&lt;/c2&gt; with margin-based centering in a multi-line flexbox, you're probably out of luck, as you need to put the margins on the first and last flex item on each line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T075458Z" creationid="Wynn" creationdate="20160420T075458Z">
+        <seg>不过，如果尝试在多行的弹性框中用基于外边距的居中方法来替代 &lt;c2&gt;justify-content&lt;/c2&gt;，很不幸，必须对每一行的第一个和最后一个弹性项目应用外边距。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, you can override this behavior by marking a section with the &lt;a0&gt;"SEO summary" style in the WYSIWYG editor&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T144421Z" creationid="Wynn" creationdate="20160110T144421Z">
