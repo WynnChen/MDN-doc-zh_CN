@@ -1758,6 +1758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>From Firefox 22 to Firefox 27, the preference is &lt;c3&gt;true&lt;/c3&gt; by default, but the preference has been removed in Firefox 28.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091620Z" creationid="Wynn" creationdate="20160420T091620Z">
+        <seg>从 Firefox 22 到 Firefox 27，此设置项默认为 &lt;c3&gt;true&lt;/c3&gt;，而 Firefox 28 移除了此设置项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gender-neutral language</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T073939Z" creationid="Wynn" creationdate="20160110T073725Z">
@@ -3848,8 +3856,24 @@
       <tuv lang="EN-US">
         <seg>[1] Safari up to version 6.0 (iOS.1) supported an old incompatible draft version of the specification.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091122Z" creationid="Wynn" creationdate="20160420T091122Z">
-        <seg>[1] Safari 在版本 6.0 (iOS.1)以前支持的是一个与现有版本不兼容的旧版规范。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091641Z" creationid="Wynn" creationdate="20160420T091122Z">
+        <seg>[1] Safari 在版本 6.0 (iOS.1)以前支持一个与现有版本不兼容的旧版规范。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[2] Up to Firefox 22, to activate flexbox support, the user has to change the &lt;c0&gt;about:config&lt;/c0&gt; preference &lt;c1&gt;layout.css.flexbox.enabled&lt;/c1&gt; to &lt;c2&gt;true&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091424Z" creationid="Wynn" creationdate="20160420T091424Z">
+        <seg>[2] 直到 Firefox 22 位置，用户必须修改 &lt;c0&gt;about:config&lt;/c0&gt; 设置，将 &lt;c1&gt;layout.css.flexbox.enabled&lt;/c1&gt; 改为 &lt;c2&gt;true&lt;/c2&gt; 才能激活对弹性框的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[3] Internet Explorer 10 supports an old incompatible draft version of the specification; Internet Explorer 11 &lt;a0&gt;has been updated&lt;/a0&gt; to support the final version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091636Z" creationid="Wynn" creationdate="20160420T091636Z">
+        <seg>[3] Internet Explorer 10 支持supports an old incompatible draft version of the specification; Internet Explorer 11 &lt;a0&gt;has been updated&lt;/a0&gt; to support the final version.</seg>
       </tuv>
     </tu>
     <tu>
