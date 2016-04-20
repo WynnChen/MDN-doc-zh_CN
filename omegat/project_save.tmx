@@ -2790,6 +2790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To designate the CSS for elements using this style, set the &lt;a0&gt;display&lt;/a0&gt; property as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T024537Z" creationid="Wynn" creationdate="20160420T024537Z">
+        <seg>为要使用此样式的元素指派 CSS，需按以下方式设置 &lt;a0&gt;display&lt;/a0&gt; 属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To fix this, use gender-neutral pronouns:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T075132Z" creationid="Wynn" creationdate="20160110T075132Z">
@@ -3174,6 +3182,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>display : flex</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T024539Z" creationid="Wynn" creationdate="20160420T024539Z">
+        <seg>display : flex</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>display : inline-flex</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T024558Z" creationid="Wynn" creationdate="20160420T024558Z">
+        <seg>display : inline-flex</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>en-US/docs/SVG</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160204T083723Z" creationid="Wynn" creationdate="20160204T083723Z">
@@ -3242,6 +3266,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041452Z" creationid="Wynn" creationdate="20160110T041452Z">
         <seg>note well 注意</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>or</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T024546Z" creationid="Wynn" creationdate="20160420T024546Z">
+        <seg>或者</seg>
       </tuv>
     </tu>
     <tu>
