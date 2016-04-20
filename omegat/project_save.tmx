@@ -2574,6 +2574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The auto margins will "flex" and assume the leftover space, centering the flex items when there is leftover space, and switching to normal alignment when not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T075226Z" creationid="Wynn" creationdate="20160420T075226Z">
+        <seg>自动外边距会自动伸缩来占满剩余空间，当有剩余空间存在时弹性项目将会居中，如果没有则切换至常规对齐方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The best place to start in any extensive publishing style guide is with some very basic text standards to help keep documentation consistent.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T155214Z" creationid="Wynn" creationdate="20160109T155214Z">
