@@ -1206,6 +1206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flex item considerations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T034422Z" creationid="Wynn" creationdate="20160420T034345Z">
+        <seg>弹性项目须知</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flex items can be laid out on either a single line or on several lines according to the &lt;a0&gt;&lt;c1&gt;flex-wrap&lt;/c1&gt;&lt;/a0&gt; property, which controls the direction of the cross axis and the direction in which new lines are stacked.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T115225Z" creationid="Wynn" creationdate="20160419T115225Z">
@@ -2330,6 +2338,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T172307Z" creationid="Wynn" creationdate="20160109T172307Z">
         <seg>文本格式与样式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Text that is directly contained inside a flex container is automatically wrapped in an anonymous flex item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T034534Z" creationid="Wynn" creationdate="20160420T034407Z">
+        <seg>弹性容器直接包含的文本将自动包覆成匿名弹性项目。</seg>
       </tuv>
     </tu>
     <tu>
