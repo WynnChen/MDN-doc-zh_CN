@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;column-*&lt;/c0&gt; properties of the &lt;a1&gt;multiple column module&lt;/a1&gt; have no effect on a flex item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080801Z" creationid="Wynn" creationdate="20160420T080801Z">
+        <seg>&lt;c0&gt;column-*&lt;/c0&gt; properties of the &lt;a1&gt;multiple column module&lt;/a1&gt; have no effect on a flex item.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;Archive&lt;/e0&gt;: Use for content that is technically superseded and no longer useful.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T142217Z" creationid="Wynn" creationdate="20160110T142217Z">
@@ -758,6 +766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because flexible boxes use a different layout algorithm, some properties do not make sense on a flex container:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080801Z" creationid="Wynn" creationdate="20160420T080801Z">
+        <seg>由于Because flexible boxes use a different layout algorithm, some properties do not make sense on a flex container:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Below that is a</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151004Z" creationid="Wynn" creationdate="20160110T150845Z">
@@ -1250,6 +1266,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043858Z" creationid="Wynn" creationdate="20160420T043651Z">
         <seg>不像 CSS 中的其他对齐方法，弹性框的对齐属性将进行“真正的”居中对齐。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flexible box properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080756Z" creationid="Wynn" creationdate="20160420T080727Z">
+        <seg>弹性框相关属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -2166,6 +2190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Properties not affecting flexible boxes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080740Z" creationid="Wynn" creationdate="20160420T080740Z">
+        <seg>不影响弹性框的属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Punctuation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T103851Z" creationid="Wynn" creationdate="20160110T103851Z">
@@ -2954,6 +2986,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T093228Z" creationid="Wynn" creationdate="20160110T093228Z">
         <seg>这种解决方式使得无论是对读者还是对本地化人员而言，翻译都更加轻松。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus developers must take care to order elements properly in the source so as not to damage the document's accessibility.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080617Z" creationid="Wynn" creationdate="20160420T080617Z">
+        <seg>因此开发者们必须小心，合理地安排元素在源代码中的顺序，以免破坏文档的可访问性。</seg>
       </tuv>
     </tu>
     <tu>
