@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;The Flexbugs project&lt;/a0&gt; for information on bugs in browsers' implementations of flexbox.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T093312Z" creationid="Wynn" creationdate="20160420T093312Z">
+        <seg>各浏览器对弹性框的实现中的 bug 的信息，请参考 &lt;a0&gt;The Flexbugs project&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;article&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084933Z" creationid="Wynn" creationdate="20160420T084933Z">
