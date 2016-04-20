@@ -590,6 +590,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;CSS Flexible Box Layout&lt;/s0&gt; is a module of CSS that defines a CSS box model optimized for user interface design.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T103917Z" creationid="Wynn" creationdate="20160420T103917Z">
+        <seg>&lt;s0&gt;CSS 弹性框布局&lt;/s0&gt;是 CSS 的模块之一，定义了一种针对用户界面设计而优化的 CSS 框模型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;CSS Flexible Box Layout&lt;/s0&gt; is a module of CSS that defines a multi-column layout, allowing to express how content should flow between columns, and how gaps and rules are handled.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T041509Z" creationid="Wynn" creationdate="20160419T041509Z">
