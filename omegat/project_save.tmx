@@ -1462,6 +1462,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, an anonymous flex item that contains only white space is not rendered, as if it were designated &lt;c0&gt;display: none&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T034720Z" creationid="Wynn" creationdate="20160420T034720Z">
+        <seg>不过，只包含空白的弹性项目不会被渲染，就如同对其指派 &lt;c0&gt;display: none&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, you can override this behavior by marking a section with the &lt;a0&gt;"SEO summary" style in the WYSIWYG editor&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T144421Z" creationid="Wynn" creationdate="20160110T144421Z">
