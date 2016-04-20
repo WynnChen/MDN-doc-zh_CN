@@ -1302,6 +1302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flexbox Properties Demonstration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T085206Z" creationid="Wynn" creationdate="20160420T085206Z">
+        <seg>Flexbox Properties Demonstration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flexbox layout is most appropriate for the components of an application, and small-scale layouts, while the (emerging) Grid layout is intended for larger scale layouts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T093729Z" creationid="Wynn" creationdate="20160419T093729Z">
@@ -1354,6 +1362,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T094331Z" creationid="Wynn" creationdate="20160419T094331Z">
         <seg>弹性框相关词汇表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flexy Boxes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T085200Z" creationid="Wynn" creationdate="20160420T085200Z">
+        <seg>Flexy Boxes</seg>
       </tuv>
     </tu>
     <tu>
@@ -1586,6 +1602,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T122311Z" creationid="Wynn" creationdate="20160110T122311Z">
         <seg>HTML 元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are a few things to consider to avoid bad surprises when designing using flexible boxes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T085422Z" creationid="Wynn" creationdate="20160420T085422Z">
+        <seg>Here are a few things to consider to avoid bad surprises when designing using flexible boxes.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2734,6 +2758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The algorithm describing how flex items are laid out can be pretty tricky at times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T085458Z" creationid="Wynn" creationdate="20160420T085352Z">
+        <seg>描述弹性项目如何排布的算法有时会极其棘手。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The auto margins will "flex" and assume the leftover space, centering the flex items when there is leftover space, and switching to normal alignment when not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T075226Z" creationid="Wynn" creationdate="20160420T075226Z">
@@ -3050,6 +3082,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T144835Z" creationid="Wynn" creationdate="20160110T144835Z">
         <seg>它们的标准格式由三个区域组成：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Things to keep in mind</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T085225Z" creationid="Wynn" creationdate="20160420T085225Z">
+        <seg>务必牢记</seg>
       </tuv>
     </tu>
     <tu>
