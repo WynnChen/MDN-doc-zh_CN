@@ -1350,6 +1350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flexible boxes are laid out in conformance of the &lt;a0&gt;writing mode&lt;/a0&gt;, which means that &lt;s1&gt;main start&lt;/s1&gt; and &lt;s2&gt;main end&lt;/s2&gt; are laid out according to the position of &lt;s3&gt;start&lt;/s3&gt; and &lt;s4&gt;end&lt;/s4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090101Z" creationid="Wynn" creationdate="20160420T090101Z">
+        <seg>弹性框的排布与&lt;a0&gt;书写模式&lt;/a0&gt;是一致的，这意味着排布的&lt;s1&gt;主轴起点&lt;/s1&gt;和&lt;s2&gt;主轴终点&lt;/s2&gt;根据的是&lt;s3&gt;起点&lt;/s3&gt;与&lt;s4&gt;终点&lt;/s4&gt;的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flexible boxes concept</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T080521Z" creationid="Wynn" creationdate="20160419T080521Z">
