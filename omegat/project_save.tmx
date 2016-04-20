@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>10.0{{property_prefix("-ms")}}&lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104528Z" creationid="Wynn" creationdate="20160420T104528Z">
+        <seg>10.0{{property_prefix("-ms")}}&lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>11</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090949Z" creationid="Wynn" creationdate="20160420T090949Z">
@@ -110,10 +118,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>11.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104529Z" creationid="Wynn" creationdate="20160420T104529Z">
+        <seg>11.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>11&lt;s0&gt;[3]&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090930Z" creationid="Wynn" creationdate="20160420T090930Z">
         <seg>11&lt;s0&gt;[3]&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>12.10</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104529Z" creationid="Wynn" creationdate="20160420T104529Z">
+        <seg>12.10</seg>
       </tuv>
     </tu>
     <tu>
@@ -182,10 +206,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>6.1{{property_prefix("-webkit")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104530Z" creationid="Wynn" creationdate="20160420T104530Z">
+        <seg>6.1{{property_prefix("-webkit")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.1{{property_prefix("-webkit")}}&lt;s0&gt;[1]&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090932Z" creationid="Wynn" creationdate="20160420T090932Z">
         <seg>6.1{{property_prefix("-webkit")}}&lt;s0&gt;[1]&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>7.1{{property_prefix("-webkit")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104532Z" creationid="Wynn" creationdate="20160420T104532Z">
+        <seg>7.1{{property_prefix("-webkit")}}</seg>
       </tuv>
     </tu>
     <tu>
@@ -2358,6 +2398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Nesting of these boxes (horizontal inside vertical, or vertical inside horizontal) can be used to build layouts in two dimensions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104510Z" creationid="Wynn" creationdate="20160420T104510Z">
+        <seg>通过嵌套这些框（水平框在垂直框内，或垂直框在水平框内）可以在两个维度上构建布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not only must the elements reduce in size, but the order in which they are presented must change.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084742Z" creationid="Wynn" creationdate="20160420T084742Z">
@@ -4070,6 +4118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>footer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104543Z" creationid="Wynn" creationdate="20160420T104543Z">
+        <seg>footer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>for example</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041254Z" creationid="Wynn" creationdate="20160110T041254Z">
@@ -4166,6 +4222,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{{ Spec2('CSS3 Flexbox') }}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104520Z" creationid="Wynn" creationdate="20160420T104520Z">
+        <seg>{{ Spec2('CSS3 Flexbox') }}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{ SpecName('CSS3 Flexbox') }}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104520Z" creationid="Wynn" creationdate="20160420T104520Z">
+        <seg>{{ SpecName('CSS3 Flexbox') }}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{{CSSRef}}</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T035331Z" creationid="Wynn" creationdate="20160419T035331Z">
@@ -4178,6 +4250,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090927Z" creationid="Wynn" creationdate="20160420T090927Z">
         <seg>{{CompatGeckoDesktop("18.0")}}&lt;s0&gt;[6]&lt;/s0&gt;{{property_prefix("-moz")}}&lt;s1&gt;[2]&lt;/s1&gt;&lt;br2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{CompatGeckoDesktop("20.0")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104526Z" creationid="Wynn" creationdate="20160420T104526Z">
+        <seg>{{CompatGeckoDesktop("20.0")}}</seg>
       </tuv>
     </tu>
     <tu>
@@ -4222,6 +4302,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{{CompatVersionUnknown()}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104531Z" creationid="Wynn" creationdate="20160420T104531Z">
+        <seg>{{CompatVersionUnknown()}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{CompatibilityTable()}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104524Z" creationid="Wynn" creationdate="20160420T104524Z">
+        <seg>{{CompatibilityTable()}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{{CompatibilityTable}}</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090907Z" creationid="Wynn" creationdate="20160420T090907Z">
@@ -4230,10 +4326,106 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{{cssxref("align-content")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104512Z" creationid="Wynn" creationdate="20160420T104512Z">
+        <seg>{{cssxref("align-content")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("align-items")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104512Z" creationid="Wynn" creationdate="20160420T104512Z">
+        <seg>{{cssxref("align-items")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("align-self")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104512Z" creationid="Wynn" creationdate="20160420T104512Z">
+        <seg>{{cssxref("align-self")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("flex")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104512Z" creationid="Wynn" creationdate="20160420T104512Z">
+        <seg>{{cssxref("flex")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("flex-basis")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104514Z" creationid="Wynn" creationdate="20160420T104514Z">
+        <seg>{{cssxref("flex-basis")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("flex-direction")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104514Z" creationid="Wynn" creationdate="20160420T104514Z">
+        <seg>{{cssxref("flex-direction")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("flex-flow")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104514Z" creationid="Wynn" creationdate="20160420T104514Z">
+        <seg>{{cssxref("flex-flow")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("flex-grow")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104515Z" creationid="Wynn" creationdate="20160420T104515Z">
+        <seg>{{cssxref("flex-grow")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("flex-shrink")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104515Z" creationid="Wynn" creationdate="20160420T104515Z">
+        <seg>{{cssxref("flex-shrink")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("flex-wrap")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104515Z" creationid="Wynn" creationdate="20160420T104515Z">
+        <seg>{{cssxref("flex-wrap")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{{cssxref("float")}} and {{cssxref("clear")}} have no effect on a flex item.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T081016Z" creationid="Wynn" creationdate="20160420T081016Z">
         <seg>{{cssxref("float")}} 与 {{cssxref("clear")}} 对弹性项目无效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("justify-content")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104515Z" creationid="Wynn" creationdate="20160420T104515Z">
+        <seg>{{cssxref("justify-content")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("order")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T104518Z" creationid="Wynn" creationdate="20160420T104518Z">
+        <seg>{{cssxref("order")}}</seg>
       </tuv>
     </tu>
     <tu>
