@@ -630,6 +630,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Absolutely positioned children of a flex container are positioned so that their static position is determined in reference to the main start content-box corner of their flex container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T042331Z" creationid="Wynn" creationdate="20160420T042331Z">
+        <seg>对于弹性容器的绝对定位子元素来说，其静态位置参照弹性容器的内容框的主起始角确定，而后依此完成此元素的定位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Acronyms and abbreviations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T064943Z" creationid="Wynn" creationdate="20160110T064943Z">
