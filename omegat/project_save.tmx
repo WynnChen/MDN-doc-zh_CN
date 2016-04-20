@@ -534,6 +534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;cross start&lt;/s0&gt; and &lt;s1&gt;cross end&lt;/s1&gt; rely on the definition of the &lt;s2&gt;start&lt;/s2&gt; or &lt;s3&gt;before&lt;/s3&gt; position that depends on the value of &lt;a4&gt;&lt;c5&gt;direction&lt;/c5&gt;&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090232Z" creationid="Wynn" creationdate="20160420T090232Z">
+        <seg>&lt;s0&gt;侧轴起点&lt;/s0&gt;与&lt;s1&gt;侧轴终点&lt;/s1&gt;依赖于&lt;s2&gt;起始&lt;/s2&gt; or &lt;s3&gt;before&lt;/s3&gt; position that depends on the value of &lt;a4&gt;&lt;c5&gt;direction&lt;/c5&gt;&lt;/a4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A &lt;a0&gt;collection of demos&lt;/a0&gt; showing the latest CSS technologies in action: a boost for the creativity.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T163456Z" creationid="Wynn" creationdate="20160110T163456Z">
@@ -1352,8 +1360,8 @@
       <tuv lang="EN-US">
         <seg>Flexible boxes are laid out in conformance of the &lt;a0&gt;writing mode&lt;/a0&gt;, which means that &lt;s1&gt;main start&lt;/s1&gt; and &lt;s2&gt;main end&lt;/s2&gt; are laid out according to the position of &lt;s3&gt;start&lt;/s3&gt; and &lt;s4&gt;end&lt;/s4&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090101Z" creationid="Wynn" creationdate="20160420T090101Z">
-        <seg>弹性框的排布与&lt;a0&gt;书写模式&lt;/a0&gt;是一致的，这意味着排布的&lt;s1&gt;主轴起点&lt;/s1&gt;和&lt;s2&gt;主轴终点&lt;/s2&gt;根据的是&lt;s3&gt;起点&lt;/s3&gt;与&lt;s4&gt;终点&lt;/s4&gt;的位置。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090332Z" creationid="Wynn" creationdate="20160420T090101Z">
+        <seg>弹性框的排布与&lt;a0&gt;书写模式&lt;/a0&gt;是一致的，这意味着排布的&lt;s1&gt;主轴起点&lt;/s1&gt;和&lt;s2&gt;主轴终点&lt;/s2&gt;根据的是&lt;s3&gt;开始&lt;/s3&gt;与&lt;s4&gt;结束&lt;/s4&gt;的位置。</seg>
       </tuv>
     </tu>
     <tu>
