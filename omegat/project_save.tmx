@@ -2456,8 +2456,8 @@
       <tuv lang="EN-US">
         <seg>The &lt;a0&gt;&lt;c1&gt;order&lt;/c1&gt;&lt;/a0&gt; property assigns elements to ordinal groups and determines which elements appear first.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T114049Z" creationid="Wynn" creationdate="20160419T114049Z">
-        <seg>&lt;a0&gt;&lt;c1&gt;order&lt;/c1&gt;&lt;/a0&gt; 属性将元素与序号组关联起来，并决定哪些元素先显示。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T073429Z" creationid="Wynn" creationdate="20160419T114049Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;order&lt;/c1&gt;&lt;/a0&gt; 属性将元素与序号组关联起来，并决定哪些元素先出现。</seg>
       </tuv>
     </tu>
     <tu>
