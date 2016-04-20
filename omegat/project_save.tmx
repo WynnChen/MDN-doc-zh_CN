@@ -78,6 +78,126 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1.0{{property_prefix("-moz")}}&lt;s0&gt;[2]&lt;/s0&gt;&lt;br1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090947Z" creationid="Wynn" creationdate="20160420T090947Z">
+        <seg>1.0{{property_prefix("-moz")}}&lt;s0&gt;[2]&lt;/s0&gt;&lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090948Z" creationid="Wynn" creationdate="20160420T090948Z">
+        <seg>1.1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.3</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090954Z" creationid="Wynn" creationdate="20160420T090954Z">
+        <seg>1.3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>11</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090949Z" creationid="Wynn" creationdate="20160420T090949Z">
+        <seg>11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>11&lt;s0&gt;[3]&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090930Z" creationid="Wynn" creationdate="20160420T090930Z">
+        <seg>11&lt;s0&gt;[3]&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>12.10&lt;s0&gt;[5]&lt;/s0&gt;&lt;br1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090940Z" creationid="Wynn" creationdate="20160420T090940Z">
+        <seg>12.10&lt;s0&gt;[5]&lt;/s0&gt;&lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>12.10{{property_prefix("-webkit")}}&lt;s0&gt;[5]&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090931Z" creationid="Wynn" creationdate="20160420T090931Z">
+        <seg>12.10{{property_prefix("-webkit")}}&lt;s0&gt;[5]&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15 {{property_prefix("-webkit")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090940Z" creationid="Wynn" creationdate="20160420T090940Z">
+        <seg>15 {{property_prefix("-webkit")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15{{property_prefix("-webkit")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090952Z" creationid="Wynn" creationdate="20160420T090952Z">
+        <seg>15{{property_prefix("-webkit")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.1{{property_prefix("-webkit")}}&lt;s0&gt;[4]&lt;/s0&gt;&lt;br1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090948Z" creationid="Wynn" creationdate="20160420T090948Z">
+        <seg>2.1{{property_prefix("-webkit")}}&lt;s0&gt;[4]&lt;/s0&gt;&lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>21.0{{property_prefix("-webkit")}}&lt;br0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090929Z" creationid="Wynn" creationdate="20160420T090929Z">
+        <seg>21.0{{property_prefix("-webkit")}}&lt;br0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>29.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090930Z" creationid="Wynn" creationdate="20160420T090930Z">
+        <seg>29.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4.4</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090948Z" creationid="Wynn" creationdate="20160420T090948Z">
+        <seg>4.4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>6.1{{property_prefix("-webkit")}}&lt;s0&gt;[1]&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090932Z" creationid="Wynn" creationdate="20160420T090932Z">
+        <seg>6.1{{property_prefix("-webkit")}}&lt;s0&gt;[1]&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>7{{property_prefix("-webkit")}}&lt;s0&gt;[1]&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090952Z" creationid="Wynn" creationdate="20160420T090952Z">
+        <seg>7{{property_prefix("-webkit")}}&lt;s0&gt;[1]&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;&lt;&lt;finish this once we finalize the landing page standards&gt;&gt;&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T161500Z" creationid="Wynn" creationdate="20160110T161500Z">
@@ -734,6 +854,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Android</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090944Z" creationid="Wynn" creationdate="20160420T090944Z">
+        <seg>Android</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Aside from looking horrible, it's helpful to readers if every heading has at least a brief intro after it to introduce the subsections beneath.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T172259Z" creationid="Wynn" creationdate="20160109T172259Z">
@@ -794,6 +922,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T045030Z" creationid="Wynn" creationdate="20160419T045030Z">
         <seg>基础支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basic support (single-line flexbox)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090925Z" creationid="Wynn" creationdate="20160420T090925Z">
+        <seg>基础支持（单行弹性框）</seg>
       </tuv>
     </tu>
     <tu>
@@ -918,6 +1054,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CSS3 &lt;c1&gt;break-after&lt;/c1&gt;, &lt;c2&gt;break-before&lt;/c2&gt;, and &lt;c3&gt;break-inside&lt;/c3&gt; as well as CSS 2.1 &lt;c4&gt;page-break-before&lt;/c4&gt;, &lt;c5&gt;page-break-after&lt;/c5&gt;, and &lt;c6&gt;page-break-inside&lt;/c6&gt; properties are accepted on a flex container, flex items, and inside flex items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090905Z" creationid="Wynn" creationdate="20160420T090905Z">
+        <seg>CSS3 中的 &lt;c1&gt;break-after&lt;/c1&gt;、&lt;c2&gt;break-before&lt;/c2&gt; 和 &lt;c3&gt;break-inside&lt;/c3&gt;，以及 CSS 2.1 中的 &lt;c4&gt;page-break-before&lt;/c4&gt;、&lt;c5&gt;page-break-after&lt;/c5&gt; 和 &lt;c6&gt;page-break-inside&lt;/c6&gt; 属性在弹性容器上、弹性项目上和弹性项目内均可以使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CSS3 Demos</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T162245Z" creationid="Wynn" creationdate="20160110T162245Z">
@@ -954,6 +1098,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T163517Z" creationid="Wynn" creationdate="20160109T163449Z">
         <seg>选择标题与缩略名(slug)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chrome</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090907Z" creationid="Wynn" creationdate="20160420T090907Z">
+        <seg>Chrome</seg>
       </tuv>
     </tu>
     <tu>
@@ -1266,6 +1418,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T162644Z" creationid="Wynn" creationdate="20160109T162644Z">
         <seg>只要你愿意，随时可以对它们进行必要的更新。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Firefox (Gecko)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090907Z" creationid="Wynn" creationdate="20160420T090907Z">
+        <seg>Firefox (Gecko)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Firefox Mobile (Gecko)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090943Z" creationid="Wynn" creationdate="20160420T090943Z">
+        <seg>Firefox Mobile (Gecko)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Firefox OS</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090943Z" creationid="Wynn" creationdate="20160420T090943Z">
+        <seg>Firefox OS</seg>
       </tuv>
     </tu>
     <tu>
@@ -1686,6 +1862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>IE Phone</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090944Z" creationid="Wynn" creationdate="20160420T090944Z">
+        <seg>IE Phone</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Identify the user interface element by its label and type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T134702Z" creationid="Wynn" creationdate="20160110T130320Z">
@@ -1890,6 +2074,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T174613Z" creationid="Wynn" creationdate="20160109T174613Z">
         <seg>取而代之的是，在自然中断点处断行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Internet Explorer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090909Z" creationid="Wynn" creationdate="20160420T090909Z">
+        <seg>Internet Explorer</seg>
       </tuv>
     </tu>
     <tu>
@@ -2102,6 +2294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Multi-line flexbox</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090938Z" creationid="Wynn" creationdate="20160420T090938Z">
+        <seg>多行弹性框</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not only must the elements reduce in size, but the order in which they are presented must change.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084742Z" creationid="Wynn" creationdate="20160420T084742Z">
@@ -2154,6 +2354,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T065453Z" creationid="Wynn" creationdate="20160110T065453Z">
         <seg>页面上第一次提到某个术语时，用户可能并不熟悉首字母缩略词的展开形式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Opera</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090909Z" creationid="Wynn" creationdate="20160420T090909Z">
+        <seg>Opera</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Opera Mobile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090944Z" creationid="Wynn" creationdate="20160420T090944Z">
+        <seg>Opera Mobile</seg>
       </tuv>
     </tu>
     <tu>
@@ -2386,6 +2602,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T143753Z" creationid="Wynn" creationdate="20160110T143753Z">
         <seg>SEO 摘要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Safari</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090910Z" creationid="Wynn" creationdate="20160420T090910Z">
+        <seg>Safari</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Safari Mobile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090945Z" creationid="Wynn" creationdate="20160420T090945Z">
+        <seg>Safari Mobile</seg>
       </tuv>
     </tu>
     <tu>
@@ -3802,6 +4034,62 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T035331Z" creationid="Wynn" creationdate="20160419T035331Z">
         <seg>{{CSSRef}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{CompatGeckoDesktop("18.0")}}&lt;s0&gt;[6]&lt;/s0&gt;{{property_prefix("-moz")}}&lt;s1&gt;[2]&lt;/s1&gt;&lt;br2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090927Z" creationid="Wynn" creationdate="20160420T090927Z">
+        <seg>{{CompatGeckoDesktop("18.0")}}&lt;s0&gt;[6]&lt;/s0&gt;{{property_prefix("-moz")}}&lt;s1&gt;[2]&lt;/s1&gt;&lt;br2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{CompatGeckoDesktop("22.0")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090928Z" creationid="Wynn" creationdate="20160420T090928Z">
+        <seg>{{CompatGeckoDesktop("22.0")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{CompatGeckoDesktop("28.0")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090938Z" creationid="Wynn" creationdate="20160420T090938Z">
+        <seg>{{CompatGeckoDesktop("28.0")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{CompatGeckoMobile("18.0")}}{{property_prefix("-moz")}}&lt;s0&gt;[2]&lt;/s0&gt;&lt;br1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090947Z" creationid="Wynn" creationdate="20160420T090947Z">
+        <seg>{{CompatGeckoMobile("18.0")}}{{property_prefix("-moz")}}&lt;s0&gt;[2]&lt;/s0&gt;&lt;br1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{CompatGeckoMobile("22.0")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090947Z" creationid="Wynn" creationdate="20160420T090947Z">
+        <seg>{{CompatGeckoMobile("22.0")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{CompatGeckoMobile("28.0")}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090953Z" creationid="Wynn" creationdate="20160420T090953Z">
+        <seg>{{CompatGeckoMobile("28.0")}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{CompatibilityTable}}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090907Z" creationid="Wynn" creationdate="20160420T090907Z">
+        <seg>{{CompatibilityTable}}</seg>
       </tuv>
     </tu>
     <tu>
