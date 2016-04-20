@@ -456,8 +456,8 @@
       <tuv lang="EN-US">
         <seg>&lt;s0&gt;Note:&lt;/s0&gt; For the vendor prefix tag, append the string on the display property, not on the display attribute itself.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T033625Z" creationid="Wynn" creationdate="20160420T033625Z">
-        <seg>&lt;s0&gt;注意：&lt;/s0&gt;厂商前缀标记应当附加在 display 属性值前，而不是加给 display 属性本身。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T033658Z" creationid="Wynn" creationdate="20160420T033625Z">
+        <seg>&lt;s0&gt;注意：&lt;/s0&gt;厂商前缀标记应当附加给 display 属性值，而不是加给 display 属性本身。</seg>
       </tuv>
     </tu>
     <tu>
