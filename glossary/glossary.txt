@@ -21,3 +21,7 @@ Flexbox	弹性框
 block layout	块级布局
 Flex container	弹性容器
 Flex item	弹性项目
+main start	主轴起点	用于弹性容器
+main end	主轴终点	用于弹性容器
+cross start	侧轴起点	用于弹性容器
+cross end	侧轴终点	用于弹性容器
