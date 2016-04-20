@@ -2166,6 +2166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Recall that while the display order of the elements is independent of their order in the source code, this independence affects only the visual rendering, leaving speech order and navigation based on the source order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080134Z" creationid="Wynn" creationdate="20160420T080134Z">
+        <seg>重新提一下，元素的显示顺序与它们在源代码中的顺序无关，这种无关性只影响视觉呈现，语音顺序以及基于源代码顺序的导航均不受影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reference</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T041533Z" creationid="Wynn" creationdate="20160419T041533Z">
