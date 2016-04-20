@@ -2158,6 +2158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Aligning with 'auto' margins&lt;/a1&gt; in the W3C Flexible Box Layout Model specification for more details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043024Z" creationid="Wynn" creationdate="20160420T043024Z">
+        <seg>更多细节请查看 W3C 弹性框布局模型规范中的 &lt;a1&gt;Aligning with 'auto' margins&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See the &lt;a3&gt;compatibility table&lt;/a3&gt; on each property for up-to-date compatibility status.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T080444Z" creationid="Wynn" creationdate="20160419T080444Z">
@@ -2874,6 +2882,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T024537Z" creationid="Wynn" creationdate="20160420T024537Z">
         <seg>为要使用此样式的元素指派 CSS，需按以下方式设置 &lt;a0&gt;display&lt;/a0&gt; 属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To ensure a reasonable default minimum size for flex items, use &lt;c0&gt;min-width:auto&lt;/c0&gt; and/or &lt;c1&gt;min-height:auto&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043103Z" creationid="Wynn" creationdate="20160420T043103Z">
+        <seg>为了确保弹性项目To ensure a reasonable default minimum size for flex items, use &lt;c0&gt;min-width:auto&lt;/c0&gt; and/or &lt;c1&gt;min-height:auto&lt;/c1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
