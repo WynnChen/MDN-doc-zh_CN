@@ -2614,6 +2614,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Safari 6.1 (and Safari on iOS 7) has been updated to support the final version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091207Z" creationid="Wynn" creationdate="20160420T091207Z">
+        <seg>Safari 6.1（以及 iOS 7 上的 Safari）已更新为支持最终版本规范。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Safari Mobile</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090945Z" creationid="Wynn" creationdate="20160420T090945Z">
@@ -3834,6 +3842,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T091756Z" creationid="Wynn" creationdate="20160110T091756Z">
         <seg>也可以同时使用两种性别：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[1] Safari up to version 6.0 (iOS.1) supported an old incompatible draft version of the specification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091122Z" creationid="Wynn" creationdate="20160420T091122Z">
+        <seg>[1] Safari 在版本 6.0 (iOS.1)以前支持的是一个与现有版本不兼容的旧版规范。</seg>
       </tuv>
     </tu>
     <tu>
