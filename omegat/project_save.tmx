@@ -2678,6 +2678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Put an end to floating {{HTMLElement("div")}} elements, &lt;a1&gt;absolute positioning&lt;/a1&gt;, and JavaScript hacks, and start building horizontal and vertical flowing layouts in just a few lines of &lt;a2&gt;CSS&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T110244Z" creationid="Wynn" creationdate="20160420T110244Z">
+        <seg>告别浮动的 {{HTMLElement("div")}} 元素、&lt;a1&gt;绝对定位&lt;/a1&gt;和 JavaScript hacks 吧，现在只需要若干行 &lt;a2&gt;CSS&lt;/a2&gt; 就能完成水平或垂直浮动布局的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Recall that while the display order of the elements is independent of their order in the source code, this independence affects only the visual rendering, leaving speech order and navigation based on the source order.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080134Z" creationid="Wynn" creationdate="20160420T080134Z">
