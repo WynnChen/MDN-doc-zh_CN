@@ -1046,6 +1046,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Doing so defines the element as a flex container and its children as flex items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T033222Z" creationid="Wynn" creationdate="20160420T033222Z">
+        <seg>这样做将元素定义为弹性容器，其子元素则成为弹性项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Don't create single subsections -- you don't subdivide a topic into one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T171050Z" creationid="Wynn" creationdate="20160109T171050Z">
@@ -2386,6 +2394,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T024110Z" creationid="Wynn" creationdate="20160420T024110Z">
         <seg>&lt;c0&gt;&lt;a1&gt;min-height&lt;/a1&gt;&lt;/c0&gt; 与 &lt;c2&gt;&lt;a3&gt;min-width&lt;/a3&gt;&lt;/c2&gt; 属性初始值为 0。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;flex&lt;/c0&gt; value makes the flex container a block-level element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T033253Z" creationid="Wynn" creationdate="20160420T033253Z">
+        <seg>值 &lt;c0&gt;flex&lt;/c0&gt; 使弹性容器成为块级元素。</seg>
       </tuv>
     </tu>
     <tu>
