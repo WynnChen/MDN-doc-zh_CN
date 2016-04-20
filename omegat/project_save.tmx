@@ -2638,6 +2638,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The margins of adjacent flex items do not collapse.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T042549Z" creationid="Wynn" creationdate="20160420T042413Z">
+        <seg>相邻的弹性元素其外边距不会互相合并。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The page title (which is displayed at the top of the page and in the search results) can be different from the page "slug," which is the portion of the page's URL following "&lt;e0&gt;&lt;locale&amp;rt;/docs/&lt;/e0&gt;".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T162115Z" creationid="Wynn" creationdate="20160109T162115Z">
@@ -2656,8 +2664,8 @@
       <tuv lang="EN-US">
         <seg>The parent element in which flex items are contained.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T110921Z" creationid="Wynn" creationdate="20160419T110915Z">
-        <seg>包着这弹性项目的父元素。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T042621Z" creationid="Wynn" creationdate="20160419T110915Z">
+        <seg>包含着弹性项目的父元素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3074,6 +3082,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T130139Z" creationid="Wynn" creationdate="20160110T130139Z">
         <seg>用户界面操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using &lt;c0&gt;auto&lt;/c0&gt; margins absorbs extra space in the vertical or horizontal direction and can be used for alignment or to separate adjacent flex items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T042525Z" creationid="Wynn" creationdate="20160420T042525Z">
+        <seg>使用 &lt;c0&gt;auto&lt;/c0&gt; 外边距可以margins absorbs extra space in the vertical or horizontal direction and can be used for alignment or to separate adjacent flex items.</seg>
       </tuv>
     </tu>
     <tu>
