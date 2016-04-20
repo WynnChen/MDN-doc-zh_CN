@@ -3910,6 +3910,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[6] Up to Firefox 29, specifying &lt;c0&gt;visibility: collapse&lt;/c0&gt; on a flex item causes it to be treated as if it were &lt;c1&gt;display: none&lt;/c1&gt; instead of the intended behavior, treating it as if it were &lt;c2&gt;visibility: hidden&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T092537Z" creationid="Wynn" creationdate="20160420T092537Z">
+        <seg>[6] 直到 Firefox 29 为止，在弹性项目上指定 &lt;c0&gt;visibility: collapse&lt;/c0&gt; 将使其被视为 &lt;c1&gt;display: none&lt;/c1&gt; 处理，而预期的行为是被视为 &lt;c2&gt;visibility: hidden&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>and others</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T041317Z" creationid="Wynn" creationdate="20160110T041317Z">
