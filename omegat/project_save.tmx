@@ -2888,8 +2888,8 @@
       <tuv lang="EN-US">
         <seg>To ensure a reasonable default minimum size for flex items, use &lt;c0&gt;min-width:auto&lt;/c0&gt; and/or &lt;c1&gt;min-height:auto&lt;/c1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043103Z" creationid="Wynn" creationdate="20160420T043103Z">
-        <seg>为了确保弹性项目To ensure a reasonable default minimum size for flex items, use &lt;c0&gt;min-width:auto&lt;/c0&gt; and/or &lt;c1&gt;min-height:auto&lt;/c1&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043230Z" creationid="Wynn" creationdate="20160420T043103Z">
+        <seg>为了确保弹性项目有合理的默认最小尺寸，使用 &lt;c0&gt;min-width:auto&lt;/c0&gt; 与 &lt;c1&gt;min-height:auto&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
