@@ -104,8 +104,8 @@
       <tuv lang="EN-US">
         <seg>&lt;c0&gt;column-*&lt;/c0&gt; properties of the &lt;a1&gt;multiple column module&lt;/a1&gt; have no effect on a flex item.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080801Z" creationid="Wynn" creationdate="20160420T080801Z">
-        <seg>&lt;c0&gt;column-*&lt;/c0&gt; properties of the &lt;a1&gt;multiple column module&lt;/a1&gt; have no effect on a flex item.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080959Z" creationid="Wynn" creationdate="20160420T080801Z">
+        <seg>&lt;a1&gt;多栏布局模块&lt;/a1&gt;的 &lt;c0&gt;column-*&lt;/c0&gt; 属性对弹性项目无效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -768,8 +768,8 @@
       <tuv lang="EN-US">
         <seg>Because flexible boxes use a different layout algorithm, some properties do not make sense on a flex container:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080801Z" creationid="Wynn" creationdate="20160420T080801Z">
-        <seg>由于Because flexible boxes use a different layout algorithm, some properties do not make sense on a flex container:</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080857Z" creationid="Wynn" creationdate="20160420T080801Z">
+        <seg>由于弹性框使用了不同的布局算法，某些属性用在弹性容器上没有意义：</seg>
       </tuv>
     </tu>
     <tu>
@@ -3262,6 +3262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using &lt;c0&gt;float&lt;/c0&gt; causes the &lt;c1&gt;display&lt;/c1&gt; property of the element to compute to &lt;c2&gt;block&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T081134Z" creationid="Wynn" creationdate="20160420T081134Z">
+        <seg>使用 &lt;c0&gt;float&lt;/c0&gt; 将使元素的 &lt;c1&gt;display&lt;/c1&gt; 属性计为&lt;c2&gt;block&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using CSS flexible boxes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T041956Z" creationid="Wynn" creationdate="20160419T041956Z">
@@ -3562,6 +3570,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T035331Z" creationid="Wynn" creationdate="20160419T035331Z">
         <seg>{{CSSRef}}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{{cssxref("float")}} and {{cssxref("clear")}} have no effect on a flex item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T081016Z" creationid="Wynn" creationdate="20160420T081016Z">
+        <seg>{{cssxref("float")}} 与 {{cssxref("clear")}} 对弹性项目无效。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
