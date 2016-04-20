@@ -454,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;Note:&lt;/s0&gt; For the vendor prefix tag, append the string on the display property, not on the display attribute itself.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T033625Z" creationid="Wynn" creationdate="20160420T033625Z">
+        <seg>&lt;s0&gt;注意：&lt;/s0&gt;厂商前缀标记应当附加在 display 属性值前，而不是加给 display 属性本身。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;Note:&lt;/s0&gt; Though &lt;a1&gt;CSS Flexible Boxes Layout specification&lt;/a1&gt; is at the Last Call Working Draft stage (see also the &lt;a2&gt;Latest Editor draft&lt;/a2&gt;), not all browsers have implemented all features of Flexbox.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T080303Z" creationid="Wynn" creationdate="20160419T075648Z">
@@ -1290,6 +1298,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T175320Z" creationid="Wynn" creationdate="20160109T175311Z">
         <seg>例如，“&lt;c0&gt;frenchText()&lt;/c0&gt; 函数”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, &lt;c1&gt;display : -webkit-flex&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T033642Z" creationid="Wynn" creationdate="20160420T033642Z">
+        <seg>例如：&lt;c1&gt;display : -webkit-flex&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2402,6 +2418,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T033253Z" creationid="Wynn" creationdate="20160420T033253Z">
         <seg>值 &lt;c0&gt;flex&lt;/c0&gt; 使弹性容器成为块级元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c1&gt;inline-flex&lt;/c1&gt; value makes the flex container an atomic inline-level element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T033417Z" creationid="Wynn" creationdate="20160420T033417Z">
+        <seg>值 &lt;c1&gt;inline-flex&lt;/c1&gt; 使弹性容器成为单个不可分的行内级元素。</seg>
       </tuv>
     </tu>
     <tu>
