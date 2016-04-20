@@ -3062,6 +3062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unless you can predict ahead of time which items will end up on which line, you can't reliably use margin-based centering in the main axis to replace the &lt;c3&gt;justify-content&lt;/c3&gt; property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T075759Z" creationid="Wynn" creationdate="20160420T075759Z">
+        <seg>除非能够事先预测每一行都结束于哪个元素，否则无法放心地在主轴方向上用基于外边距的居中方法来替代 &lt;c3&gt;justify-content&lt;/c3&gt; 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use "Code (inline)" style, and do not use quotation marks around strings, unless needed by the syntax of a code sample.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T183258Z" creationid="Wynn" creationdate="20160109T183130Z">
