@@ -1278,6 +1278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flexbox makes this very simple.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084810Z" creationid="Wynn" creationdate="20160420T084810Z">
+        <seg>弹性框让这变得很简单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flexbox's alignment properties do "true" centering, unlike other centering methods in CSS.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043858Z" creationid="Wynn" creationdate="20160420T043651Z">
@@ -1670,6 +1678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Illustrated here is the case where the page layout suited to a browser window must be optimized for a smart phone window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084655Z" creationid="Wynn" creationdate="20160420T084655Z">
+        <seg>这里展示的正是针对浏览器窗口的页面布局必须为智能手机窗口优化的场景。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a future release, the alignment properties will be extended to have a "safe" option as well.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T074007Z" creationid="Wynn" creationdate="20160420T074007Z">
@@ -2002,6 +2018,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T175354Z" creationid="Wynn" creationdate="20160109T175354Z">
         <seg>方法名后面应当跟有一对括号：&lt;c0&gt;doSomethingUseful()&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Not only must the elements reduce in size, but the order in which they are presented must change.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084742Z" creationid="Wynn" creationdate="20160420T084742Z">
+        <seg>不仅元素的尺寸需要缩减，其呈现顺序也需要改变。</seg>
       </tuv>
     </tu>
     <tu>
