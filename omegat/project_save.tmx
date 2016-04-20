@@ -1768,8 +1768,8 @@
       <tuv lang="EN-US">
         <seg>From Firefox 22 to Firefox 27, the preference is &lt;c3&gt;true&lt;/c3&gt; by default, but the preference has been removed in Firefox 28.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091620Z" creationid="Wynn" creationdate="20160420T091620Z">
-        <seg>从 Firefox 22 到 Firefox 27，此设置项默认为 &lt;c3&gt;true&lt;/c3&gt;，而 Firefox 28 移除了此设置项。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T092246Z" creationid="Wynn" creationdate="20160420T091620Z">
+        <seg>从 Firefox 22 到 Firefox 27，此设置项默认为 &lt;c3&gt;true&lt;/c3&gt;，而 Firefox 28 中取消了此设置项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3230,6 +3230,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The prefix was removed again in Opera 17 and Opera Mobile 24.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T092237Z" creationid="Wynn" creationdate="20160420T092237Z">
+        <seg>在 Opera 17 及 Opera Mobile 24 中再次取消了前缀。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The right column should contain one or more of the following sections, in order:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T151326Z" creationid="Wynn" creationdate="20160110T151249Z">
@@ -3890,6 +3898,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T091935Z" creationid="Wynn" creationdate="20160420T091841Z">
         <seg>[4] Android 浏览器直到 4.3 为止支持的是规范的一个与现有版本不兼容的旧版草案。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[5] While in the initial implementation in Opera 12.10 &lt;c0&gt;flexbox&lt;/c0&gt; was not prefixed, it got prefixed in versions 15 to 16 of Opera and 15 to 19 of Opera Mobile with {{property_prefix("-webkit")}}.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T092259Z" creationid="Wynn" creationdate="20160420T092214Z">
+        <seg>[5] 在 Opera 12.10 的&lt;c0&gt;弹性框&lt;/c0&gt;初始实现中是没有前缀的，但 Opera 版本 15 到 16 和 Opera Mobile 的 15 到 19 需要 {{property_prefix("-webkit")}}.</seg>
       </tuv>
     </tu>
     <tu>
