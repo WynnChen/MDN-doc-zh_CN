@@ -472,8 +472,8 @@
       <tuv lang="EN-US">
         <seg>&lt;s0&gt;The CSS3 &lt;s1&gt;Flexible Box&lt;/s1&gt;, or &lt;s2&gt;flexbox&lt;/s2&gt;, is a &lt;a3&gt;layout mode&lt;/a3&gt; providing for the arrangement of elements on a page such that the elements behave predictably when the page layout must accommodate different screen sizes and different display devices.&lt;/s0&gt; For many applications, the flexible box model provides an improvement over the block model in that it does not use floats, nor do the flex container's margins collapse with the margins of its contents.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T053448Z" creationid="Wynn" creationdate="20160419T053448Z">
-        <seg>&lt;s0&gt;CSS3 弹性框(&lt;s1&gt;Flexible Box&lt;/s1&gt; 或 &lt;s2&gt;flexbox&lt;/s2&gt;)，是一种当页面需要适应不同的屏幕大小以及设备类型时确保元素拥有恰当排布行为的&lt;a3&gt;布局方式&lt;/a3&gt;。&lt;/s0&gt;对很多应用而言，由于不使用浮动，且弹性容器的外边距也不会与其内容的外边距合并，弹性框模型比起方框模型要好一些。</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043957Z" creationid="Wynn" creationdate="20160419T053448Z">
+        <seg>&lt;s0&gt;CSS3 弹性框(&lt;s1&gt;Flexible Box&lt;/s1&gt; 或 &lt;s2&gt;flexbox&lt;/s2&gt;)，是一种当页面需要适应不同的屏幕大小以及设备类型时确保元素拥有恰当排布行为的&lt;a3&gt;布局方式&lt;/a3&gt;。&lt;/s0&gt;对很多应用程序来说，由于不使用浮动，且弹性容器的外边距也不会与其内容的外边距合并，弹性框模型比起方框模型要好一些。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1240,8 +1240,8 @@
       <tuv lang="EN-US">
         <seg>Flexbox's alignment properties do "true" centering, unlike other centering methods in CSS.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043651Z" creationid="Wynn" creationdate="20160420T043651Z">
-        <seg>弹性框 Flexbox's alignment properties do "true" centering, unlike other centering methods in CSS.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043858Z" creationid="Wynn" creationdate="20160420T043651Z">
+        <seg>不像 CSS 中的其他对齐方法，弹性框的对齐属性将进行“真正的”居中对齐。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2856,8 +2856,8 @@
       <tuv lang="EN-US">
         <seg>This means that the flex items will stay centered, even if they overflow the flex container.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043654Z" creationid="Wynn" creationdate="20160420T043654Z">
-        <seg>This means that the flex items will stay centered, even if they overflow the flex container.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T043849Z" creationid="Wynn" creationdate="20160420T043654Z">
+        <seg>这意味着即使弹性条目溢出了弹性容器，它依然保持居中。</seg>
       </tuv>
     </tu>
     <tu>
