@@ -3822,6 +3822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using &lt;a0&gt;flexbox&lt;/a0&gt; can help you design compelling layouts in web applications that scale better from desktop to mobile.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T105906Z" creationid="Wynn" creationdate="20160420T105906Z">
+        <seg>使用&lt;a0&gt;弹性框&lt;/a0&gt;可以帮助你在网页应用程序中设计出引人注目的布局，这些布局能够更好的处理从桌面端到移动端的缩放。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using &lt;c0&gt;auto&lt;/c0&gt; margins absorbs extra space in the vertical or horizontal direction and can be used for alignment or to separate adjacent flex items.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T042802Z" creationid="Wynn" creationdate="20160420T042525Z">
