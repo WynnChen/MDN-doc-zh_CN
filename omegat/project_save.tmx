@@ -1142,6 +1142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Even the {{cssxref("order")}} property does not affect speech or navigation sequence.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T080239Z" creationid="Wynn" creationdate="20160420T080239Z">
+        <seg>{{cssxref("order")}} 属性并不影响语音和导航的次序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ever.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T072656Z" creationid="Wynn" creationdate="20160110T072656Z">
