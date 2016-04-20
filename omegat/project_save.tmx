@@ -990,6 +990,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Designating a flexible box</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T024341Z" creationid="Wynn" creationdate="20160420T024341Z">
+        <seg>指派弹性框</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Developed in levels, CSS1 is now obsolete, CSS2.1 is a recommendation, and &lt;a3&gt;CSS3&lt;/a3&gt;, now split into smaller modules, is progressing on the standardization track.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T162152Z" creationid="Wynn" creationdate="20160110T162152Z">
@@ -2338,6 +2346,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T114436Z" creationid="Wynn" creationdate="20160419T114436Z">
         <seg>&lt;a0&gt;&lt;c1&gt;flex-flow&lt;/c1&gt;&lt;/a0&gt; 属性是 &lt;a2&gt;&lt;c3&gt;flex-direction&lt;/c3&gt;&lt;/a2&gt; 和 &lt;a4&gt;&lt;c5&gt;flex-wrap&lt;/c5&gt;&lt;/a4&gt; 属性的简写，决定弹性项目如何排布。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;a0&gt;&lt;c1&gt;flex&lt;/c1&gt;&lt;/a0&gt; property shorthands the &lt;a2&gt;&lt;c3&gt;flex-grow&lt;/c3&gt;&lt;/a2&gt;, &lt;a4&gt;&lt;c5&gt;flex-shrink&lt;/c5&gt;&lt;/a4&gt;, and &lt;a6&gt;&lt;c7&gt;flex-basis&lt;/c7&gt;&lt;/a6&gt; properties to establish the flexibility of the flex items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T024238Z" creationid="Wynn" creationdate="20160420T024238Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;flex&lt;/c1&gt;&lt;/a0&gt; 属性是 &lt;a2&gt;&lt;c3&gt;flex-grow&lt;/c3&gt;&lt;/a2&gt;、&lt;a4&gt;&lt;c5&gt;flex-shrink&lt;/c5&gt;&lt;/a4&gt; 和 &lt;a6&gt;&lt;c7&gt;flex-basis&lt;/c7&gt;&lt;/a6&gt; 属性的简写，确立弹性项目的伸缩性。</seg>
       </tuv>
     </tu>
     <tu>
