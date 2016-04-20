@@ -1542,6 +1542,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Holy Grail Layout example</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T083927Z" creationid="Wynn" creationdate="20160420T083927Z">
+        <seg>圣杯布局示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HolyGrailLayout.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084406Z" creationid="Wynn" creationdate="20160420T084406Z">
+        <seg>HolyGrailLayout.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, an anonymous flex item that contains only white space is not rendered, as if it were designated &lt;c0&gt;display: none&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T034720Z" creationid="Wynn" creationdate="20160420T034720Z">
@@ -2694,6 +2710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following diagram illustrates the transformation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084405Z" creationid="Wynn" creationdate="20160420T084405Z">
+        <seg>下图说明了这种转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following example shows text with JavaScript formatting:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160109T180440Z" creationid="Wynn" creationdate="20160109T180440Z">
@@ -2962,6 +2986,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T073903Z" creationid="Wynn" creationdate="20160420T073903Z">
         <seg>不过这在某些时候可能会有问题。如果溢出超过了页面的上边缘或左边缘（在从左到右的语言中，比如英语；在诸如阿拉伯语这样从右到左的语言中这个问题出现在右边缘），则虽然那些地方确实有内容，却无法滚动到那些位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This example demonstrates how flexbox provides the ability to dynamically change the layout for different screen resolutions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T084246Z" creationid="Wynn" creationdate="20160420T084246Z">
+        <seg>此示例展示了弹性框根据不同屏幕分辨率动态改变布局的能力。</seg>
       </tuv>
     </tu>
     <tu>
