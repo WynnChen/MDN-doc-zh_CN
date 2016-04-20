@@ -536,8 +536,8 @@
       <tuv lang="EN-US">
         <seg>&lt;s0&gt;cross start&lt;/s0&gt; and &lt;s1&gt;cross end&lt;/s1&gt; rely on the definition of the &lt;s2&gt;start&lt;/s2&gt; or &lt;s3&gt;before&lt;/s3&gt; position that depends on the value of &lt;a4&gt;&lt;c5&gt;direction&lt;/c5&gt;&lt;/a4&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090232Z" creationid="Wynn" creationdate="20160420T090232Z">
-        <seg>&lt;s0&gt;侧轴起点&lt;/s0&gt;与&lt;s1&gt;侧轴终点&lt;/s1&gt;依赖于&lt;s2&gt;起始&lt;/s2&gt; or &lt;s3&gt;before&lt;/s3&gt; position that depends on the value of &lt;a4&gt;&lt;c5&gt;direction&lt;/c5&gt;&lt;/a4&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090458Z" creationid="Wynn" creationdate="20160420T090232Z">
+        <seg>&lt;s0&gt;侧轴起点&lt;/s0&gt;与&lt;s1&gt;侧轴终点&lt;/s1&gt;依赖于&lt;s2&gt;开始&lt;/s2&gt;或&lt;s3&gt;前面&lt;/s3&gt;的位置定义，而后者依赖于 &lt;a4&gt;&lt;c5&gt;direction&lt;/c5&gt;&lt;/a4&gt; 的值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2186,6 +2186,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160110T073156Z" creationid="Wynn" creationdate="20160110T073156Z">
         <seg>我们的写作风格趋于休闲，因此只要你想，可以随意使用缩略（例如"don't", "can't", "shouldn't"）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Page breaks are possible in flexible boxes layout as long as &lt;c0&gt;break-&lt;/c0&gt; property allows it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T090650Z" creationid="Wynn" creationdate="20160420T090650Z">
+        <seg>只要 &lt;c0&gt;break-&lt;/c0&gt; 属性的设置值允许，在弹性框布局中是可以存在分页的。</seg>
       </tuv>
     </tu>
     <tu>
