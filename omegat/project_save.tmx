@@ -2838,6 +2838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can sometimes be problematic, however, if they overflow past the top edge of the page, or the left edge (in LTR languages like English; the problem occurs on the right edge in RTL languages like Arabic), as you can't scroll to that area, even if there is content there!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Wynn" changedate="20160420T073903Z" creationid="Wynn" creationdate="20160420T073903Z">
+        <seg>不过这在某些时候可能会有问题。如果溢出超过了页面的上边缘或左边缘（在从左到右的语言中，比如英语；在诸如阿拉伯语这样从右到左的语言中这个问题出现在右边缘），则虽然那些地方确实有内容，却无法滚动到那些位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This independence intentionally affects only the visual rendering, leaving speech order and navigation based on the source order.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Wynn" changedate="20160419T055453Z" creationid="Wynn" creationdate="20160419T055453Z">
