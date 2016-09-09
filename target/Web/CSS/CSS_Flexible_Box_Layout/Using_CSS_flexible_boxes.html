@@ -1,0 +1,381 @@
+<div>{{CSSRef}}</div>
+
+<p><span class="seoSummary">CSS3 弹性框(<strong>Flexible Box</strong> 或 <strong>flexbox</strong>)，是一种当页面需要适应不同的屏幕大小以及设备类型时确保元素拥有恰当排布行为的<a href="/en-US/docs/Web/CSS/Layout_mode">布局方式</a>。</span>对很多应用程序来说，由于不使用浮动，且弹性容器的外边距也不会与其内容的外边距合并，弹性框模型比起方框模型要好一些。</p>
+
+<p>许多设计师会发现弹性框模型易于使用。弹性框中的子元素可以在各个方向上进行布局，并且能以弹性尺寸来适应显示空间。由于元素的显示顺序与它们在源代码中的顺序无关，定位子元素变得更容易，并且能够用更简单清晰的代码来完成复杂的布局。这种无关性是特意限制于视觉呈现上的，语音顺序以及基于源代码顺序的导航均不受影响。</p>
+
+<div class="note"><strong>注意：</strong> 虽然 <a href="http://www.w3.org/TR/css3-flexbox/">CSS 弹性框布局规范</a> 还处于最终征求意见稿 (Last Call Working Draft)阶段（参见<a href="http://dev.w3.org/csswg/css-flexbox/">最新编辑草案</a>），并非所有浏览器都实现了弹性框的所有功能。但，这么说吧，现在全线产品对弹性框都有良好支持。最新的兼容性状况可以查看每个具体属性的<a href="/en-US/docs/Web/Guide/CSS/Flexible_boxes#Browser_compatibility">兼容性表格</a>获取。</div>
+
+<h2 id="Flexible_boxes_concept">弹性框概念</h2>
+
+<p>弹性布局在定义方面是指调整其内项目宽高从而在任何显示设备上实现对可用显示空间最佳填充的能力。弹性容器扩展其内项目来填充可用空间，或将其收缩来避免溢出。</p>
+
+<p>弹性框布局算法是方向无关的，与此相对的，块级布局侧重于垂直方向、行内布局侧重于水平方向。虽然块级布局用于页面行之有效，但其仍缺乏足够的定义来支持那些必须随用户代理(user agent)不同或设备方向从水平转为垂直等各种变化而变换方向、调整大小、拉伸、收缩的应用程序组件。 弹性框布局主要适用于应用程序的组件及小规模的布局，而（新兴的）网格布局则针对大规模的布局。这二者都是 CSS 工作组为在不同用户代理、不同书写模式和其他灵活性要求下的网页应用程序有更好的互操作性而做出的更广泛的努力的一部分。</p>
+
+<h2 id="Flexible_boxes_vocabulary">弹性框相关词汇表</h2>
+
+<p>关于弹性框的讨论已经从诸如水平/行内轴和垂直/块级轴这些术语中解放出来，与此同时，需要有一套新的术语来正确描述此模型。在学习下面的词汇项目时请对照下图。图中是一个 <code>flex-direction</code> 属性为 <code>row</code>的弹性容器，意味着其内的弹性项目将根据既定书写模式沿主轴水平排列，其方向为元素的文本流方向，在这个例子里，为从左到右。</p>
+
+<p><img alt="flex_terms.png" class="default internal" src="/files/3739/flex_terms.png"></p>
+
+<dl>
+ <dt>弹性容器(Flex container)</dt>
+ <dd>包含着弹性项目的父元素。通过设置 {{Cssxref("display")}} 属性的值为 <code>flex</code> 或 <code>inline-flex</code> 来定义弹性容器。</dd>
+ <dt>弹性项目(Flex item)</dt>
+ <dd>
+ <p>弹性容器的每个子元素都成为弹性项目。弹性容器直接包含的文本将包覆成匿名弹性项目。</p>
+ </dd>
+ <dt>轴(Axis)</dt>
+ <dd>
+ <p>每个弹性框布局包含两个轴。弹性项目沿其依次排列的那根轴称为<strong>主轴(main axis)</strong>。垂直于<strong>主轴</strong>的那根轴称为<strong>侧轴(cross axis)</strong>。</p>
+
+ <ul>
+  <li><code><a href="/en-US/docs/Web/CSS/flex-direction">flex-direction</a></code> 属性确立主轴。</li>
+  <li><a href="/en-US/docs/Web/CSS/justify-content"><code>justify-content</code></a> 属性定义了在当前行上弹性项目沿主轴如何排布。</li>
+  <li><a href="/en-US/docs/Web/CSS/align-items"><code>align-items</code></a> 属性定义了在当前行上弹性项目沿侧轴默认如何排布。</li>
+  <li><a href="/en-US/docs/Web/CSS/align-self"><code>align-self</code></a> 属性定义了单个弹性项目在侧轴上应当如何对齐，这个定义覆盖由 <code>align-items</code> 所确立的默认值。</li>
+ </ul>
+ </dd>
+ <dt>方位(Direction)</dt>
+ <dd>
+ <p>弹性容器的各个边（<strong>主轴起点(main start)</strong>/<strong>主轴终点(main end)</strong>和<strong>侧轴起点(cross start)</strong>/<strong>侧轴终点(cross end)</strong>）描述了弹性条目流的起点与终点。它们具体取决于弹性容器的主轴与侧轴以及由 <code>writing-mode</code> 确立的方向（从左到右、从右到左，等等）。</p>
+
+ <ul>
+  <li><a href="/en-US/docs/Web/CSS/order"><code>order</code></a> 属性将元素与序号组关联起来，并决定哪些元素先出现。</li>
+  <li><a href="/en-US/docs/Web/CSS/flex-flow"><code>flex-flow</code></a> 属性是 <a href="/en-US/docs/Web/CSS/flex-direction"><code>flex-direction</code></a> 和 <a href="/en-US/docs/Web/CSS/flex-wrap"><code>flex-wrap</code></a> 属性的简写，决定弹性项目如何排布。</li>
+ </ul>
+ </dd>
+ <dt>行(Line)</dt>
+ <dd>
+ <p>根据 <a href="/en-US/docs/Web/CSS/flex-wrap"><code>flex-wrap</code></a> 属性，弹性项目可以排布在单个行或者多个行中。此属性控制侧轴的方向和新行排列的方向。</p>
+ </dd>
+ <dt>尺寸(Dimension)</dt>
+ <dd>
+ <p>根据弹性容器的主轴与侧轴，弹性项目的宽和高相应称为<strong>主轴尺寸(main size)</strong> 与 <strong>侧轴尺寸(cross size)</strong>。</p>
+
+ <ul>
+  <li><code><a href="/en-US/docs/Web/CSS/min-height">min-height</a></code> 与 <code><a href="/en-US/docs/Web/CSS/min-width">min-width</a></code> 属性初始值为 0。</li>
+  <li><a href="/en-US/docs/Web/CSS/flex"><code>flex</code></a> 属性是 <a href="/en-US/docs/Web/CSS/flex-grow"><code>flex-grow</code></a>、<a href="/en-US/docs/Web/CSS/flex-shrink"><code>flex-shrink</code></a> 和 <a href="/en-US/docs/Web/CSS/flex-basis"><code>flex-basis</code></a> 属性的简写，确立弹性项目的伸缩性。</li>
+ </ul>
+ </dd>
+</dl>
+
+<h2 id="Designating_a_flexible_box">指派弹性框</h2>
+
+<p>为要使用此样式的元素指派 CSS，需按以下方式设置 <a href="/en-US/docs/Web/CSS/display">display</a> 属性：</p>
+
+<pre class="brush: css">display : flex</pre>
+
+<p>或者</p>
+
+<pre class="brush: css">display : inline-flex</pre>
+
+<p>这样做将元素定义为弹性容器，其子元素则成为弹性项目。值 <code>flex</code> 使弹性容器成为块级元素。值 <code>inline-flex</code> 使弹性容器成为单个不可分的行内级元素。</p>
+
+<div class="note"><strong>注意：</strong>厂商前缀标记应当附加给 display 属性值，而不是加给 display 属性本身。例如：<code>display : -webkit-flex</code>。</div>
+
+<h2 id="Flex_item_considerations">弹性项目须知</h2>
+
+<p>弹性容器直接包含的文本将自动包覆成匿名弹性项目。不过，只包含空白的弹性项目不会被渲染，就如同对其指派 <code>display: none</code>。</p>
+
+<p>对于弹性容器的绝对定位子元素来说，其静态位置参照弹性容器的内容框的主起始角确定，而后依此完成此元素的定位。</p>
+
+<p>相邻的弹性元素其外边距不会互相合并。使用 <code>auto</code> 外边距可以吸收掉水平或垂直方向上的额外空间，这可以用于对齐或分隔相邻的弹性项目。更多细节请参考 W3C 弹性框布局模型规范中的 <a href="http://dev.w3.org/csswg/css3-flexbox/#auto-margins">Aligning with 'auto' margins</a>。</p>
+
+<p><s>为了确保弹性项目有合理的默认最小尺寸，使用 <code>min-width:auto</code> 与 <code>min-height:auto</code>。对于弹性项目，属性值 <code>auto</code> 使项目的最小宽/高在计算中不会小于其内容的实际宽/高，这样可以保证项目渲染得足够大以容纳其内容。更多细节请参考 {{cssxref("min-width")}} 与 {{cssxref("min-height")}}。</s></p>
+
+<p>不像 CSS 中的其他对齐方法，弹性框的对齐属性将进行“真正的”居中对齐。这意味着即使弹性条目溢出了弹性容器，它依然保持居中。不过这在某些时候可能会有问题。如果溢出超过了页面的上边缘或左边缘（在从左到右的语言中，比如英语；在诸如阿拉伯语这样从右到左的语言中这个问题出现在右边缘），则虽然那些地方确实有内容，却无法滚动到那些位置。在未来的发布版本里，对齐属性将会有所扩展，使其包含有“安全”选项。目前，如果操心这点，可以改用外边距来达成居中效果，因为外边距会用比较“安全”的方式来响应变化，出现溢出时将停止居中。对需要居中的弹性项目应用自动外边距来替代 <code>align-</code> 属性的使用。对弹性容器中第一个和最后一个弹性项目的外侧边缘应用自动外边距来替代 <code>justify-</code> 属性。自动外边距会自动伸缩来占满剩余空间，当有剩余空间存在时弹性项目将会居中，如果没有则切换至常规对齐方式。不过，如果尝试在多行的弹性框中用基于外边距的居中方法来替代 <code>justify-content</code>，很不幸，必须对每一行的第一个和最后一个弹性项目应用外边距。除非能够事先预测每一行都结束于哪个元素，否则无法放心地在主轴方向上用基于外边距的居中方法来替代 <code>justify-content</code> 属性。</p>
+
+<p>重新提一下，元素的显示顺序与它们在源代码中的顺序无关，这种无关性只影响视觉呈现，语音顺序以及基于源代码顺序的导航均不受影响。{{cssxref("order")}} 属性并不影响语音和导航的次序。因此开发者们必须小心，合理地安排元素在源代码中的顺序，以免破坏文档的可访问性。</p>
+
+<h2 id="Flexible_box_properties">弹性框相关属性</h2>
+
+<h3 id="Properties_not_affecting_flexible_boxes">不影响弹性框的属性</h3>
+
+<p>由于弹性框使用了不同的布局算法，某些属性用在弹性容器上没有意义：</p>
+
+<ul>
+ <li><a href="/en-US/docs/Web/CSS/Using_CSS_multi-column_layouts">多栏布局模块</a>的 <code>column-*</code> 属性对弹性项目无效。</li>
+ <li>{{cssxref("float")}} 与 {{cssxref("clear")}} 对弹性项目无效。使用 <code>float</code> 将使元素的 <code>display</code> 属性计为<code>block</code>。</li>
+ <li>{{cssxref("vertical-align")}} 对弹性项目的对齐无效。</li>
+</ul>
+
+<h2 id="Examples">示例</h2>
+
+<h3 id="Basic_flex_example">基本的弹性布局示例</h3>
+
+<p>这个基本的示例展示了如何对元素应用弹性布局，以及在弹性布局状态下相邻元素的行为方式。</p>
+
+<pre class="brush: html">​<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style>
+
+   .flex
+   {
+      /* basic styling */
+      width: 350px;
+      height: 200px;
+      border: 1px solid #555;
+      font: 14px Arial;
+
+      /* flexbox setup */
+      display: -webkit-flex;
+      -webkit-flex-direction: row;
+
+      display: flex;
+      flex-direction: row;
+   }
+
+   .flex > div
+   {
+      -webkit-flex: 1 1 auto;
+      flex: 1 1 auto;
+
+      width: 30px; /* To make the transition work nicely.  (Transitions to/from
+                      "width:auto" are buggy in Gecko and Webkit, at least.
+                      See http://bugzil.la/731886 for more info.) */
+
+      -webkit-transition: width 0.7s ease-out;
+      transition: width 0.7s ease-out;
+   }
+
+   /* colors */
+   .flex > div:nth-child(1){ background : #009246; }
+   .flex > div:nth-child(2){ background : #F1F2F1; }
+   .flex > div:nth-child(3){ background : #CE2B37; }
+
+   .flex > div:hover
+   {
+        width: 200px;
+   }
+   
+   </style>
+    
+ </head>
+ <body>
+  <p>Flexbox nuovo</p>
+  <div class="flex">
+    <div>uno</div>
+    <div>due</div>
+    <div>tre</div>
+  </div>
+ </body>
+</html></pre>
+
+<h3 id="Holy_Grail_Layout_example">圣杯布局示例</h3>
+
+<p>此示例展示了弹性框根据不同屏幕分辨率动态改变布局的能力。下图说明了这种转换。</p>
+
+<p><img alt="HolyGrailLayout.png" class="default internal" src="/files/3760/HolyGrailLayout.png"></p>
+
+<p>这里展示的正是针对浏览器窗口的页面布局必须为智能手机窗口优化的场景。不仅元素的尺寸需要缩减，其呈现顺序也需要改变。弹性框让这变得很简单。</p>
+
+<pre class="brush: html">​<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+
+  body {
+   font: 24px Helvetica;
+   background: #999999;
+  }
+
+  #main {
+   min-height: 800px;
+   margin: 0px;
+   padding: 0px;
+   display: -webkit-flex;
+   display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+   }
+ 
+  #main > article {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid #cccc33;
+   border-radius: 7pt;
+   background: #dddd88;
+   -webkit-flex: 3 1 60%;
+           flex: 3 1 60%;
+   -webkit-order: 2;
+           order: 2;
+   }
+  
+  #main > nav {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid #8888bb;
+   border-radius: 7pt;
+   background: #ccccff;
+   -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 1;
+           order: 1;
+   }
+  
+  #main > aside {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid #8888bb;
+   border-radius: 7pt;
+   background: #ccccff;
+   -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 3;
+           order: 3;
+   }
+ 
+  header, footer {
+   display: block;
+   margin: 4px;
+   padding: 5px;
+   min-height: 100px;
+   border: 1px solid #eebb55;
+   border-radius: 7pt;
+   background: #ffeebb;
+   }
+ 
+  /* Too narrow to support three columns */
+  @media all and (max-width: 640px) {
+  
+   #main, #page {
+    -webkit-flex-flow: column;
+            flex-direction: column;
+   }
+
+   #main > article, #main > nav, #main > aside {
+    /* Return them to document order */
+    -webkit-order: 0;
+            order: 0;
+   }
+  
+   #main > nav, #main > aside, header, footer {
+    min-height: 50px;
+    max-height: 50px;
+   }
+  }
+
+ </style>
+  </head>
+  <body>
+ <header>header</header>
+ <div id='main'>
+    <article>article</article>
+    <nav>nav</nav>
+    <aside>aside</aside>
+ </div>
+ <footer>footer</footer>
+  </body>
+</html></pre>
+
+<h2 id="Playground">试验场</h2>
+
+<p>有几个在线弹性框试验场可以进行各种实验：</p>
+
+<ul>
+ <li><a href="http://demo.agektmr.com/flexbox/">Flexbox Playground</a></li>
+ <li><a href="http://the-echoplex.net/flexyboxes">Flexy Boxes</a></li>
+ <li><a href="http://codepen.io/justd/pen/yydezN">Flexbox Properties Demonstration</a></li>
+</ul>
+
+<h2 id="Things_to_keep_in_mind">务必牢记</h2>
+
+<p>描述弹性项目如何排布的算法有时会极其棘手。在使用弹性框进行设计时，请考虑以下几点，以免碰到不好的意料外状况。</p>
+
+<p>弹性框的排布与<a href="https://developer.mozilla.org/en-US/docs/CSS/writing-mode">书写模式</a>是一致的，这意味着排布的<strong>主轴起点</strong>和<strong>主轴终点</strong>根据的是<strong>开始</strong>与<strong>结束</strong>的位置。</p>
+
+<p><strong>侧轴起点</strong>与<strong>侧轴终点</strong>依赖于<strong>开始</strong>或<strong>前面</strong>的位置定义，而后者依赖于 <a href="/en-US/docs/Web/CSS/direction"><code>direction</code></a> 的值。</p>
+
+<p>只要 <code>break-</code> 属性的设置值允许，在弹性框布局中是可以存在分页的。CSS3 中的 <code>break-after</code>、<code>break-before</code> 和 <code>break-inside</code>，以及 CSS 2.1 中的 <code>page-break-before</code>、<code>page-break-after</code> 和 <code>page-break-inside</code> 属性在弹性容器上、弹性项目上和弹性项目内均可以使用。</p>
+
+<h2 id="Browser_compatibility">浏览器兼容性</h2>
+
+<p>{{CompatibilityTable}}</p>
+
+<div id="compat-desktop">
+<table class="compat-table">
+ <tbody>
+  <tr>
+   <th>特性</th>
+   <th>Firefox (Gecko)</th>
+   <th>Chrome</th>
+   <th>Internet Explorer</th>
+   <th>Opera</th>
+   <th>Safari</th>
+  </tr>
+  <tr>
+   <td>基础支持（单行弹性框）</td>
+   <td>{{CompatGeckoDesktop("18.0")}}<sup>[6]</sup>{{property_prefix("-moz")}}<sup>[2]</sup><br>{{CompatGeckoDesktop("22.0")}}</td>
+   <td>21.0{{property_prefix("-webkit")}}<br>29.0</td>
+   <td>11<sup>[3]</sup></td>
+   <td>12.10{{property_prefix("-webkit")}}<sup>[5]</sup></td>
+   <td>6.1{{property_prefix("-webkit")}}<sup>[1]</sup></td>
+  </tr>
+  <tr>
+   <td>多行弹性框</td>
+   <td>{{CompatGeckoDesktop("28.0")}}</td>
+   <td>21.0{{property_prefix("-webkit")}}<br>29.0</td>
+   <td>11<sup>[3]</sup></td>
+   <td>12.10<sup>[5]</sup><br>15 {{property_prefix("-webkit")}}</td>
+   <td>6.1{{property_prefix("-webkit")}}<sup>[1]</sup></td>
+  </tr>
+ </tbody>
+</table>
+</div>
+
+<div id="compat-mobile">
+<table class="compat-table">
+ <tbody>
+  <tr>
+   <th>特性</th>
+   <th>Firefox Mobile (Gecko)</th>
+   <th>Firefox OS</th>
+   <th>Android</th>
+   <th>IE Phone</th>
+   <th>Opera Mobile</th>
+   <th>Safari Mobile</th>
+  </tr>
+  <tr>
+   <td>基础支持（单行弹性框）</td>
+   <td>{{CompatGeckoMobile("18.0")}}{{property_prefix("-moz")}}<sup>[2]</sup><br>{{CompatGeckoMobile("22.0")}}</td>
+   <td>
+    <p>1.0{{property_prefix("-moz")}}<sup>[2]</sup><br>1.1</p>
+   </td>
+   <td>2.1{{property_prefix("-webkit")}}<sup>[4]</sup><br>4.4</td>
+   <td>11</td>
+   <td>12.10<sup>[5]</sup><br>15{{property_prefix("-webkit")}}</td>
+   <td>7{{property_prefix("-webkit")}}<sup>[1]</sup></td>
+  </tr>
+  <tr>
+   <td>多行弹性框</td>
+   <td>{{CompatGeckoMobile("28.0")}}</td>
+   <td>1.3</td>
+   <td>2.1{{property_prefix("-webkit")}}<sup>[4]</sup><br>4.4</td>
+   <td>11</td>
+   <td>12.10<sup>[5]</sup><br>15{{property_prefix("-webkit")}}</td>
+   <td>7{{property_prefix("-webkit")}}<sup>[1]</sup></td>
+  </tr>
+ </tbody>
+</table>
+</div>
+
+<p>[1] Safari 在版本 6.0 (iOS.1)以前支持的是规范的一个与现有版本不兼容的旧版草案。Safari 6.1（以及 iOS 7 上的 Safari）已更新为支持最终版本。</p>
+
+<p>[2] 直到 Firefox 22 位置，用户必须修改 <code>about:config</code> 设置，将 <code>layout.css.flexbox.enabled</code> 改为 <code>true</code> 才能激活对弹性框的支持。从 Firefox 22 到 Firefox 27，此设置项默认为 <code>true</code>，而 Firefox 28 中取消了此设置项。</p>
+
+<p>[3] Internet Explorer 10 支持的是规范的一个与现有版本不兼容的旧版草案；Internet Explorer 11 <a href="http://msdn.microsoft.com/en-us/library/ie/dn265027%28v=vs.85%29.aspx"> 已更新为 </a> 支持最终版本。</p>
+
+<p>[4] Android 浏览器直到 4.3 为止支持的是规范的一个与现有版本不兼容的旧版草案。Android 4.4 已更新为支持最终版本。</p>
+
+<p>[5] 在 Opera 12.10 的<code>弹性框</code>初始实现中是没有前缀的，但 Opera 版本 15 到 16 和 Opera Mobile 的 15 到 19 需要 {{property_prefix("-webkit")}}. 在 Opera 17 及 Opera Mobile 24 中再次取消了前缀。</p>
+
+<p>[6] 直到 Firefox 29 为止，在弹性项目上指定 <code>visibility: collapse</code> 将使其被视为 <code>display: none</code> 处理，而预期的行为是被视为 <code>visibility: hidden</code>。建议的处理方式是在弹性项目上使用 <code>visibility:hidden</code>，这样其行为应当与指派了 <code>visibility:collapse</code> 一致。更多信息，参考 {{bug(783470)}}.</p>
+
+<h2 id="See_also">参见</h2>
+
+<ul>
+ <li>各浏览器对弹性框的实现中的 bug 的信息，请参考 <a href="https://github.com/philipwalton/flexbugs">The Flexbugs project</a>。</li>
+</ul>
